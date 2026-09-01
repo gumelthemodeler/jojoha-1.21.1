@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "jojoha:item/stand_arrow_icon"
+  }
+}

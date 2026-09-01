@@ -1,0 +1,10 @@
+{
+    "vertex": "jojoha_impact",
+    "fragment": "jojoha_impact",
+    "samplers": [
+        { "name": "DiffuseSampler" }
+    ],
+    "uniforms": [
+        { "name": "Impact", "type": "float", "count": 4, "values": [ 0.0, 1.0, 0.0, 0.0 ] }
+    ]
+}

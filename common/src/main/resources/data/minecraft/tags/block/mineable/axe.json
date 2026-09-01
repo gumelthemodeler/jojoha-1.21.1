@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "jojoha:phantom_log",
+    "jojoha:stripped_phantom_log",
+    "jojoha:phantom_planks",
+    "jojoha:phantom_stairs",
+    "jojoha:phantom_slab",
+    "jojoha:phantom_fence",
+    "jojoha:phantom_fence_gate",
+    "jojoha:phantom_door",
+    "jojoha:phantom_trapdoor",
+    "jojoha:phantom_button",
+    "jojoha:phantom_pressure_plate",
+    "jojoha:phantom_wood",
+    "jojoha:phantom_wood_slab",
+    "jojoha:phantom_wood_stairs",
+    "jojoha:phantom_wood_fence",
+    "jojoha:phantom_wood_trapdoor"
+  ]
+}

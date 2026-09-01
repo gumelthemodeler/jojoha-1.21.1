@@ -1,0 +1,186 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.5,
+  "downfall": 0.8,
+  "effects": {
+    "fog_color": 10479840,
+    "sky_color": 3528392,
+    "grass_color": 8994682,
+    "foliage_color": 8994682,
+    "water_color": 2788499,
+    "water_fog_color": 667187,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    }
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground",
+      "minecraft:lake_lava_surface"
+    ],
+    [
+      "minecraft:amethyst_geode",
+      "jojoha:phantom_boulder_placed",
+      "jojoha:phantom_boulder_andesite_placed",
+      "jojoha:phantom_shore_rock_placed",
+      "jojoha:phantom_shore_rock_andesite_placed"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [],
+    [],
+    [
+      "jojoha:phantom_dirt_blob_placed",
+      "jojoha:phantom_ore_coal_upper",
+      "jojoha:phantom_ore_coal_lower",
+      "jojoha:phantom_ore_iron_upper",
+      "jojoha:phantom_ore_iron_middle",
+      "jojoha:phantom_ore_iron_small",
+      "jojoha:phantom_ore_gold",
+      "jojoha:phantom_ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "jojoha:phantom_ore_diamond",
+      "jojoha:phantom_ore_diamond_medium",
+      "jojoha:phantom_ore_diamond_large",
+      "jojoha:phantom_ore_diamond_buried",
+      "jojoha:phantom_ore_lapis",
+      "jojoha:phantom_ore_lapis_buried",
+      "jojoha:phantom_ore_copper",
+      "minecraft:underwater_magma",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "jojoha:phantom_ore_emerald",
+      "jojoha:meteorite_vein_placed"
+    ],
+    [
+      "minecraft:ore_infested"
+    ],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
+    ],
+    [
+      "minecraft:glow_lichen",
+      "jojoha:phantom_tree_placed",
+      "jojoha:phantom_leaf_litter_placed",
+      "jojoha:phantom_moss_patch_placed",
+      "minecraft:patch_large_fern",
+      "jojoha:phantom_fern_placed",
+      "jojoha:phantom_grass_placed",
+      "jojoha:phantom_tall_grass_placed",
+      "jojoha:phantom_flower_placed",
+      "jojoha:phantom_rock_scatter_placed"
+    ],
+    [
+      "jojoha:phantom_grass_connect_placed",
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "spawners": {
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "maxCount": 8,
+        "minCount": 8,
+        "weight": 10
+      }
+    ],
+    "axolotls": [],
+    "creature": [
+      {
+        "type": "minecraft:donkey",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 1
+      },
+      {
+        "type": "minecraft:rabbit",
+        "maxCount": 6,
+        "minCount": 2,
+        "weight": 2
+      },
+      {
+        "type": "minecraft:sheep",
+        "maxCount": 4,
+        "minCount": 2,
+        "weight": 2
+      }
+    ],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:spider",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:zombie",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 95
+      },
+      {
+        "type": "minecraft:zombie_villager",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 5
+      },
+      {
+        "type": "minecraft:skeleton",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:creeper",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:slime",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:enderman",
+        "maxCount": 4,
+        "minCount": 1,
+        "weight": 10
+      },
+      {
+        "type": "minecraft:witch",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 5
+      }
+    ],
+    "underground_water_creature": [
+      {
+        "type": "minecraft:glow_squid",
+        "maxCount": 6,
+        "minCount": 4,
+        "weight": 10
+      }
+    ],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "spawn_costs": {}
+}

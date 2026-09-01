@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "jojoha:block/phantom_planks",
+    "side": "jojoha:block/phantom_planks",
+    "top": "jojoha:block/phantom_planks"
+  }
+}

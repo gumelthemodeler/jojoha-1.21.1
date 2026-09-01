@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "jojoha:phantom_logs"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "jojoha:phantom_planks"
+  }
+}

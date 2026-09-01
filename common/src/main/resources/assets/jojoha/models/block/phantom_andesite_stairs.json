@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "jojoha:block/phantom_andesite",
+    "side": "jojoha:block/phantom_andesite",
+    "top": "jojoha:block/phantom_andesite"
+  }
+}

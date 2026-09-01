@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "jojoha:block/stripped_phantom_log_top",
+    "side": "jojoha:block/stripped_phantom_log_side"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "jojoha:phantom_stone"
+  },
+  "result": {
+    "count": 2,
+    "id": "jojoha:phantom_stone_slab"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "jojoha:block/phantom_pile_3",
+  "textures": {
+    "pile": "jojoha:block/phantom_leaf_pile"
+  }
+}

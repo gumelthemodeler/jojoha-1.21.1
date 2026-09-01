@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "particle": "jojoha:block/phantom_dirt",
+    "bottom": "jojoha:block/phantom_dirt",
+    "top": "jojoha:block/phantom_grass_block_top",
+    "side": "jojoha:block/phantom_grass_block_side"
+  }
+}

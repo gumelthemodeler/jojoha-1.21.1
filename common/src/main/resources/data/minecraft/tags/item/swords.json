@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "jojoha:dagger_iron",
+    "jojoha:dagger_gold",
+    "jojoha:dagger_diamond",
+    "jojoha:dagger_netherite",
+    "jojoha:meteorite_scythe",
+    "jojoha:dagger_wooden",
+    "jojoha:dagger_stone",
+    "jojoha:dagger_meteorite",
+    "jojoha:pluck"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "jojoha:block/phantom_wood"
+    },
+    "axis=z": {
+      "model": "jojoha:block/phantom_wood_horizontal",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "jojoha:block/phantom_wood_horizontal",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

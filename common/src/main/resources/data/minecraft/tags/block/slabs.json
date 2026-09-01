@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "jojoha:phantom_slab",
+    "jojoha:phantom_stone_slab",
+    "jojoha:phantom_andesite_slab",
+    "jojoha:phantom_wood_slab"
+  ]
+}

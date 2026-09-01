@@ -1,0 +1,91 @@
+{
+  "stand_summon": {
+    "sounds": [
+      "jojoha:stand_summon"
+    ]
+  },
+  "stand_dismiss": {
+    "sounds": [
+      "jojoha:stand_summon"
+    ]
+  },
+  "stand_awaken": {
+    "sounds": [
+      "jojoha:stand_awaken"
+    ]
+  },
+  "stand_arrow": {
+    "sounds": [
+      "jojoha:stand_arrow"
+    ]
+  },
+  "guard_break": {
+    "sounds": [
+      "jojoha:guard_break"
+    ]
+  },
+  "sp_barrage": {
+    "sounds": [
+      "jojoha:sp_barrage"
+    ]
+  },
+  "sp_starplatinum": {
+    "sounds": [
+      "jojoha:sp_starplatinum"
+    ]
+  },
+  "sp_timestop": {
+    "sounds": [
+      "jojoha:sp_timestop"
+    ]
+  },
+  "stand_hit": {
+    "sounds": [
+      "jojoha:stand_hit"
+    ]
+  },
+  "stand_jump": {
+    "sounds": [
+      "jojoha:stand_jump"
+    ]
+  },
+  "timeresume": {
+    "sounds": [
+      "jojoha:timeresume"
+    ]
+  },
+  "time_skip": {
+    "sounds": [
+      "jojoha:time_skip"
+    ]
+  },
+  "clock_tick": {
+    "sounds": [
+      "jojoha:clock_tick"
+    ]
+  },
+  "clock_single": {
+    "sounds": [
+      "jojoha:clock_single"
+    ]
+  },
+  "phantom_wind": {
+    "subtitle": "subtitles.jojoha.phantom_wind",
+    "sounds": [
+      "jojoha:wind"
+    ]
+  },
+  "phantom_ambience": {
+    "subtitle": "subtitles.jojoha.phantom_ambience",
+    "sounds": [
+      "jojoha:howling",
+      "jojoha:exhale"
+    ]
+  },
+  "stonemask_stab": {
+    "subtitle": "subtitles.jojoha.stonemask_stab",
+    "sounds": [
+      "jojoha:stonemask_stab"
+    ]
+  }
+}

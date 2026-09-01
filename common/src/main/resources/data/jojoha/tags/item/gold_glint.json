@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "jojoha:meteorite_scythe",
+    "jojoha:meteorite_pickaxe",
+    "jojoha:meteorite_axe",
+    "jojoha:meteorite_shovel",
+    "jojoha:meteorite_hoe",
+    "jojoha:meteorite_ingot",
+    "jojoha:raw_meteorite"
+  ]
+}

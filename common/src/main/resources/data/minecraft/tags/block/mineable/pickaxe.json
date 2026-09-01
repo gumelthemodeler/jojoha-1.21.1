@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "jojoha:phantom_stone",
+    "jojoha:phantom_andesite",
+    "jojoha:phantom_coal_ore",
+    "jojoha:phantom_iron_ore",
+    "jojoha:phantom_copper_ore",
+    "jojoha:phantom_gold_ore",
+    "jojoha:phantom_diamond_ore",
+    "jojoha:phantom_emerald_ore",
+    "jojoha:phantom_lapis_ore",
+    "jojoha:phantom_stone_stairs",
+    "jojoha:phantom_stone_slab",
+    "jojoha:phantom_stone_wall",
+    "jojoha:phantom_andesite_stairs",
+    "jojoha:phantom_andesite_slab",
+    "jojoha:phantom_andesite_wall",
+    "jojoha:phantom_cobblestone",
+    "jojoha:meteorite",
+    "jojoha:raw_meteorite_block",
+    "jojoha:meteorite_block"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "jojoha:block/camera"
+    },
+    "facing=south": {
+      "model": "jojoha:block/camera"
+    },
+    "facing=west": {
+      "model": "jojoha:block/camera"
+    },
+    "facing=east": {
+      "model": "jojoha:block/camera"
+    }
+  }
+}
