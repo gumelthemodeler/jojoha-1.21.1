@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "jojoha",
+  "version": "${version}",
+  "name": "jojoheavensarrow",
+  "description": "",
+  "authors": [
+    ""
+  ],
+  "contact": {
+    "homepage": ""
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/jojoha/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.gumel.jojoha.fabric.JojohaFabric"
+    ],
+    "client": [
+      "org.gumel.jojoha.fabric.client.JojohaFabricClient"
+    ]
+  },
+  "mixins": [
+    "jojoha.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "architectury": ">=13.0.11",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

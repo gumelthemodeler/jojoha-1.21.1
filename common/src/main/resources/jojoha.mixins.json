@@ -1,0 +1,44 @@
+{
+  "required": true,
+  "package": "org.gumel.jojoha.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "client": [
+    "client.ArmorSkinLayerMixin",
+    "client.BloodHungerMixin",
+    "client.BufferSourceAccessor",
+    "client.CameraMixin",
+    "client.ClientProjectileFreezeMixin",
+    "client.EnderDragonRendererInvoker",
+    "client.EntityGlowMixin",
+    "client.GoldGlintMixin",
+    "client.GuiItemModelMixin",
+    "client.GuiStatusBarMixin",
+    "client.ItemInHandRendererMixin",
+    "client.KeyboardInputMixin",
+    "client.LeashRopeMixin",
+    "client.LevelRendererMixin",
+    "client.LivingEntityRendererMixin",
+    "client.MaskItemRenderTypeMixin",
+    "client.MeteoriteArmorLayerMixin",
+    "client.OffhandSwapMixin",
+    "client.ParticleEngineMixin",
+    "client.PhantomSkyMixin",
+    "client.PhotographMapMixin",
+    "client.PlayerModelMixin",
+    "client.PlayerRendererMixin",
+    "client.RenderBuffersMixin",
+    "client.SkullCrushRendererMixin",
+    "client.StandUseItemMixin"
+  ],
+  "mixins": [
+    "AxeStrippingMixin",
+    "LassoNoLeadMixin",
+    "OverworldBiomesMixin",
+    "PhantomSurfaceMixin",
+    "ProjectileFreezeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
