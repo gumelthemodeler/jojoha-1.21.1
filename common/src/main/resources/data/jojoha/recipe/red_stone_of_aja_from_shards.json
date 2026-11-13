@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "jojoha:aja_shard"
+    },
+    {
+      "item": "jojoha:aja_shard"
+    },
+    {
+      "item": "jojoha:aja_shard"
+    },
+    {
+      "item": "jojoha:aja_shard"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "jojoha:red_stone_of_aja"
+  }
+}

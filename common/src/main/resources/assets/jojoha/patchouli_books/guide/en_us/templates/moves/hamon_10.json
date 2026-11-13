@@ -1,0 +1,155 @@
+{
+  "components": [
+    {
+      "type": "patchouli:header",
+      "text": "Passives",
+      "x": -1,
+      "y": 0
+    },
+    {
+      "type": "patchouli:separator",
+      "x": 0,
+      "y": 10
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_base_icon.png",
+      "x": 0,
+      "y": 18,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/icons/hamon/passives/ripple_breathing.png",
+      "x": 1,
+      "y": 19,
+      "width": 19,
+      "height": 19,
+      "texture_width": 19,
+      "texture_height": 19
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_icon_frame.png",
+      "x": 0,
+      "y": 18,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Ripple",
+      "x": 25,
+      "y": 19,
+      "max_width": 91,
+      "color": "116466"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Breathing",
+      "x": 25,
+      "y": 28,
+      "max_width": 91,
+      "color": "116466"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Hamon refills out",
+      "x": 25,
+      "y": 37,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "of a fight, and",
+      "x": 0,
+      "y": 46,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:text",
+      "text": "charged blows hit",
+      "x": 0,
+      "y": 55,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:text",
+      "text": "harder.",
+      "x": 0,
+      "y": 64,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_base_icon.png",
+      "x": 0,
+      "y": 79,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/icons/hamon/passives/bloom.png",
+      "x": 1,
+      "y": 80,
+      "width": 19,
+      "height": 19,
+      "texture_width": 19,
+      "texture_height": 19
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_icon_frame.png",
+      "x": 0,
+      "y": 79,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Bloom",
+      "x": 25,
+      "y": 80,
+      "max_width": 91,
+      "color": "116466"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(warn)Hermit Path.",
+      "x": 25,
+      "y": 89,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Breathing quietly",
+      "x": 25,
+      "y": 98,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "grows plants around",
+      "x": 0,
+      "y": 107,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:text",
+      "text": "you, like bone meal.",
+      "x": 0,
+      "y": 116,
+      "max_width": 116
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "feature": "jojoha:bone_outcrop",
+  "placement": [
+    {
+      "type": "jojoha:spaced_grid",
+      "spacing": 18,
+      "min_distance": 12,
+      "density": 0.85,
+      "clump": 1
+    },
+    {
+      "type": "minecraft:surface_water_depth_filter",
+      "max_water_depth": 0
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

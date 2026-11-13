@@ -1,0 +1,8 @@
+{
+  "sound_event": "jojoha:music_disc.persistence_innocent_scream",
+  "description": {
+    "translate": "jukebox_song.jojoha.persistence_innocent_scream"
+  },
+  "length_in_seconds": 228,
+  "comparator_output": 5
+}

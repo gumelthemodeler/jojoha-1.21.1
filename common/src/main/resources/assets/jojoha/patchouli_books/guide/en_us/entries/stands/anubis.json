@@ -1,0 +1,27 @@
+{
+  "name": "Anubis",
+  "icon": "jojoha:anubis",
+  "category": "jojoha:stands",
+  "sortnum": 11,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "jojoha:anubis",
+      "text": "A Stand that lives in a sword. Right click it to bind it to you.$(br2)Anubis works alongside any Stand, but it is also your Discipline, so it can't be bound alongside Hamon."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Arrows never give Anubis. It is only found in $(place)desert pyramid$() chests.$(br2)Possessed mobs fight with it, but it never drops from them.$(br2)Once bound, $(warn)any sword you hold$() is Anubis."
+    },
+    {
+      "type": "jojoha:moves/anubis_1"
+    },
+    {
+      "type": "jojoha:moves/anubis_2"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Sneak and right click twice to let Anubis go. It goes back into the sword as an item.$(br2)$(warn)If another player kills you while you carry Anubis, it drops for them.$()"
+    }
+  ]
+}

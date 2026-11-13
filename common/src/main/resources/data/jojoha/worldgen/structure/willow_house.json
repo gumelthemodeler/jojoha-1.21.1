@@ -1,0 +1,7 @@
+{
+  "type": "jojoha:willow_house",
+  "biomes": "#jojoha:has_structure/willow_house",
+  "spawn_overrides": {},
+  "step": "surface_structures",
+  "terrain_adaptation": "none"
+}

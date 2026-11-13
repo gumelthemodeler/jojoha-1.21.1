@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "jojoha:block/phantom_stone_ore_diamond"
+  }
+}

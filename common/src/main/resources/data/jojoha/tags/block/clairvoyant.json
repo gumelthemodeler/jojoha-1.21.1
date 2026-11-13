@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:coal_ores",
+    "#minecraft:iron_ores",
+    "#minecraft:copper_ores",
+    "#minecraft:gold_ores",
+    "#minecraft:redstone_ores",
+    "#minecraft:lapis_ores",
+    "#minecraft:emerald_ores",
+    "#minecraft:diamond_ores",
+    "minecraft:nether_quartz_ore",
+    "minecraft:ancient_debris",
+    "jojoha:meteorite",
+    "jojoha:phantom_coal_ore",
+    "jojoha:phantom_copper_ore",
+    "jojoha:phantom_iron_ore",
+    "jojoha:phantom_gold_ore",
+    "jojoha:phantom_lapis_ore",
+    "jojoha:phantom_emerald_ore",
+    "jojoha:phantom_diamond_ore"
+  ]
+}

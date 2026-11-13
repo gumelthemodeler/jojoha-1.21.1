@@ -1,0 +1,147 @@
+{
+  "components": [
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_base_icon.png",
+      "x": 0,
+      "y": 0,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/icons/player/moves/ground_slam.png",
+      "x": 1,
+      "y": 1,
+      "width": 19,
+      "height": 19,
+      "texture_width": 19,
+      "texture_height": 19
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_icon_frame.png",
+      "x": 0,
+      "y": 0,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Ground Slam",
+      "x": 25,
+      "y": 1,
+      "max_width": 91,
+      "color": "116466"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Drives you down.",
+      "x": 25,
+      "y": 10,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The further you",
+      "x": 25,
+      "y": 19,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "fall, the harder the",
+      "x": 0,
+      "y": 28,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:text",
+      "text": "landing hits.",
+      "x": 0,
+      "y": 37,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:header",
+      "text": "Passives",
+      "x": -1,
+      "y": 52
+    },
+    {
+      "type": "patchouli:separator",
+      "x": 0,
+      "y": 62
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_base_icon.png",
+      "x": 0,
+      "y": 70,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/icons/player/passives/might.png",
+      "x": 1,
+      "y": 71,
+      "width": 19,
+      "height": 19,
+      "texture_width": 19,
+      "texture_height": 19
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_icon_frame.png",
+      "x": 0,
+      "y": 70,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Might",
+      "x": 25,
+      "y": 71,
+      "max_width": 91,
+      "color": "116466"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Strength adds",
+      "x": 25,
+      "y": 80,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "attack damage,",
+      "x": 25,
+      "y": 89,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "and more still to bare",
+      "x": 0,
+      "y": 98,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hands.",
+      "x": 0,
+      "y": 107,
+      "max_width": 116
+    }
+  ]
+}

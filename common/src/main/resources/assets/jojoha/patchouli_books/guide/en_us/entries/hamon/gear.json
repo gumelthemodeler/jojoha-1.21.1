@@ -1,0 +1,27 @@
+{
+  "name": "Hamon Gear",
+  "icon": "jojoha:clackers_yellow",
+  "category": "jojoha:hamon",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "jojoha:clackers_yellow",
+      "text": "$(item)Clackers$() boost Hamon damage while held. Swing to throw them, hold use to spin them."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "jojoha:bubble_gloves",
+      "text": "Caesar Zeppeli's gloves. Wear them to use $(move)Bubble Launcher$() and $(move)Bubble Cutter$().$(br2)Rarely found in $(l:world/ruins)ancient ruins$(). $(l:world/willow)Willow$() may sell a pair once she knows you."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "jojoha:lisa_scarf",
+      "text": "Made of beetle silk, which conducts Hamon. Wear it to use $(move)Snake Muffler$().$(br2)Rarely found in $(l:world/ruins)ancient ruins$(). Willow may sell one once she trusts you fully."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Gloves and scarves are accessories. Wear them in the slots of the panel beside your inventory, opened by the glove button."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " MM",
+    " SM",
+    "S  "
+  ],
+  "key": {
+    "M": {
+      "item": "jojoha:meteorite_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "jojoha:stand_arrow"
+  }
+}

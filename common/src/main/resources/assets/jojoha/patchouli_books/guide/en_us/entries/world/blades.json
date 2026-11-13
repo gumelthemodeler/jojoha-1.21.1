@@ -1,0 +1,28 @@
+{
+  "name": "Blades",
+  "icon": "jojoha:iron_sabre",
+  "category": "jojoha:world",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:crafting",
+      "recipe": "jojoha:dagger_iron",
+      "text": "$(item)Daggers$() hit $(num)twice as hard$() on anything not already fighting you, thrown or swung."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "jojoha:iron_rapier",
+      "text": "$(item)Rapiers$() reach further and ignore some armour. Tap to lunge."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "jojoha:iron_sabre",
+      "text": "$(item)Sabres$() follow a perfect parry with another: the next one is perfect too. Right click to time it."
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "jojoha:meteorite_scythe_smithing",
+      "text": "The $(item)Meteorite Scythe$() reaps: right click to sweep everything around you for $(num)6$(). It cannot parry."
+    }
+  ]
+}

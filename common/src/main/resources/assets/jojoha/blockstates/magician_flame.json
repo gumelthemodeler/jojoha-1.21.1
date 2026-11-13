@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "": [
+      { "model": "jojoha:block/magician_flame_floor0" },
+      { "model": "jojoha:block/magician_flame_floor1" }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "jojoha:block/sack_top_goldenapples",
+    "side": "jojoha:block/sack_side",
+    "bottom": "jojoha:block/sack_bottom"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "jojoha:block/head_jar",
+  "overrides": [
+    {
+      "predicate": {
+        "jojoha:full": 1
+      },
+      "model": "jojoha:item/head_jar_full"
+    }
+  ]
+}

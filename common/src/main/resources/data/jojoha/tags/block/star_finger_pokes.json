@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:buttons",
+    "minecraft:lever",
+    "#minecraft:doors",
+    "#minecraft:trapdoors",
+    "#minecraft:fence_gates",
+    "minecraft:note_block",
+    "minecraft:bell",
+    "minecraft:repeater",
+    "minecraft:comparator",
+    "minecraft:daylight_detector"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.jojoha.part2.stat_vitality.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:golden_apple"
+    },
+    "title": {
+      "translate": "advancements.jojoha.part2.stat_vitality.title"
+    }
+  },
+  "requirements": [
+    [
+      "granted"
+    ]
+  ],
+  "sends_telemetry_event": false,
+  "parent": "jojoha:part2/root"
+}

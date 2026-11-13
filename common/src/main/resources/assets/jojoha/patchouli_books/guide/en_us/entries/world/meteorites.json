@@ -1,0 +1,33 @@
+{
+  "name": "Fallen Stars",
+  "icon": "jojoha:meteor_map",
+  "category": "jojoha:world",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "jojoha:meteor_map",
+      "text": "A $(item)Meteor Chart$() marks where something will fall. Be there, and mine what lands."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "jojoha:meteorite_ingot",
+      "text": "Raw meteorite is beaten into ingots around an $(item)Ancient Arrowhead$()."
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "jojoha:meteorite_rapier_smithing",
+      "text": "Ingots upgrade netherite blades, tools and armour at a smithing table, with a $(item)Meteorite Tablet$() as the template."
+    },
+    {
+      "type": "patchouli:smithing",
+      "recipe": "jojoha:meteorite_chestplate_smithing",
+      "text": "Tablets lie in $(l:world/ruins)ancient ruins$()."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "jojoha:meteorite_tablet",
+      "text": "Copy a tablet with an $(item)Ancient Arrowhead$() and a $(item)Meteorite Ingot$()."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "sound_event": "jojoha:music_disc.bloody_stream",
+  "description": {
+    "translate": "jukebox_song.jojoha.bloody_stream"
+  },
+  "length_in_seconds": 262,
+  "comparator_output": 2
+}

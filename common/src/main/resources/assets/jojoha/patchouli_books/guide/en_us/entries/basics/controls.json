@@ -1,0 +1,16 @@
+{
+  "name": "Controls",
+  "icon": "minecraft:lever",
+  "category": "jojoha:basics",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(li)$(k:jojoha.open_stats): menu$(li)$(k:jojoha.summon_stand): summon your Stand; hold to change stance$(li)$(k:jojoha.stand_skill_1) $(k:jojoha.stand_skill_2) $(k:jojoha.stand_skill_3) $(k:jojoha.stand_skill_4): moves; with $(k:jojoha.skill_modifier), the second row$(li)$(k:jojoha.skill_modifier) + scroll: turn placement$(li)Pick Block: lock on"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Every key can be changed under $(bold)Controls$(), in the JoJo: Heaven's Arrow section.$(br2)With $(bold)Shoulder Surfing$() installed you also get a $(bold)Lock On$() key, which keeps your view on one target while your Stand is out."
+    }
+  ]
+}

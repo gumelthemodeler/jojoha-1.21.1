@@ -1,0 +1,20 @@
+{
+  "name": "Your Stats",
+  "icon": "jojoha:jojo_coin",
+  "category": "jojoha:basics",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Press $(k:jojoha.open_stats) to open your menu.$(br2)You have five stats:$(li)Strength$(li)Vitality$(li)Agility$(li)Endurance$(li)Worthiness$(br2)They grow from what you do, not from points you spend, and stop at $(num)99$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Strength$(): hit things yourself, and mine hard blocks.$(br)$(bold)Vitality$(): take hits and live.$(br)$(bold)Agility$(): sprint on foot.$(br)$(bold)Endurance$(): sprint, swim, or keep going low on food or blood.$(br)$(bold)Worthiness$(): kill hostiles, explore, find rare things."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Worthiness matters most early on. A $(l:stands/arrows)Stand Arrow$() will not take anyone below $(warn)15$(), and the higher it climbs, the better your odds.$(br2)Hover a stat in the menu to see exactly how it grows."
+    }
+  ]
+}

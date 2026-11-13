@@ -1,0 +1,21 @@
+{
+  "name": "The Stone Mask",
+  "icon": "jojoha:stone_mask",
+  "category": "jojoha:vampirism",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "jojoha:stone_mask",
+      "text": "Found in $(place)desert and jungle temples, ancient cities, stronghold corridors$() and $(place)woodland mansions$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The mask is dry until it tastes blood. Hold it in your off hand while you kill something living.$(br2)It sleeps while the sun is up. At night, put it on and let it take you.$(br2)$(warn)There is no going back, and sunlight is fatal.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Becoming a vampire changes your $(bold)Fate$(), not your discipline. A Hamon user who turns keeps their Hamon, but $(warn)using a Hamon move tears a vampire apart$().$(br2)The dead cannot learn Hamon from a book."
+    }
+  ]
+}

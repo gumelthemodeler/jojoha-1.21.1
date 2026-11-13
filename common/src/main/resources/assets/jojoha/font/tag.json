@@ -1,0 +1,82 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "jojoha:gui/menu/tooltip/tag_icon.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [
+        "\uE700"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "jojoha:gui/menu/tooltip/ability_indicator.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [
+        "\uE701"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "jojoha:gui/menu/tooltip/bleed_indicator.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [
+        "\uE702"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "jojoha:gui/menu/tooltip/hamon_indicator.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [
+        "\uE703"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "jojoha:gui/menu/tooltip/stun_indicator.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [
+        "\uE704"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "jojoha:gui/menu/tooltip/stun_ii_indicator.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [
+        "\uE705"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "jojoha:gui/menu/tooltip/burning_indicator.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [
+        "\uE706"
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "jojoha:gui/menu/tooltip/guardbreak_indicator.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [
+        "\uE707"
+      ]
+    },
+    {
+      "type": "space",
+      "advances": {
+        "\uE70F": 1
+      }
+    }
+  ]
+}

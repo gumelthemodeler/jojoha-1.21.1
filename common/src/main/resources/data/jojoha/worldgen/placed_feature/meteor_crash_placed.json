@@ -1,0 +1,25 @@
+{
+  "feature": "jojoha:meteor_crash",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 1
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "jojoha:spaced_grid",
+      "spacing": 500,
+      "min_distance": 360,
+      "density": 1
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

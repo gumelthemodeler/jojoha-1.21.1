@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=north,full=false": {
+      "model": "jojoha:block/head_jar"
+    },
+    "facing=east,full=false": {
+      "model": "jojoha:block/head_jar",
+      "y": 90
+    },
+    "facing=south,full=false": {
+      "model": "jojoha:block/head_jar",
+      "y": 180
+    },
+    "facing=west,full=false": {
+      "model": "jojoha:block/head_jar",
+      "y": 270
+    },
+    "facing=north,full=true": {
+      "model": "jojoha:block/head_jar_full"
+    },
+    "facing=east,full=true": {
+      "model": "jojoha:block/head_jar_full",
+      "y": 90
+    },
+    "facing=south,full=true": {
+      "model": "jojoha:block/head_jar_full",
+      "y": 180
+    },
+    "facing=west,full=true": {
+      "model": "jojoha:block/head_jar_full",
+      "y": 270
+    }
+  }
+}

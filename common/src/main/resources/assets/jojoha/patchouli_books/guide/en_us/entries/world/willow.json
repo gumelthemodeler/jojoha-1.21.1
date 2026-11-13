@@ -1,0 +1,25 @@
+{
+  "name": "Willow",
+  "icon": "jojoha:jojo_coin",
+  "category": "jojoha:world",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Willow is a trader found in the $(l:world/ruins)Phantom Moors$().$(br2)She pays in $(item)JoJo Coins$() for Stand Arrows, shards, Stone Masks, arrowheads, raw meteorite and emeralds."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "From the start she sells $(item)raw meteorite$(), $(item)arrowheads$() and $(item)Soul Chips$().$(br2)Each trade makes her trust you more, and she offers more at each step:"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "What She Sells",
+      "text": "$(li)$(bold)First$(): shards, ingots and $(item)Totem Keys$().$(li)$(bold)Second$(): Stone Masks, Lucky Arrows, $(item)Bubble Gloves$() and Meteor Charts.$(li)$(bold)Third$(): Pluck and $(item)Lisa Lisa's Scarf$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "At the third step she will also forge a $(item)Stand Arrow$() from $(num)6$() shards and $(num)3$() meteorite ingots.$(br2)No two Willows keep the same stock. If one does not carry what you want, look for another.$(br2)Each step adds to her stock and never takes a deal away."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "jojoha:phantom_grass_block",
+    "jojoha:phantom_dirt",
+    "jojoha:sunscorched_sand",
+    "jojoha:skeleton_sand",
+    "jojoha:phantom_coarse_dirt",
+    "jojoha:crusader_sand"
+  ]
+}

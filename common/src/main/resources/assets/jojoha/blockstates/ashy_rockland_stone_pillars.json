@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "jojoha:block/ashy_rockland_stone_pillars"
+    },
+    "axis=z": {
+      "model": "jojoha:block/ashy_rockland_stone_pillars_horizontal",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "jojoha:block/ashy_rockland_stone_pillars_horizontal",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

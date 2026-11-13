@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.jojoha.part1.root.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "jojoha:advancement_part_1"
+    },
+    "title": {
+      "translate": "advancements.jojoha.part1.root.title"
+    },
+    "background": "jojoha:textures/gui/advancements/backgrounds/part1.png",
+    "announce_to_chat": false,
+    "show_toast": false
+  },
+  "requirements": [
+    [
+      "tick"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

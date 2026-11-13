@@ -1,0 +1,30 @@
+{
+  "name": "What the Mask Allows",
+  "icon": "minecraft:redstone",
+  "category": "jojoha:vampirism",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Vampiric moves cost blood and energy, and $(warn)only a vampire can learn them$().$(br2)The passives come with the change. You do not choose them, and $(warn)Sun Scorch$() is one of them."
+    },
+    {
+      "type": "jojoha:moves/vampire_1"
+    },
+    {
+      "type": "jojoha:moves/vampire_2"
+    },
+    {
+      "type": "jojoha:moves/vampire_3"
+    },
+    {
+      "type": "jojoha:moves/vampire_4"
+    },
+    {
+      "type": "jojoha:moves/vampire_5"
+    },
+    {
+      "type": "jojoha:moves/vampire_6"
+    }
+  ]
+}

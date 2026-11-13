@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "jojoha:block/tombstone_bricks_cracked_slab"
+    },
+    "type=double": {
+      "model": "jojoha:block/tombstone_bricks_cracked"
+    },
+    "type=top": {
+      "model": "jojoha:block/tombstone_bricks_cracked_slab_top"
+    }
+  }
+}

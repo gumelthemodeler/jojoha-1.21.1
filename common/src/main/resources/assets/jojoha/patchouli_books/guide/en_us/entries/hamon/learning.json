@@ -1,0 +1,21 @@
+{
+  "name": "Learning Hamon",
+  "icon": "jojoha:path_scroll",
+  "category": "jojoha:hamon",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Unlocking Hamon in your skill tree, or reading a $(item)Basic Hamon Book$(), teaches the $(bold)Hermit Path$(), which nobody taught.$(br2)Every other path comes from a $(item)Path Book$(). Use one to learn its path."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "jojoha:path_scroll",
+      "text": "Path Books lie in $(place)stronghold libraries, woodland mansions, pillager outposts, desert and jungle temples$(), and $(place)dungeons$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The paths you walk decide which techniques you can learn. There are eight:$(li)Hermit$(li)Warrior$(li)Wisdom$(li)Defender$(li)Envious$(li)Trickster$(li)Prideful$(li)Stylish$(br2)$(warn)The dead cannot read the books.$()"
+    }
+  ]
+}

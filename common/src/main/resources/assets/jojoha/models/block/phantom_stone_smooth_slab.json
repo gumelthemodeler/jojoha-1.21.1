@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "jojoha:block/phantom_stone_smooth",
+    "side": "jojoha:block/phantom_stone_smooth",
+    "top": "jojoha:block/phantom_stone_smooth"
+  }
+}

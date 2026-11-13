@@ -1,0 +1,22 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "translate": "enchantment.jojoha.conductivity"
+  },
+  "effects": {},
+  "max_cost": {
+    "base": 28,
+    "per_level_above_first": 20
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 8,
+    "per_level_above_first": 20
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/sharp_weapon",
+  "primary_items": "#minecraft:enchantable/sword",
+  "weight": 2
+}

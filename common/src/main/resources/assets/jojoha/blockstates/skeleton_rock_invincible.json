@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "jojoha:block/skeleton_rock",
+        "weight": 1
+      },
+      {
+        "model": "jojoha:block/skeleton_rock_variant",
+        "weight": 1
+      }
+    ]
+  }
+}

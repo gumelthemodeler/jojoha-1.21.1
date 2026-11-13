@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.jojoha.part2.stat_agility.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:feather"
+    },
+    "title": {
+      "translate": "advancements.jojoha.part2.stat_agility.title"
+    }
+  },
+  "requirements": [
+    [
+      "granted"
+    ]
+  ],
+  "sends_telemetry_event": false,
+  "parent": "jojoha:part2/root"
+}

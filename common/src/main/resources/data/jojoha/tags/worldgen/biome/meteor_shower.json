@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:desert",
+    "minecraft:badlands",
+    "minecraft:eroded_badlands",
+    "minecraft:wooded_badlands",
+    "minecraft:savanna",
+    "minecraft:savanna_plateau",
+    "minecraft:windswept_savanna",
+    "jojoha:stardust_sands",
+    "jojoha:dune_sea",
+    "jojoha:meteor_field"
+  ]
+}

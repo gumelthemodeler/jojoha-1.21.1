@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "jojoha:block/tnt_barrel"
+    },
+    "lit=true": {
+      "model": "jojoha:block/tnt_barrel"
+    }
+  }
+}

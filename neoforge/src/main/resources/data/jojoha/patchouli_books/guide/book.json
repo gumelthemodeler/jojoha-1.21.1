@@ -1,0 +1,17 @@
+{
+  "name": "Heaven's Arrow Guide",
+  "landing_text": "How Stands, Hamon and vampirism work, and where to find the things you need for them.$(br2)Everything in this book can be found in survival.",
+  "version": 1,
+  "creative_tab": "jojoha:items",
+  "model": "jojoha:jojoha_guidebook",
+  "show_progress": false,
+  "use_resource_pack": true,
+  "i18n": false,
+  "use_blocky_font": true,
+  "macros": {
+    "$(move)": "$(#116466)",
+    "$(place)": "$(#2c6e1a)",
+    "$(num)": "$(#b45309)",
+    "$(warn)": "$(#b3141c)"
+  }
+}

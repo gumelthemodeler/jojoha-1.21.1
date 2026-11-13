@@ -1,0 +1,17 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "idle": { "loop": true, "animation_length": 4 },
+    "idle_partial": { "loop": true, "animation_length": 4 },
+    "spawn": { "animation_length": 0.4 },
+    "punch": { "animation_length": 0.3 },
+    "punch2": { "animation_length": 0.3 },
+    "grab": { "animation_length": 0.4 },
+    "block": { "animation_length": 0.3 },
+    "guardbroken": { "animation_length": 0.4 },
+    "barrage": { "loop": true, "animation_length": 0.5 },
+    "inhale": { "loop": true, "animation_length": 1 },
+    "timestop": { "animation_length": 0.6 },
+    "star_finger": { "animation_length": 0.4 }
+  }
+}

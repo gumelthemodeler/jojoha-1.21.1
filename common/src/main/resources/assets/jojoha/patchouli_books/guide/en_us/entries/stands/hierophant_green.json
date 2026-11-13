@@ -1,0 +1,27 @@
+{
+  "name": "Hierophant Green",
+  "icon": "minecraft:emerald",
+  "category": "jojoha:stands",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A long-range Stand of tendrils and traps.$(br2)$(bold)Range$(): long$(br)$(bold)Type$(): $(l:stands/types)Ranged$()$(br2)It also knows the $(l:stands/shared)shared moves$(), except Stand Leap."
+    },
+    {
+      "type": "jojoha:moves/hierophant_green_1"
+    },
+    {
+      "type": "jojoha:moves/hierophant_green_2"
+    },
+    {
+      "type": "jojoha:moves/hierophant_green_3"
+    },
+    {
+      "type": "jojoha:moves/hierophant_green_4"
+    },
+    {
+      "type": "jojoha:moves/hierophant_green_5"
+    }
+  ]
+}

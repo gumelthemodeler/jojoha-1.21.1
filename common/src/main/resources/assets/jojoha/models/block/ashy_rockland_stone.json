@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "jojoha:block/ashy_rockland_stone_top",
+    "side": "jojoha:block/ashy_rockland_stone_side",
+    "bottom": "jojoha:block/ashy_rockland_stone_side"
+  }
+}

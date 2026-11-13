@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "jojoha:block/phantom_planks_decorative_slab"
+    },
+    "type=double": {
+      "model": "jojoha:block/phantom_planks_decorative"
+    },
+    "type=top": {
+      "model": "jojoha:block/phantom_planks_decorative_slab_top"
+    }
+  }
+}

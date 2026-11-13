@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "jojoha:block/labyrinth_door_key_slot"
+    },
+    "facing=south": {
+      "model": "jojoha:block/labyrinth_door_key_slot",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "jojoha:block/labyrinth_door_key_slot",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "jojoha:block/labyrinth_door_key_slot",
+      "y": 270
+    }
+  }
+}

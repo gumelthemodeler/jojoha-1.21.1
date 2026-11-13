@@ -1,0 +1,150 @@
+{
+  "components": [
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_base_icon.png",
+      "x": 0,
+      "y": 0,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/icons/stand/silver_chariot/moves/riposte.png",
+      "x": 1,
+      "y": 1,
+      "width": 19,
+      "height": 19,
+      "texture_width": 19,
+      "texture_height": 19
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_icon_frame.png",
+      "x": 0,
+      "y": 0,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Riposte",
+      "x": 25,
+      "y": 1,
+      "max_width": 91,
+      "color": "116466"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A short counter.",
+      "x": 25,
+      "y": 10,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Struck in it,",
+      "x": 25,
+      "y": 19,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Chariot appears",
+      "x": 0,
+      "y": 28,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:text",
+      "text": "behind the attacker",
+      "x": 0,
+      "y": 37,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:text",
+      "text": "and slashes.",
+      "x": 0,
+      "y": 46,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_base_icon.png",
+      "x": 0,
+      "y": 61,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/icons/stand/silver_chariot/moves/armor_release.png",
+      "x": 1,
+      "y": 62,
+      "width": 19,
+      "height": 19,
+      "texture_width": 19,
+      "texture_height": 19
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_icon_frame.png",
+      "x": 0,
+      "y": 61,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Armor Release",
+      "x": 25,
+      "y": 62,
+      "max_width": 91,
+      "color": "116466"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You move and",
+      "x": 25,
+      "y": 71,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "swing faster, but",
+      "x": 25,
+      "y": 80,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "take $(num)25%$() more damage.",
+      "x": 0,
+      "y": 89,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Use again to",
+      "x": 0,
+      "y": 98,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:text",
+      "text": "re-armour.",
+      "x": 0,
+      "y": 107,
+      "max_width": 116
+    }
+  ]
+}

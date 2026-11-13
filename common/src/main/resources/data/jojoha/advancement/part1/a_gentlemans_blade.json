@@ -1,0 +1,41 @@
+{
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jojoha:wooden_rapier",
+              "jojoha:stone_rapier",
+              "jojoha:iron_rapier",
+              "jojoha:gold_rapier",
+              "jojoha:diamond_rapier",
+              "jojoha:netherite_rapier",
+              "jojoha:meteorite_rapier"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.jojoha.part1.a_gentlemans_blade.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "jojoha:iron_rapier"
+    },
+    "title": {
+      "translate": "advancements.jojoha.part1.a_gentlemans_blade.title"
+    }
+  },
+  "requirements": [
+    [
+      "granted"
+    ]
+  ],
+  "sends_telemetry_event": false,
+  "parent": "jojoha:part1/root"
+}

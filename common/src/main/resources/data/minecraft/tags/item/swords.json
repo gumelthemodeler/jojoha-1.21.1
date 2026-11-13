@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "jojoha:dagger_iron",
+    "jojoha:dagger_gold",
+    "jojoha:dagger_diamond",
+    "jojoha:dagger_netherite",
+    "jojoha:meteorite_scythe",
+    "jojoha:dagger_wooden",
+    "jojoha:dagger_stone",
+    "jojoha:dagger_meteorite",
+    "jojoha:pluck",
+    "jojoha:wooden_rapier",
+    "jojoha:stone_rapier",
+    "jojoha:iron_rapier",
+    "jojoha:gold_rapier",
+    "jojoha:diamond_rapier",
+    "jojoha:netherite_rapier",
+    "jojoha:meteorite_rapier",
+    "jojoha:wooden_sabre",
+    "jojoha:stone_sabre",
+    "jojoha:iron_sabre",
+    "jojoha:gold_sabre",
+    "jojoha:diamond_sabre",
+    "jojoha:netherite_sabre",
+    "jojoha:meteorite_sabre"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "jojoha:block/crusader_sand",
+        "weight": 1
+      },
+      {
+        "model": "jojoha:block/crusader_sand_2",
+        "weight": 1
+      }
+    ]
+  }
+}

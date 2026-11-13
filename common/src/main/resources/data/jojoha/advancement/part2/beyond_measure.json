@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.jojoha.part2.beyond_measure.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:nether_star"
+    },
+    "title": {
+      "translate": "advancements.jojoha.part2.beyond_measure.title"
+    },
+    "frame": "challenge"
+  },
+  "requirements": [
+    [
+      "granted"
+    ]
+  ],
+  "sends_telemetry_event": false,
+  "parent": "jojoha:part2/a_life_well_lived"
+}

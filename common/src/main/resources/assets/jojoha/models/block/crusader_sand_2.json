@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "jojoha:block/crusader_sand_2_lit"
+  }
+}

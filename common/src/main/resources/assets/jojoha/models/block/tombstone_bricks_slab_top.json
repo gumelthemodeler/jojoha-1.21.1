@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "jojoha:block/tombstone_bricks",
+    "side": "jojoha:block/tombstone_bricks",
+    "top": "jojoha:block/tombstone_bricks"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.3,
+  "downfall": 0,
+  "effects": {
+    "sky_color": 9413560,
+    "fog_color": 11050639,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "grass_color": 10130308,
+    "foliage_color": 10130308,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    }
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:skeleton",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:husk",
+        "weight": 40,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:spider",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "jojoha:bonelands_lake_lava_underground",
+      "jojoha:bonelands_lake_lava_surface"
+    ],
+    [
+      "jojoha:bonelands_rock_formation_placed",
+      "jojoha:bonelands_spike_placed",
+      "jojoha:bonelands_rock_boulder_placed",
+      "jojoha:bonelands_ash_boulder_placed",
+      "jojoha:bonelands_mound_placed",
+      "jojoha:bonelands_ash_shelf_placed",
+      "jojoha:bonelands_sand_drift_placed",
+      "jojoha:rib_arch_placed",
+      "jojoha:ribcage_spike_placed",
+      "jojoha:ribcage_formation_placed",
+      "jojoha:bone_outcrop_placed"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [],
+    [],
+    [
+      "jojoha:bonelands_ore_dirt",
+      "jojoha:bonelands_ore_gravel",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_redstone",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper"
+    ],
+    [],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
+    ],
+    [],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ]
+}

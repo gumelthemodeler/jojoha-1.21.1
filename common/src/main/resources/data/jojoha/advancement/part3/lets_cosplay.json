@@ -1,0 +1,526 @@
+{
+  "parent": "jojoha:part3/a_soul_in_a_chip",
+  "criteria": {
+    "jotaro_p1_head": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "components": {
+                    "jojoha:outfit": "jojoha:jotaro_p1"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "jotaro_p1_chest": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "chest": {
+                  "components": {
+                    "jojoha:outfit": "jojoha:jotaro_p1"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "jotaro_p1_legs": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "legs": {
+                  "components": {
+                    "jojoha:outfit": "jojoha:jotaro_p1"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "jotaro_p1_feet": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "feet": {
+                  "components": {
+                    "jojoha:outfit": "jojoha:jotaro_p1"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kakyoin_head": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "components": {
+                    "jojoha:outfit": "jojoha:kakyoin"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kakyoin_chest": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "chest": {
+                  "components": {
+                    "jojoha:outfit": "jojoha:kakyoin"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kakyoin_legs": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "legs": {
+                  "components": {
+                    "jojoha:outfit": "jojoha:kakyoin"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kakyoin_feet": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "feet": {
+                  "components": {
+                    "jojoha:outfit": "jojoha:kakyoin"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "polnareff_head": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "components": {
+                    "jojoha:outfit": "jojoha:polnareff"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "polnareff_chest": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "chest": {
+                  "components": {
+                    "jojoha:outfit": "jojoha:polnareff"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "polnareff_legs": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "legs": {
+                  "components": {
+                    "jojoha:outfit": "jojoha:polnareff"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "polnareff_feet": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "feet": {
+                  "components": {
+                    "jojoha:outfit": "jojoha:polnareff"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "avdol_head": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "components": {
+                    "jojoha:outfit": "jojoha:avdol"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "avdol_chest": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "chest": {
+                  "components": {
+                    "jojoha:outfit": "jojoha:avdol"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "avdol_legs": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "legs": {
+                  "components": {
+                    "jojoha:outfit": "jojoha:avdol"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "avdol_feet": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "feet": {
+                  "components": {
+                    "jojoha:outfit": "jojoha:avdol"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "joseph_head": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "components": {
+                    "jojoha:outfit": "jojoha:joseph"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "joseph_chest": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "chest": {
+                  "components": {
+                    "jojoha:outfit": "jojoha:joseph"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "joseph_legs": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "legs": {
+                  "components": {
+                    "jojoha:outfit": "jojoha:joseph"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "joseph_feet": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "feet": {
+                  "components": {
+                    "jojoha:outfit": "jojoha:joseph"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "dio_head": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "components": {
+                    "jojoha:outfit": "jojoha:dio"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "dio_chest": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "chest": {
+                  "components": {
+                    "jojoha:outfit": "jojoha:dio"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "dio_legs": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "legs": {
+                  "components": {
+                    "jojoha:outfit": "jojoha:dio"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "dio_feet": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "feet": {
+                  "components": {
+                    "jojoha:outfit": "jojoha:dio"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "jotaro_p1_head",
+      "jotaro_p1_chest",
+      "jotaro_p1_legs",
+      "jotaro_p1_feet",
+      "kakyoin_head",
+      "kakyoin_chest",
+      "kakyoin_legs",
+      "kakyoin_feet",
+      "polnareff_head",
+      "polnareff_chest",
+      "polnareff_legs",
+      "polnareff_feet",
+      "avdol_head",
+      "avdol_chest",
+      "avdol_legs",
+      "avdol_feet",
+      "joseph_head",
+      "joseph_chest",
+      "joseph_legs",
+      "joseph_feet",
+      "dio_head",
+      "dio_chest",
+      "dio_legs",
+      "dio_feet"
+    ]
+  ],
+  "display": {
+    "description": {
+      "translate": "advancements.jojoha.part3.lets_cosplay.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "jojoha:soul_card_polnareff"
+    },
+    "title": {
+      "translate": "advancements.jojoha.part3.lets_cosplay.title"
+    }
+  },
+  "sends_telemetry_event": false
+}

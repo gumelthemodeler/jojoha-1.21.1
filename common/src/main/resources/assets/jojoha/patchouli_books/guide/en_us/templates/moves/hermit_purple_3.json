@@ -1,0 +1,203 @@
+{
+  "components": [
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_base_icon.png",
+      "x": 0,
+      "y": 0,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/icons/stand/hermit_purple/moves/hermit_purple_twisting_gut_punch_icon.png",
+      "x": 1,
+      "y": 1,
+      "width": 19,
+      "height": 19,
+      "texture_width": 19,
+      "texture_height": 19
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_icon_frame.png",
+      "x": 0,
+      "y": 0,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Twisting Gut",
+      "x": 25,
+      "y": 1,
+      "max_width": 91,
+      "color": "116466"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Punch",
+      "x": 25,
+      "y": 10,
+      "max_width": 91,
+      "color": "116466"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Hauls a target in",
+      "x": 25,
+      "y": 19,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "from $(num)11$() blocks and",
+      "x": 0,
+      "y": 28,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:text",
+      "text": "punches it. $(num)7.5$()",
+      "x": 0,
+      "y": 37,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:text",
+      "text": "damage.",
+      "x": 0,
+      "y": 46,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_base_icon.png",
+      "x": 0,
+      "y": 61,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/icons/stand/hermit_purple/moves/clairvoyance.png",
+      "x": 1,
+      "y": 62,
+      "width": 19,
+      "height": 19,
+      "texture_width": 19,
+      "texture_height": 19
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_icon_frame.png",
+      "x": 0,
+      "y": 61,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Clairvoyance",
+      "x": 25,
+      "y": 62,
+      "max_width": 91,
+      "color": "116466"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "See life, ore and",
+      "x": 25,
+      "y": 71,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "chests through",
+      "x": 25,
+      "y": 80,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "stone for $(num)12$() seconds.",
+      "x": 0,
+      "y": 89,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_base_icon.png",
+      "x": 0,
+      "y": 104,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/icons/stand/hermit_purple/moves/hermit_purple_camera_crush_icon.png",
+      "x": 1,
+      "y": 105,
+      "width": 19,
+      "height": 19,
+      "texture_width": 19,
+      "texture_height": 19
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_icon_frame.png",
+      "x": 0,
+      "y": 104,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Camera Crush",
+      "x": 25,
+      "y": 105,
+      "max_width": 91,
+      "color": "116466"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Crush a placed",
+      "x": 25,
+      "y": 114,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "camera to",
+      "x": 25,
+      "y": 123,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "develop a map of what",
+      "x": 0,
+      "y": 132,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:text",
+      "text": "it saw.",
+      "x": 0,
+      "y": 141,
+      "max_width": 116
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": {
+      "tag": "minecraft:stone_tool_materials"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " X",
+    " X",
+    "S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "jojoha:stone_rapier"
+  }
+}

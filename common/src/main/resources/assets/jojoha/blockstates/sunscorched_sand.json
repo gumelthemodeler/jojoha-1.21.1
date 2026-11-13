@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "jojoha:block/sunscorched_sand",
+        "weight": 1
+      },
+      {
+        "model": "jojoha:block/sunscorched_sand_variant1",
+        "weight": 1
+      },
+      {
+        "model": "jojoha:block/sunscorched_sand_variant2",
+        "weight": 1
+      },
+      {
+        "model": "jojoha:block/sunscorched_sand_variant3",
+        "weight": 1
+      }
+    ]
+  }
+}

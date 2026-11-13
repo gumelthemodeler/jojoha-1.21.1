@@ -1,0 +1,54 @@
+{
+  "name": "Fate",
+  "icon": "minecraft:candle",
+  "category": "jojoha:world",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Sometimes, asleep in a bed, you are taken into the $(bold)Dream$(): a lake of candles under a night sky, watched by a figure of gold light wearing your own face.$(br2)It happens about $(num)one night in twelve$(), and no more than $(num)once every three days$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Fate trades. It offers wishes, and you answer by touching its pillars of light.$(br2)It remembers you: who you are, what you asked for and what you paid.$(br2)Touch $(bold)Nothing. Let me wake.$() to leave."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Paying",
+      "text": "It names its price in diamonds, but anything worth as much will do. Drop what you are paying with and it takes it up.$(br2)$(warn)It will not take what is worth nothing.$() Whatever it does not use is handed back."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "What Things Are Worth",
+      "text": "In diamonds:$(li)Iron ingot: $(num)a quarter$()$(li)JoJo Coin or emerald: $(num)most of one$()$(li)Meteorite ingot: $(num)two and a half$()$(li)Stone Mask: $(num)over four$()$(li)Netherite ingot: $(num)over five$()$(li)Stand Arrow: $(num)twelve$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Enchantments add to anything. Tools, weapons and armour count as three of what they are made from.$(br2)For the wishes below you may give more than the least price. Touch $(bold)That is all. Take it.$() to pay with what you have given."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Something Bright",
+      "text": "Treasure from Fate's jar, from $(num)2$() diamonds' worth up to $(num)15$().$(br2)Each $(num)3$() diamonds adds a gift, and paying more lets it pick the best of several draws.$(br2)$(warn)It is the one wish that can give back less than you paid.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Another Trait",
+      "text": "Your trait is drawn again, never the one you carry. From $(num)5$() diamonds up to $(num)18$().$(br2)The more you give, the likelier a rare trait, up to $(num)seven times$() the usual odds."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "More of Yourself",
+      "text": "One of your own five stats is raised, and Fate chooses which. Up to $(num)15$() diamonds.$(br2)Under $(num)1.5$() diamonds only feeds that stat's experience. Then:$(li)$(num)1.5$(): 1 or 2 points$(li)$(num)3$(): 3 or 4$(li)$(num)5$(): 5 to 7$(li)$(num)10$(): 7 to 9"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)More of your Stand$() works the same way for one of your Stand's five stats.$(br2)$(bold)A hollow where it was$() $(warn)takes your Stand away$(), with its tree and its bar, for $(num)13$() diamonds. An arrow can wake a new one afterwards."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "A Stand of Your Choosing",
+      "text": "Only without a Stand. Name a Stand, and the next arrow that wakes you gives it $(num)half the time$(). From $(num)15$() diamonds up to $(num)30$().$(br2)The more you give, the harder it leans, up to $(num)nine times in ten$()."
+    }
+  ]
+}

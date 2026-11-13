@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "jojoha:block/skeleton_sand",
+        "weight": 1
+      },
+      {
+        "model": "jojoha:block/skeleton_sand_v1",
+        "weight": 1
+      },
+      {
+        "model": "jojoha:block/skeleton_sand_v2",
+        "weight": 1
+      },
+      {
+        "model": "jojoha:block/skeleton_sand_v3",
+        "weight": 1
+      }
+    ]
+  }
+}

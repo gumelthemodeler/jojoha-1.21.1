@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_side_tall",
+  "textures": {
+    "wall": "jojoha:block/skeleton_rock_bricks_cracked"
+  }
+}

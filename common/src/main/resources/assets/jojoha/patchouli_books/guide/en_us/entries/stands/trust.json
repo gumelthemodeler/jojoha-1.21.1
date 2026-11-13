@@ -1,0 +1,16 @@
+{
+  "name": "Stand Stats and Trust",
+  "icon": "minecraft:golden_apple",
+  "category": "jojoha:stands",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Your Stand has stats of its own:$(li)$(bold)Power$(): attack with it.$(li)$(bold)Speed$(): use its abilities.$(li)$(bold)Endurance$(): keep it summoned.$(li)$(bold)Protection$(): block with it.$(li)$(bold)Potential$(): spend its energy."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Trust$() is the average of those five. It rises through $(bold)Dormant$(), $(bold)Partial$() and $(bold)Emerging$() to $(bold)Bonded$().$(br2)Some moves wait until your Stand trusts you, and each Bond Rank adds to its energy."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "jojoha:phantom_stone_smooth"
+  },
+  "result": {
+    "count": 1,
+    "id": "jojoha:phantom_stone_smooth_stairs"
+  }
+}

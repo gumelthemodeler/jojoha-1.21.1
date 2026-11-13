@@ -1,0 +1,13 @@
+{
+  "type": "jojoha:dream",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "jojoha:dream",
+      "layers": [],
+      "features": false,
+      "lakes": false,
+      "structure_overrides": []
+    }
+  }
+}

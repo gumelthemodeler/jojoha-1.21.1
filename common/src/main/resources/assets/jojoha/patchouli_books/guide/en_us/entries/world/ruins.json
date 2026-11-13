@@ -1,0 +1,21 @@
+{
+  "name": "Ancient Ruins",
+  "icon": "jojoha:ancient_arrowhead",
+  "category": "jojoha:world",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The $(place)Phantom Moors$() are a grey overworld biome, found inland where it is cool. Willow spawns there.$(br2)Ruins are scattered across the Moors, each with $(num)one or two$() chests."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "In the Chests",
+      "text": "Bones and scraps, with a good chance of shards, meteorite scrap, JoJo Coins, Ancient Arrowheads, meteorite ingots and $(item)Totem Keys$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "About $(num)one chest in four$() holds something rarer as well: an enchanted book, a golden apple or diamonds, or perhaps$(li)the $(item)Ancient Bow$()$(li)a $(item)Meteorite Tablet$()$(li)$(item)Pluck$()$(li)a $(item)Soul Chip$()$(li)$(item)Bubble Gloves$()$(li)$(item)Lisa Lisa's Scarf$()"
+    }
+  ]
+}

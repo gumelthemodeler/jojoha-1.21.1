@@ -1,0 +1,17 @@
+{
+  "name": "Skins",
+  "icon": "jojoha:fractured_skin_arrow",
+  "category": "jojoha:stands",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "jojoha:fractured_skin_arrow",
+      "text": "Pierce yourself with a $(item)Lucky Arrow$() while you have a Stand, and it sheds its look for another."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(warn)A skin you only wear is lost when you switch away.$() To keep one, use a $(item)Memory Disc$() while your Stand wears it, then play the disc.$(br2)Kept skins can be worn again from the $(bold)Skins$() page of your menu."
+    }
+  ]
+}

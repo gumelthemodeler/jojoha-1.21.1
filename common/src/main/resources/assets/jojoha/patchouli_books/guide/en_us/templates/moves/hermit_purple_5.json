@@ -1,0 +1,188 @@
+{
+  "components": [
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_base_icon.png",
+      "x": 0,
+      "y": 0,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/icons/stand/hermit_purple/passives/tangled.png",
+      "x": 1,
+      "y": 1,
+      "width": 19,
+      "height": 19,
+      "texture_width": 19,
+      "texture_height": 19
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_icon_frame.png",
+      "x": 0,
+      "y": 0,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Tangled",
+      "x": 25,
+      "y": 1,
+      "max_width": 91,
+      "color": "116466"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Strikes may leave",
+      "x": 25,
+      "y": 10,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "thorns in,",
+      "x": 25,
+      "y": 19,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "blocking $(num)3$() of the",
+      "x": 0,
+      "y": 28,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:text",
+      "text": "target's moves.",
+      "x": 0,
+      "y": 37,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_base_icon.png",
+      "x": 0,
+      "y": 52,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/icons/stand/hermit_purple/passives/thornbind.png",
+      "x": 1,
+      "y": 53,
+      "width": 19,
+      "height": 19,
+      "texture_width": 19,
+      "texture_height": 19
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_icon_frame.png",
+      "x": 0,
+      "y": 52,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Thornbind",
+      "x": 25,
+      "y": 53,
+      "max_width": 91,
+      "color": "116466"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "What the vine",
+      "x": 25,
+      "y": 62,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "strikes bleeds",
+      "x": 25,
+      "y": 71,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "for $(num)5$() seconds.",
+      "x": 0,
+      "y": 80,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_base_icon.png",
+      "x": 0,
+      "y": 95,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/icons/stand/hermit_purple/passives/second_sight.png",
+      "x": 1,
+      "y": 96,
+      "width": 19,
+      "height": 19,
+      "texture_width": 19,
+      "texture_height": 19
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_icon_frame.png",
+      "x": 0,
+      "y": 95,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Second Sight",
+      "x": 25,
+      "y": 96,
+      "max_width": 91,
+      "color": "116466"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Clairvoyance",
+      "x": 25,
+      "y": 105,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "lasts longer and",
+      "x": 25,
+      "y": 114,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "comes back sooner.",
+      "x": 0,
+      "y": 123,
+      "max_width": 116
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.jojoha.part1.the_change.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "jojoha:stone_mask"
+    },
+    "title": {
+      "translate": "advancements.jojoha.part1.the_change.title"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "granted"
+    ]
+  ],
+  "sends_telemetry_event": false,
+  "parent": "jojoha:part1/the_mask"
+}

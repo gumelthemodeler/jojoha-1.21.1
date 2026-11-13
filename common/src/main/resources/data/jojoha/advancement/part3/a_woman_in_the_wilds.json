@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.jojoha.part3.a_woman_in_the_wilds.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "advancements.jojoha.part3.a_woman_in_the_wilds.title"
+    }
+  },
+  "requirements": [
+    [
+      "granted"
+    ]
+  ],
+  "sends_telemetry_event": false,
+  "parent": "jojoha:part3/root"
+}

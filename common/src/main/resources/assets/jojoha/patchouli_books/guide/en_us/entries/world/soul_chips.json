@@ -1,0 +1,13 @@
+{
+  "name": "Soul Chips",
+  "icon": "jojoha:soul_card_jotaro",
+  "category": "jojoha:world",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "jojoha:soul_card_jotaro",
+      "text": "Put a $(item)Soul Chip$() in a smithing table as the template, with a piece of armour, to dress it as a JoJo outfit.$(br2)$(l:world/willow)Willow$() sells them, and they turn up in $(l:world/ruins)ancient ruins$()."
+    }
+  ]
+}

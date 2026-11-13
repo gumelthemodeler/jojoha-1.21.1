@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "jojoha:empty_mug"
+    },
+    {
+      "tag": "minecraft:leaves"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "jojoha:herbal_tea"
+  }
+}

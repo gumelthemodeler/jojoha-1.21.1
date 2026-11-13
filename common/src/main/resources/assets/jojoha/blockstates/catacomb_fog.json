@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "jojoha:block/catacomb_fog"
+    },
+    "facing=east": {
+      "model": "jojoha:block/catacomb_fog",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "jojoha:block/catacomb_fog",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "jojoha:block/catacomb_fog",
+      "y": 270
+    }
+  }
+}

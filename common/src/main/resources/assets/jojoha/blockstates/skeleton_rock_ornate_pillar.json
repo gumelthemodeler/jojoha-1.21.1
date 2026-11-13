@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "jojoha:block/skeleton_rock_ornate_pillar_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "jojoha:block/skeleton_rock_ornate_pillar"
+    },
+    "axis=z": {
+      "model": "jojoha:block/skeleton_rock_ornate_pillar_horizontal",
+      "x": 90
+    }
+  }
+}

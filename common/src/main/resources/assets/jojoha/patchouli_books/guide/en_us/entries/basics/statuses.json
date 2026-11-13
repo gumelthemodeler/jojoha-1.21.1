@@ -1,0 +1,32 @@
+{
+  "name": "Status Effects",
+  "icon": "minecraft:fermented_spider_eye",
+  "category": "jojoha:basics",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Many moves leave a $(bold)status$() on what they hit. Hover a move in your menu and its $(warn)Inflicts$() line names it.$(br2)Mobs use them on you too: a vampire's bite makes you bleed, and a Stand user's barrage ends in a stagger."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Stunned",
+      "text": "$(bold)Stun I$(): slowed, hitting half as hard, and only moves that answer a blow still work.$(br2)$(bold)Stun II$(): held in place with no moves at all.$(br2)Players are never stunned past $(num)1.5$() seconds."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Bleeding",
+      "text": "Each new wound deepens it, up to three times. When it runs out it lands at once: $(num)3$(), $(num)6$() or $(num)9$() damage."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Burning",
+      "text": "Stacks up to three times, burning $(num)1$(), $(num)1.5$() or $(num)2$() a second for $(num)5$() seconds. Each stack starts it again.$(br2)$(warn)Water$() and Fire Resistance put it out."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Resistance",
+      "text": "A mob stunned again within $(num)3$() seconds of its last stun takes only half of it.$(br2)Bosses such as the Wither, the Warden and the Ender Dragon take half of every status."
+    }
+  ]
+}

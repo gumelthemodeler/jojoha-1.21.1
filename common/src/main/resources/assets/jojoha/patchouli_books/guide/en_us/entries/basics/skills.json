@@ -1,0 +1,20 @@
+{
+  "name": "Skills and Moves",
+  "icon": "minecraft:writable_book",
+  "category": "jojoha:basics",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Moves are learned from skill trees on the $(bold)Skills$() page of your menu ($(k:jojoha.open_stats)).$(br2)Each tree must be unlocked before its moves can be learned."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "There are four trees:$(li)$(l:basics/player_moves)Player$(): moves any body can learn.$(li)$(bold)Stand$(): your Stand's moves.$(li)$(l:hamon/techniques)Hamon$(): breathing techniques.$(li)$(l:vampirism/vampire_moves)Vampiric$(): what the mask allows."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Learned moves sit on the combat bar. $(k:jojoha.toggle_combat_page) flips between its pages and $(k:jojoha.toggle_combat_bar) hides it.$(br2)Hover a move in the menu for its exact damage, cost and cooldown."
+    }
+  ]
+}

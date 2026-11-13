@@ -1,0 +1,22 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "translate": "enchantment.jojoha.luck_and_pluck"
+  },
+  "effects": {},
+  "max_cost": {
+    "base": 40,
+    "per_level_above_first": 15
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 15
+  },
+  "slots": [
+    "armor"
+  ],
+  "supported_items": "#minecraft:enchantable/armor",
+  "primary_items": "#minecraft:enchantable/chest_armor",
+  "weight": 3
+}

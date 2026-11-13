@@ -1,0 +1,24 @@
+{
+  "name": "Silver Chariot",
+  "icon": "jojoha:iron_rapier",
+  "category": "jojoha:stands",
+  "sortnum": 9,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A swordsman built for speed.$(br2)$(bold)Range$(): close$(br)$(bold)Type$(): $(l:stands/types)Brawler$()$(br2)It also knows the $(l:stands/shared)shared moves$(), with $(move)Sword Flurry$() in place of Barrage."
+    },
+    {
+      "type": "jojoha:moves/silver_chariot_1"
+    },
+    {
+      "type": "jojoha:moves/silver_chariot_2"
+    },
+    {
+      "type": "jojoha:moves/silver_chariot_3"
+    },
+    {
+      "type": "jojoha:moves/silver_chariot_4"
+    }
+  ]
+}

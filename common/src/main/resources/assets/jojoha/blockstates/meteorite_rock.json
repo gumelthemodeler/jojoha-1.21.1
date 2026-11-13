@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "jojoha:block/meteorite_rock",
+        "weight": 1
+      },
+      {
+        "model": "jojoha:block/meteorite_rock_variant",
+        "weight": 1
+      },
+      {
+        "model": "jojoha:block/meteorite_rock_variant2",
+        "weight": 1
+      }
+    ]
+  }
+}

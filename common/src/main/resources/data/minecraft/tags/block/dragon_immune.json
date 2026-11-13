@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "jojoha:tombstone_bricks",
+    "jojoha:tombstone_bricks_stairs",
+    "jojoha:tombstone_bricks_slab",
+    "jojoha:tombstone_bricks_wall",
+    "jojoha:tombstone_bricks_cracked",
+    "jojoha:tombstone_bricks_cracked_stairs",
+    "jojoha:tombstone_bricks_cracked_slab",
+    "jojoha:tombstone_bricks_cracked_wall",
+    "jojoha:labyrinth_door",
+    "jojoha:labyrinth_door_key_slot",
+    "jojoha:tnt_barrel",
+    "jojoha:skeleton_rock_invincible"
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "components": [
+    {
+      "type": "patchouli:header",
+      "text": "Passives",
+      "x": -1,
+      "y": 0
+    },
+    {
+      "type": "patchouli:separator",
+      "x": 0,
+      "y": 10
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_base_icon.png",
+      "x": 0,
+      "y": 18,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/icons/stand/hermit_purple/passives/grapple_vine.png",
+      "x": 1,
+      "y": 19,
+      "width": 19,
+      "height": 19,
+      "texture_width": 19,
+      "texture_height": 19
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_icon_frame.png",
+      "x": 0,
+      "y": 18,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Grappling Vine",
+      "x": 25,
+      "y": 19,
+      "max_width": 91,
+      "color": "116466"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(num)12%$() faster on",
+      "x": 25,
+      "y": 28,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "foot, and $(num)45%$() of",
+      "x": 25,
+      "y": 37,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "fall damage ignored.",
+      "x": 0,
+      "y": 46,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_base_icon.png",
+      "x": 0,
+      "y": 61,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/icons/stand/hermit_purple/passives/grapple_vine_ii.png",
+      "x": 1,
+      "y": 62,
+      "width": 19,
+      "height": 19,
+      "texture_width": 19,
+      "texture_height": 19
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_icon_frame.png",
+      "x": 0,
+      "y": 61,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Grappling Vine",
+      "x": 25,
+      "y": 62,
+      "max_width": 91,
+      "color": "116466"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)II",
+      "x": 25,
+      "y": 71,
+      "max_width": 91,
+      "color": "116466"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(warn)Upgrades",
+      "x": 25,
+      "y": 80,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(warn)Grappling Vine.",
+      "x": 0,
+      "y": 89,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(num)24%$() faster on foot,",
+      "x": 0,
+      "y": 98,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:text",
+      "text": "and $(num)80%$() of fall",
+      "x": 0,
+      "y": 107,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:text",
+      "text": "damage ignored.",
+      "x": 0,
+      "y": 116,
+      "max_width": 116
+    }
+  ]
+}

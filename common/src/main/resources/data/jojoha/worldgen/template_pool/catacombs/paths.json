@@ -1,0 +1,185 @@
+{
+  "fallback": "jojoha:catacombs/caps",
+  "elements": [
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "jojoha:catacombs/halls/straight",
+        "processors": "jojoha:catacombs",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "jojoha:catacombs/halls/straight_long",
+        "processors": "jojoha:catacombs",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "jojoha:catacombs/halls/passage",
+        "processors": "jojoha:catacombs",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "jojoha:catacombs/halls/corner",
+        "processors": "jojoha:catacombs",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "jojoha:catacombs/halls/t_junction",
+        "processors": "jojoha:catacombs",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "jojoha:catacombs/halls/crossroads",
+        "processors": "jojoha:catacombs",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "jojoha:catacombs/halls/dead_end",
+        "processors": "jojoha:catacombs",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "jojoha:catacombs/halls/stairs_down",
+        "processors": "jojoha:catacombs",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "jojoha:catacombs/rooms/junction_grand",
+        "processors": "jojoha:catacombs",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "jojoha:catacombs/rooms/junction_3way",
+        "processors": "jojoha:catacombs",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "jojoha:catacombs/rooms/pit",
+        "processors": "jojoha:catacombs",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "jojoha:catacombs/rooms/two_storey",
+        "processors": "jojoha:catacombs",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "jojoha:catacombs/rooms/cells",
+        "processors": "jojoha:catacombs",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "jojoha:catacombs/rooms/trap_corridor",
+        "processors": "jojoha:catacombs",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "jojoha:catacombs/rooms/cache",
+        "processors": "jojoha:catacombs",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "jojoha:catacombs/rooms/stores",
+        "processors": "jojoha:catacombs",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "jojoha:catacombs/vaults/crypt",
+        "processors": "jojoha:catacombs",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "jojoha:catacombs/vaults/storage",
+        "processors": "jojoha:catacombs",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "jojoha:catacombs/vaults/chapel",
+        "processors": "jojoha:catacombs",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "jojoha:catacombs/rooms/boss",
+        "processors": "jojoha:catacombs",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

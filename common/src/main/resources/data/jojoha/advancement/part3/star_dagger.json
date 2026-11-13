@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jojoha:dagger_meteorite"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.jojoha.part3.star_dagger.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "jojoha:dagger_meteorite"
+    },
+    "title": {
+      "translate": "advancements.jojoha.part3.star_dagger.title"
+    }
+  },
+  "requirements": [
+    [
+      "granted"
+    ]
+  ],
+  "sends_telemetry_event": false,
+  "parent": "jojoha:part3/star_blade"
+}

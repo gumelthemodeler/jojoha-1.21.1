@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "active=true,spent=false": {
+      "model": "jojoha:block/dungeon_spawner"
+    },
+    "active=false,spent=false": {
+      "model": "jojoha:block/dungeon_spawner_deactivated"
+    },
+    "active=true,spent=true": {
+      "model": "jojoha:block/dungeon_spawner_deactivated"
+    },
+    "active=false,spent=true": {
+      "model": "jojoha:block/dungeon_spawner_deactivated"
+    }
+  }
+}

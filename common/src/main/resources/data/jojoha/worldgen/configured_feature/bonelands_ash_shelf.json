@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:disk",
+  "config": {
+    "half_height": 2,
+    "radius": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 2,
+      "max_inclusive": 5
+    },
+    "state_provider": {
+      "fallback": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "jojoha:ashy_rockland_stone"
+        }
+      },
+      "rules": []
+    },
+    "target": {
+      "type": "minecraft:matching_blocks",
+      "blocks": [
+        "jojoha:ashy_rockland_stone",
+        "jojoha:skeleton_sand"
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "feature": "jojoha:phantom_tree",
+  "placement": [
+    {
+      "type": "jojoha:spaced_grid",
+      "spacing": 11,
+      "min_distance": 9,
+      "density": 0.75,
+      "clump": 4
+    },
+    {
+      "type": "minecraft:surface_water_depth_filter",
+      "max_water_depth": 0
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "jojoha:clear_of_canopy",
+      "height": 32,
+      "margin": 9
+    }
+  ]
+}

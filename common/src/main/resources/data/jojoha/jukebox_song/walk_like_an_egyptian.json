@@ -1,0 +1,8 @@
+{
+  "sound_event": "jojoha:music_disc.walk_like_an_egyptian",
+  "description": {
+    "translate": "jukebox_song.jojoha.walk_like_an_egyptian"
+  },
+  "length_in_seconds": 205,
+  "comparator_output": 11
+}

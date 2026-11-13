@@ -1,0 +1,19 @@
+{
+  "feature": "jojoha:bonelands_ash_boulder",
+  "placement": [
+    {
+      "type": "jojoha:spaced_grid",
+      "spacing": 26,
+      "min_distance": 18,
+      "density": 0.6,
+      "clump": 1
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "MOTION_BLOCKING"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

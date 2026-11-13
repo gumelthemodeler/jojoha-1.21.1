@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "jojoha:phantom_stone_wall",
+    "jojoha:phantom_andesite_wall",
+    "jojoha:tombstone_bricks_wall",
+    "jojoha:tombstone_bricks_cracked_wall"
+  ]
+}

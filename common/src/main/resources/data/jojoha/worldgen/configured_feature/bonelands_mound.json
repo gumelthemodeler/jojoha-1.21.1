@@ -1,0 +1,12 @@
+{
+  "type": "jojoha:template_scatter",
+  "config": {
+    "templates": [
+      {
+        "template": "jojoha:ashy_rockland_hill",
+        "sink": 1
+      }
+    ],
+    "flatness": 2
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "feature": "jojoha:bonelands_rock_formation",
+  "placement": [
+    {
+      "type": "jojoha:spaced_grid",
+      "spacing": 34,
+      "min_distance": 26,
+      "density": 0.85,
+      "clump": 1
+    },
+    {
+      "type": "minecraft:surface_water_depth_filter",
+      "max_water_depth": 0
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

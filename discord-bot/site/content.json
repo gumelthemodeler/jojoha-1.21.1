@@ -1,0 +1,1200 @@
+{
+  "discord": "https://discord.gg/29wFh8TAK2",
+  "facts": [
+    "Fabric + NeoForge",
+    "Minecraft 1.21.1",
+    "7 Stands",
+    "In closed testing"
+  ],
+  "home": {
+    "lead": "Stands, Hamon and vampirism in Minecraft.",
+    "leadMore": "A JoJo's Bizarre Adventure combat mod for Fabric and NeoForge.",
+    "note": "Not released yet. Public beta planned for CurseForge and Modrinth.",
+    "standsTitle": "Pick your Stand",
+    "standsText": "Use a Stand Arrow on yourself. Your Worthiness decides whether it sticks.",
+    "pathsTitle": "More than Stands",
+    "pathsText": "Learn Hamon, put on the Stone Mask, or go further. Each path has its own moves and its own price.",
+    "roadmapTitle": "What's next",
+    "roadmapText": "No release dates until the public beta is finalized.",
+    "newsTitle": "From the blog",
+    "joinTitle": "Join the Discord",
+    "joinText": "Sneak peeks, announcements and tester applications all happen in the server."
+  },
+  "pages": {
+    "wiki": {
+      "title": "Wiki",
+      "text": "How to get each power, where to find it, and what it costs."
+    },
+    "stands": {
+      "title": "Stands",
+      "text": "Every Stand in the mod so far. More arrive with each Part."
+    },
+    "roadmap": {
+      "title": "Roadmap",
+      "text": "Where JoJo: Heaven's Arrow is headed. No release dates until the public beta is finalized."
+    },
+    "projects": {
+      "title": "Projects",
+      "text": "What we are making now and what comes after."
+    },
+    "blog": {
+      "title": "Blog",
+      "text": "Development news and announcements."
+    },
+    "faq": {
+      "title": "FAQ",
+      "text": "The questions we get most. Ask anything else in Discord."
+    },
+    "staff": {
+      "title": "Staff",
+      "text": "The people building the mod and running the community."
+    },
+    "discord": {
+      "title": "Discord",
+      "text": "News, sneak peeks, help and supporter perks."
+    },
+    "support": {
+      "title": "Become a Supporter",
+      "text": "Support the mod on Ko-fi and get early access, sneak peeks and perks in game and in Discord."
+    }
+  },
+  "stands": [
+    {
+      "id": "star_platinum",
+      "name": "Star Platinum",
+      "model": "/img/stands/star_platinum.gif",
+      "icon": "/img/star_platinum.png",
+      "color": "#9a6cf0",
+      "type": "Close range",
+      "source": "Stand Arrow",
+      "signature": "Star Finger",
+      "text": "Fast, precise and strong. Rushes targets down with barrages, then stretches a finger out for the finish.",
+      "moves": [
+        {
+          "name": "Uppercut",
+          "icon": "/img/moves/uppercut.png",
+          "kind": "Move",
+          "short": "A rising blow that launches the target.",
+          "text": "One rising blow within 4 blocks that launches the target upward. 7 damage with a Stand, 3 without. 2.5s cooldown."
+        },
+        {
+          "name": "Grab",
+          "icon": "/img/moves/grab.png",
+          "kind": "Move",
+          "short": "Grabs a target to throw or set down.",
+          "text": "Grabs a target. Attack to throw it, sneak and attack to set it down. Carries players in stopped time. 2.5s cooldown."
+        },
+        {
+          "name": "Star Finger",
+          "icon": "/img/moves/star_finger.png",
+          "kind": "Move",
+          "short": "A long finger jab along your aim.",
+          "text": "Extends a finger 10 blocks along your aim for 7 damage. 2.25s cooldown."
+        },
+        {
+          "name": "Skull Crusher",
+          "icon": "/img/moves/skull_crusher.png",
+          "kind": "Move",
+          "short": "Crushes one target and throws it.",
+          "text": "Crushes one target within 4.5 blocks for 8 damage and throws it. Stuns 3 seconds, 1.5 seconds on players. 7s cooldown."
+        },
+        {
+          "name": "Inhale",
+          "icon": "/img/moves/inhale.png",
+          "kind": "Move",
+          "short": "Hold to pull everything nearby toward you.",
+          "text": "Hold to pull everything within 14 blocks to you for 8 seconds. Puts out fire, cools lava. Sneak to blow. 6s cooldown."
+        },
+        {
+          "name": "Time Skip",
+          "icon": "/img/moves/time_skip.png",
+          "kind": "Move",
+          "short": "Steps forward through stopped time.",
+          "text": "Steps 12 blocks forward through stopped time. Needs Time Stop. 2.5s cooldown."
+        },
+        {
+          "name": "Time Stop",
+          "icon": "/img/moves/time_stop.png",
+          "kind": "Move",
+          "short": "Stops time for a few seconds.",
+          "text": "Charge, then release to stop time up to 5 seconds. A hit breaks the charge. 3 uses a fight. 20s cooldown."
+        },
+        {
+          "name": "Time Stop: Extended",
+          "icon": "/img/moves/time_stop_extended.png",
+          "kind": "Move",
+          "short": "Stops time for a second longer.",
+          "text": "Stops time for up to 6 seconds instead of 5. 35s cooldown."
+        },
+        {
+          "name": "2 Meters",
+          "icon": "/img/moves/two_meters.png",
+          "kind": "Passive",
+          "short": "Your Stand's next close blow hits harder.",
+          "text": "Your Stand's next blow deals 1.3x within 2 blocks, fading to normal by 9. Recharges over 4 seconds."
+        },
+        {
+          "name": "Sensory Perception",
+          "icon": "/img/moves/sensory_perception.png",
+          "kind": "Passive",
+          "short": "",
+          "text": "Marks containers within 12 blocks through walls and floors."
+        },
+        {
+          "name": "Star Guard",
+          "icon": "/img/moves/star_guard.png",
+          "kind": "Passive",
+          "short": "At low health, guarding restores Stand energy.",
+          "text": "At 20% health or less, every blow your Stand's guard absorbs restores 10% of its energy."
+        },
+        {
+          "name": "Enhanced Reflexes",
+          "icon": "/img/moves/enhanced_reflexes.png",
+          "kind": "Passive",
+          "short": "Deflects a mob's blow when your health is low.",
+          "text": "At 40% health or less, deflects one blow a mob throws from within 4 blocks. Recovers over 3.5 seconds, down to 1.5 seconds at high Protection."
+        },
+        {
+          "name": "Unwavering",
+          "icon": "/img/moves/unwavering.png",
+          "kind": "Passive",
+          "short": "Resists knockback, more so when hurt.",
+          "text": "50% knockback resistance, rising to 90% below half health. Blows no longer interrupt you."
+        },
+        {
+          "name": "Two Meters II",
+          "icon": "/img/moves/two_meters_ii.png",
+          "kind": "Passive",
+          "short": "",
+          "text": "Full 1.3x damage out to 4 blocks instead of 2."
+        },
+        {
+          "name": "Sensory Perception II",
+          "icon": "/img/moves/sensory_perception_ii.png",
+          "kind": "Passive",
+          "short": "",
+          "text": "Marks containers within 22 blocks instead of 12."
+        }
+      ]
+    },
+    {
+      "id": "the_world",
+      "name": "The World",
+      "model": "/img/stands/the_world.gif",
+      "icon": "/img/the_world.png",
+      "color": "#f2c23a",
+      "type": "Close range",
+      "source": "Stand Arrow",
+      "signature": "Time Stop",
+      "text": "Muda rushes, knife volleys and a Time Stop you charge up. The longer you hold it, the longer time stays frozen.",
+      "moves": [
+        {
+          "name": "Uppercut",
+          "icon": "/img/moves/uppercut.png",
+          "kind": "Move",
+          "short": "A rising blow that launches the target.",
+          "text": "One rising blow within 4 blocks that launches the target upward. 7 damage with a Stand, 3 without. 2.5s cooldown."
+        },
+        {
+          "name": "Grab",
+          "icon": "/img/moves/grab.png",
+          "kind": "Move",
+          "short": "Grabs a target to throw or set down.",
+          "text": "Grabs a target. Attack to throw it, sneak and attack to set it down. Carries players in stopped time. 2.5s cooldown."
+        },
+        {
+          "name": "Ground Breaker",
+          "icon": "/img/moves/ground_breaker.png",
+          "kind": "Move",
+          "short": "Dives on a spot and launches everything near it.",
+          "text": "Dives onto a marked spot 8 blocks ahead. A wave launches everything within 7.5 blocks for 7 damage. 8s cooldown."
+        },
+        {
+          "name": "Knife Barrage",
+          "icon": "/img/moves/knife_barrage.png",
+          "kind": "Move",
+          "short": "Throws knives: tap to fan, hold to focus, sneak to chain.",
+          "text": "Tap to fan 8 knives in a 70 degree arc for 2 damage each. Hold to send all 8 into one target. Sneak to throw them one by one, every 0.3 seconds, each straight at your target. 7s cooldown."
+        },
+        {
+          "name": "Kick Flurry",
+          "icon": "/img/moves/kick_flurry.png",
+          "kind": "Move",
+          "short": "Hold for a stream of kicks that push and lift.",
+          "text": "Replaces Barrage. Hold for kicks: 12 per 2.4 seconds at 0.9 damage, pushing and lifting. Stops at 14. 7s cooldown."
+        },
+        {
+          "name": "Beatdown",
+          "icon": "/img/moves/beatdown.png",
+          "kind": "Move",
+          "short": "Holds a target, pummels it, then throws it.",
+          "text": "Replaces Grab. Holds a target within 4.5 blocks and hits 8 times for 2.2, then throws for 8. 9s cooldown."
+        },
+        {
+          "name": "Time Stop",
+          "icon": "/img/moves/time_stop.png",
+          "kind": "Move",
+          "short": "Stops time for a few seconds.",
+          "text": "Charge, then release to stop time up to 5 seconds. A hit breaks the charge. 3 uses a fight. 20s cooldown."
+        },
+        {
+          "name": "Time Stop: Perfect",
+          "icon": "/img/moves/time_stop_perfect.png",
+          "kind": "Move",
+          "short": "A longer Time Stop. Vampires only.",
+          "text": "Replaces Time Stop. Stops time for up to 8 seconds instead of 5. Only a vampire can learn or use it. 40s cooldown."
+        },
+        {
+          "name": "Time Skip",
+          "icon": "/img/moves/time_skip.png",
+          "kind": "Move",
+          "short": "Steps forward through stopped time.",
+          "text": "Steps 12 blocks forward through stopped time. Needs Time Stop. 2.5s cooldown."
+        },
+        {
+          "name": "Enhanced Reflexes",
+          "icon": "/img/moves/enhanced_reflexes.png",
+          "kind": "Passive",
+          "short": "Deflects a mob's blow when your health is low.",
+          "text": "At 40% health or less, deflects one blow a mob throws from within 4 blocks. Recovers over 3.5 seconds, down to 1.5 seconds at high Protection."
+        },
+        {
+          "name": "Unwavering",
+          "icon": "/img/moves/unwavering.png",
+          "kind": "Passive",
+          "short": "Resists knockback, more so when hurt.",
+          "text": "50% knockback resistance, rising to 90% below half health. Blows no longer interrupt you."
+        },
+        {
+          "name": "Master of Time",
+          "icon": "/img/moves/master_of_time.png",
+          "kind": "Passive",
+          "short": "Slowing effects and Stun wear off sooner.",
+          "text": "Slowness, Mining Fatigue and Stun wear off 20% sooner on you."
+        },
+        {
+          "name": "Crushing Force",
+          "icon": "/img/moves/crushing_force.png",
+          "kind": "Passive",
+          "short": "At low health, blows break through guards.",
+          "text": "Below 25% health, blows against a guard deal 1.25x damage and knock a raised shield down."
+        }
+      ]
+    },
+    {
+      "id": "hermit_purple",
+      "name": "Hermit Purple",
+      "model": "/img/stands/hermit_purple.gif",
+      "icon": "/img/hermit_purple.png",
+      "color": "#b06ad8",
+      "type": "Utility",
+      "source": "Stand Arrow",
+      "signature": "Lasso of Thorns",
+      "text": "Thorny vines that grab, pull and swing. Also good for dowsing and finding things.",
+      "moves": [
+        {
+          "name": "Hermit Grapple",
+          "icon": "/img/moves/hermit_grapple.png",
+          "kind": "Move",
+          "short": "Throws a vine that anchors in stone and holds you.",
+          "text": "Throws a vine that bites into stone and holds you. Jump to climb, sneak to pay out slack, press again to let go."
+        },
+        {
+          "name": "Thorn Zip",
+          "icon": "/img/moves/thorn_zip.png",
+          "kind": "Move",
+          "short": "Vines from both arms haul you to one anchor.",
+          "text": "Fires a vine from each arm at one anchor and hauls you to it. Ends on arrival. 1.3s cooldown."
+        },
+        {
+          "name": "Lasso of Thorns",
+          "icon": "/img/moves/lasso_of_thorns.png",
+          "kind": "Move",
+          "short": "Loops a vine round a creature and leads it.",
+          "text": "Loops a vine around anything living within 12 blocks and leads it. Press again to let go. 1s cooldown."
+        },
+        {
+          "name": "Camera Crush",
+          "icon": "/img/moves/camera_crush.png",
+          "kind": "Move",
+          "short": "Crushes a placed camera and develops a map from it.",
+          "text": "Crushes a placed camera and reads a map from what develops. Reaches 8 blocks. Costs the camera. 6s cooldown."
+        },
+        {
+          "name": "Clairvoyance",
+          "icon": "/img/moves/clairvoyance.png",
+          "kind": "Move",
+          "short": "See life, ore and chests through stone for a while.",
+          "text": "Sees through stone 12 seconds: life within 48 blocks, ore and chests within 24. Only you see it. 30s cooldown."
+        },
+        {
+          "name": "Thorn Whip",
+          "icon": "/img/moves/thorn_whip.png",
+          "kind": "Move",
+          "short": "Snaps the vine out and flings the target away.",
+          "text": "Snaps the vine out to 13 blocks for 4.2 damage and flings the target away. Replaces Lasso of Thorns. 2.25s cooldown."
+        },
+        {
+          "name": "Twisting Gut Punch",
+          "icon": "/img/moves/twisting_gut_punch.png",
+          "kind": "Move",
+          "short": "Hauls a distant target in and punches the wind out of it.",
+          "text": "Hauls one target from up to 11 blocks in and punches it for 7.5 damage. Winded for 2.25 seconds. 3.5s cooldown."
+        },
+        {
+          "name": "Dowsing",
+          "icon": "/img/moves/dowsing.png",
+          "kind": "Move",
+          "short": "Vines crawl toward the nearest ore.",
+          "text": "Braided vines crawl along the ground toward the nearest ore within 32 blocks and dive in above it; the ore glows for you once they arrive. Hold an ore block to dowse for that ore only. Utility stance. 10s cooldown."
+        },
+        {
+          "name": "Grappling Vine",
+          "icon": "/img/moves/grappling_vine.png",
+          "kind": "Passive",
+          "short": "Faster on foot, with softer falls.",
+          "text": "12% faster on foot, harder to knock out of the air, and 45% of fall damage ignored."
+        },
+        {
+          "name": "Tangled",
+          "icon": "/img/moves/tangled.png",
+          "kind": "Passive",
+          "short": "Strikes can leave thorns that block the target's moves.",
+          "text": "Your strikes have an 18% chance to leave thorns in. Blocks 3 of the target's moves for 2.5 seconds."
+        },
+        {
+          "name": "Thornbind",
+          "icon": "/img/moves/thornbind.png",
+          "kind": "Passive",
+          "short": "The vine's strikes cause Bleed.",
+          "text": "The vine leaves its thorns in. What it strikes bleeds for 5 seconds."
+        },
+        {
+          "name": "Second Sight",
+          "icon": "/img/moves/second_sight.png",
+          "kind": "Passive",
+          "short": "",
+          "text": "Clairvoyance lasts 1.75x as long and comes back 25% sooner."
+        },
+        {
+          "name": "Ripple Conduction",
+          "icon": "/img/moves/ripple_conduction.png",
+          "kind": "Passive",
+          "short": "With Hamon, vine moves hit the undead harder.",
+          "text": "With Hamon, the vine conducts. Thorn Whip and Twisting Gut Punch deal 6 more to the undead."
+        },
+        {
+          "name": "Made For This",
+          "icon": "/img/moves/made_for_this.png",
+          "kind": "Passive",
+          "short": "Harmful effects wear off faster.",
+          "text": "Harmful effects wear off 1 second faster every 3 seconds, down to a floor of 2 seconds."
+        },
+        {
+          "name": "Unorthodox Method",
+          "icon": "/img/moves/unorthodox_method.png",
+          "kind": "Passive",
+          "short": "This Stand grows by being out, not by kills.",
+          "text": "This Stand grows by being used. 1 point every 5 seconds it is out, rather than by killing with it."
+        },
+        {
+          "name": "Grappling Vine II",
+          "icon": "/img/moves/grappling_vine_ii.png",
+          "kind": "Passive",
+          "short": "Faster still, and falls hurt far less.",
+          "text": "24% faster on foot instead of 12%, and 80% of fall damage ignored instead of 45%."
+        }
+      ]
+    },
+    {
+      "id": "hierophant_green",
+      "name": "Hierophant Green",
+      "model": "/img/stands/hierophant_green.gif",
+      "icon": "/img/hierophant_green.png",
+      "color": "#3fcf7a",
+      "type": "Long range",
+      "source": "Stand Arrow",
+      "signature": "Emerald Splash",
+      "text": "Fires emerald shots from a distance, lays tendril traps, and can possess the body of whoever it catches.",
+      "moves": [
+        {
+          "name": "Uppercut",
+          "icon": "/img/moves/uppercut.png",
+          "kind": "Move",
+          "short": "A rising blow that launches the target.",
+          "text": "One rising blow within 4 blocks that launches the target upward. 7 damage with a Stand, 3 without. 2.5s cooldown."
+        },
+        {
+          "name": "Grab",
+          "icon": "/img/moves/grab.png",
+          "kind": "Move",
+          "short": "Grabs a target to throw or set down.",
+          "text": "Grabs a target. Attack to throw it, sneak and attack to set it down. Carries players in stopped time. 2.5s cooldown."
+        },
+        {
+          "name": "Emerald Splash Shotgun Blast",
+          "icon": "/img/moves/emerald_splash_shotgun_blast.png",
+          "kind": "Move",
+          "short": "Fires a tight blast of emerald shards where you aim.",
+          "text": "Fires 3 emerald shards at high pressure where you aim, 7 damage each. 5.5s cooldown."
+        },
+        {
+          "name": "Emerald Splash Barrage",
+          "icon": "/img/moves/emerald_splash_barrage.png",
+          "kind": "Move",
+          "short": "Hold to gather, release a stream of shards along your aim.",
+          "text": "Hold to gather, release a stream of shards that follows your aim. At 30% health, the Final Emerald Splash. 8s cooldown."
+        },
+        {
+          "name": "Tendril Spike",
+          "icon": "/img/moves/tendril_spike.png",
+          "kind": "Move",
+          "short": "Tentacles burst from the ground and toss your target.",
+          "text": "Two tentacles burst out of the ground, closing on your target from both sides. 6 damage and a toss. 6s cooldown."
+        },
+        {
+          "name": "Web Swing",
+          "icon": "/img/moves/web_swing.png",
+          "kind": "Move",
+          "short": "Hold to swing from a tentacle; let go to fly.",
+          "text": "Hold to throw a tentacle at a wall or roof and swing from it. Let go to fly."
+        },
+        {
+          "name": "Unravel Trap",
+          "icon": "/img/moves/unravel_trap.png",
+          "kind": "Move",
+          "short": "Lays a web on the floor that entangles what steps in.",
+          "text": "Unravels into a web on the floor where you look. Anything that steps in is entangled, 3 damage. Lasts 30s. 15s cooldown."
+        },
+        {
+          "name": "Miniature Trap",
+          "icon": "/img/moves/miniature_trap.png",
+          "kind": "Move",
+          "short": "Strings a tripwire that entangles the first through.",
+          "text": "Strings a tripwire from the block you look at to the far side. The first through is entangled, 4 damage. 3s cooldown."
+        },
+        {
+          "name": "Body Possession",
+          "icon": "/img/moves/body_possession.png",
+          "kind": "Move",
+          "short": "Steer the body you look at and wear it down.",
+          "text": "Steer the body you look at. Mob: 5 damage every 5s. Player: 3s, then 8 damage. Stand users at half health. 30s cooldown."
+        },
+        {
+          "name": "20 Meter Radius Emerald Splash",
+          "icon": "/img/moves/twenty_meter_emerald_splash.png",
+          "kind": "Move",
+          "short": "A sphere of tendrils that shoots anything moving inside.",
+          "text": "A sphere of tendrils 20 blocks round you. Anything moving inside is shot from every side. Lasts 20s. 60s cooldown."
+        },
+        {
+          "name": "Deadeye",
+          "icon": "/img/moves/deadeye.png",
+          "kind": "Passive",
+          "short": "Ranged attacks hit harder from farther away.",
+          "text": "Ranged attacks hit harder the farther they were thrown from: nothing extra inside 8 blocks, up to 1.25x at 24."
+        },
+        {
+          "name": "Opportunist",
+          "icon": "/img/moves/opportunist.png",
+          "kind": "Passive",
+          "short": "Ranged attacks hit distracted targets harder.",
+          "text": "Ranged attacks deal 1.2x damage to anything busy fighting someone else."
+        },
+        {
+          "name": "Emerald Splash",
+          "icon": "/img/moves/splash_fragments.png",
+          "kind": "Passive",
+          "short": "Shards that hit can burst into fragments.",
+          "text": "A shard that hits has a 25% chance to burst through into 4 fragments at 40% damage, flying on along its line."
+        },
+        {
+          "name": "Rebound",
+          "icon": "/img/moves/rebound.png",
+          "kind": "Passive",
+          "short": "Shards ricochet off the first block they hit.",
+          "text": "Shards ricochet off the first block they hit, at 80% damage. Bank them off walls to reach round corners."
+        }
+      ]
+    },
+    {
+      "id": "magicians_red",
+      "name": "Magician's Red",
+      "model": "/img/stands/magicians_red.gif",
+      "icon": "/img/magicians_red.png",
+      "color": "#f0623a",
+      "type": "Control",
+      "source": "Stand Arrow",
+      "signature": "Crossfire Hurricane",
+      "text": "Controls the battlefield with rings and domes of flame. Red Bind holds targets in place.",
+      "moves": [
+        {
+          "name": "Uppercut",
+          "icon": "/img/moves/uppercut.png",
+          "kind": "Move",
+          "short": "A rising blow that launches the target.",
+          "text": "One rising blow within 4 blocks that launches the target upward. 7 damage with a Stand, 3 without. 2.5s cooldown."
+        },
+        {
+          "name": "Grab",
+          "icon": "/img/moves/grab.png",
+          "kind": "Move",
+          "short": "Grabs a target to throw or set down.",
+          "text": "Grabs a target. Attack to throw it, sneak and attack to set it down. Carries players in stopped time. 2.5s cooldown."
+        },
+        {
+          "name": "Sweep Kick",
+          "icon": "/img/moves/sweep_kick.png",
+          "kind": "Move",
+          "short": "Magician's Red sweeps the legs of everything near it.",
+          "text": "Magician's Red darts ahead and sweeps its leg through everything within 3 blocks: 5 damage, a stagger and a small launch. 6s cooldown."
+        },
+        {
+          "name": "Crossfire Hurricane",
+          "icon": "/img/moves/crossfire_hurricane.png",
+          "kind": "Move",
+          "short": "Fires a flaming ankh.",
+          "text": "Magician's Red breathes a flaming ankh that flies where you look: 6 damage and Burning to the first enemy hit. 8s cooldown."
+        },
+        {
+          "name": "Crossfire Hurricane Special",
+          "icon": "/img/moves/crossfire_hurricane_special.png",
+          "kind": "Move",
+          "short": "Fires a barrage of 5 flaming ankhs.",
+          "text": "Magician's Red breathes 5 flaming ankhs one after another, each dealing 3.5 damage and Burning. 18s cooldown."
+        },
+        {
+          "name": "Red Bind",
+          "icon": "/img/moves/red_bind.png",
+          "kind": "Move",
+          "short": "Ties an enemy in place with ropes of flame.",
+          "text": "Ropes of flame tie the enemy you look at, up to 10 blocks away: held in place for 2 seconds and set Burning. 14s cooldown."
+        },
+        {
+          "name": "Controlled Blaze",
+          "icon": "/img/moves/controlled_blaze.png",
+          "kind": "Move",
+          "short": "Wraps a ring of fire around the spot you look at.",
+          "text": "Magician's Red flies to where you look, up to 14 blocks away, and wraps a ring of fire 4.5 blocks wide around the spot for 12 seconds. Enemies touching the wall take 2 damage every half second and start Burning. Inside the ring is your area. 20s cooldown."
+        },
+        {
+          "name": "Inferno",
+          "icon": "/img/moves/inferno.png",
+          "kind": "Move",
+          "short": "Inside your area, hit harder and set Burning for a short time.",
+          "text": "Only inside your own area. For 12 seconds Magician's Red hits 25% harder and every hit sets Burning. 30s cooldown."
+        },
+        {
+          "name": "Containment",
+          "icon": "/img/moves/containment.png",
+          "kind": "Move",
+          "short": "Draws a wall of fire that follows where you look.",
+          "text": "For 1.5 seconds a wall of fire rises along the ground where you look, up to 12 blocks away. Turn your view to bend it; it can run 16 blocks. It stands for 10 seconds, and enemies touching it take 2 damage every half second, gain Burning and are pushed back. One wall at a time. 16s cooldown."
+        },
+        {
+          "name": "Life Sense",
+          "icon": "/img/moves/life_sense.png",
+          "kind": "Move",
+          "short": "A heat radar that shows living things through walls.",
+          "text": "Magician's Red raises a cross of flame pointing six ways. For 6 seconds you see every living thing within 24 blocks through walls. 15s cooldown."
+        },
+        {
+          "name": "Increase Temperature",
+          "icon": "/img/moves/increase_temperature.png",
+          "kind": "Move",
+          "short": "Burns or smelts the blocks around Magician's Red.",
+          "text": "Heats up to 48 blocks within 4 blocks of Magician's Red into their burnt or smelted form: grass to dirt, sand to glass, cobblestone to stone, ice to water. 10s cooldown."
+        },
+        {
+          "name": "Infinite Inferno Fire",
+          "icon": "/img/moves/infinite_inferno_fire.png",
+          "kind": "Move",
+          "short": "A dome of fire and ash that burns the enemies inside it.",
+          "text": "Raises a dome of fire and ash 9 blocks around you for 2 minutes 30 seconds. Enemies inside are slowed and gain a stack of Burning every 2 seconds. The dome is your area. 5 minute cooldown."
+        },
+        {
+          "name": "Finger Snap",
+          "icon": "",
+          "kind": "Move",
+          "short": "Snaps out all your fire at once.",
+          "text": "Snap your fingers: every Magician's Flame within 32 blocks goes out at once, and your burning areas, walls and Inferno end. 2s cooldown."
+        },
+        {
+          "name": "Territorial",
+          "icon": "/img/moves/territorial.png",
+          "kind": "Passive",
+          "short": "Stronger and faster inside your own area.",
+          "text": "Inside an area made by your Stand, its attacks deal 15% more damage and you move faster."
+        },
+        {
+          "name": "Encroachment",
+          "icon": "/img/moves/encroachment.png",
+          "kind": "Passive",
+          "short": "Your area slowly grows while you stay in it.",
+          "text": "While you stand inside your area it grows 0.1 blocks a second, up to 50% larger."
+        },
+        {
+          "name": "Flame Immunity",
+          "icon": "/img/moves/flame_immunity.png",
+          "kind": "Passive",
+          "short": "Your own flames do not burn you.",
+          "text": "Magician's Red's flames never hurt you, and inside your own area you cannot burn."
+        },
+        {
+          "name": "Burning Pressure",
+          "icon": "/img/moves/burning_pressure.png",
+          "kind": "Passive",
+          "short": "Burning enemies are easier to stagger.",
+          "text": "Magician's Red's attacks have a 30% chance to stagger an enemy that is Burning."
+        }
+      ]
+    },
+    {
+      "id": "silver_chariot",
+      "name": "Silver Chariot",
+      "model": "/img/stands/silver_chariot.gif",
+      "icon": "/img/silver_chariot.png",
+      "color": "#c3cfe0",
+      "type": "Close range",
+      "source": "Stand Arrow",
+      "signature": "Sabre Cycle",
+      "text": "A rapier fighter built on hit chains. Throw off the armour to get faster.",
+      "moves": [
+        {
+          "name": "Uppercut",
+          "icon": "/img/moves/uppercut.png",
+          "kind": "Move",
+          "short": "A rising blow that launches the target.",
+          "text": "One rising blow within 4 blocks that launches the target upward. 7 damage with a Stand, 3 without. 2.5s cooldown."
+        },
+        {
+          "name": "Grab",
+          "icon": "/img/moves/grab.png",
+          "kind": "Move",
+          "short": "Grabs a target to throw or set down.",
+          "text": "Grabs a target. Attack to throw it, sneak and attack to set it down. Carries players in stopped time. 2.5s cooldown."
+        },
+        {
+          "name": "Balestra",
+          "icon": "/img/moves/balestra.png",
+          "kind": "Move",
+          "short": "Chariot lunges, skewers the first thing hit and stuns it.",
+          "text": "Chariot lunges up to 6 blocks ahead. The first thing it runs through takes 6 damage, is held on the blade while Chariot twists it for 3 more, and is stunned for 1.25 seconds. 8s cooldown."
+        },
+        {
+          "name": "Blade Launch",
+          "icon": "/img/moves/blade_launch.png",
+          "kind": "Move",
+          "short": "Shoots the rapier's blade at what you look at.",
+          "text": "Chariot shoots the blade off its rapier at what you look at, 8 damage. It fights bladeless until the blade lands. 12s cooldown."
+        },
+        {
+          "name": "Sabre Cycle",
+          "icon": "/img/moves/sabre_cycle.png",
+          "kind": "Move",
+          "short": "Hold to wind up, release to slash all around you.",
+          "text": "Hold to wind up, release for a slash all around you: 4 damage within 2.5 blocks, growing to 9 within 5 blocks at 2 seconds. 10s cooldown."
+        },
+        {
+          "name": "Deflection",
+          "icon": "/img/moves/deflection.png",
+          "kind": "Move",
+          "short": "Hold to turn attacks and projectiles back from the front.",
+          "text": "Hold for up to 3 seconds to deflect attacks from the front. Attackers are thrown back and projectiles fly back at the shooter. Each deflection costs energy. 6s cooldown."
+        },
+        {
+          "name": "Riposte",
+          "icon": "/img/moves/riposte.png",
+          "kind": "Move",
+          "short": "A brief counter: Chariot slips behind and slashes.",
+          "text": "Opens a 0.6 second counter. If you are struck in it, the blow misses and Chariot appears behind the attacker for a 7 damage slash and a stagger. 8s cooldown."
+        },
+        {
+          "name": "Armor Release",
+          "icon": "/img/moves/armor_release.png",
+          "kind": "Move",
+          "short": "Sheds the armour: faster, but you take more damage.",
+          "text": "Chariot bursts out of its armour: you move and swing 20% faster and its flurry quickens, but you take 25% more damage. Use again to re-armour. 10s cooldown."
+        },
+        {
+          "name": "Afterimages",
+          "icon": "/img/moves/afterimages.png",
+          "kind": "Move",
+          "short": "Armour off: afterimages may take hits meant for you.",
+          "text": "Armour off only. Chariot splits into 5 afterimages for 10 seconds, and each attack has a 40% chance to strike one instead of you. 20s cooldown."
+        },
+        {
+          "name": "Piercing Thrust",
+          "icon": "/img/moves/piercing_thrust.png",
+          "kind": "Passive",
+          "short": "Sword hits can pierce armor, always on exposed targets.",
+          "text": "Sword hits have a 25% chance to ignore 25% more of the target's armor. A fully charged Sabre Cycle, or any hit on a stunned or guard-broken target, always ignores 40% more."
+        },
+        {
+          "name": "Enhanced Reflexes",
+          "icon": "/img/moves/enhanced_reflexes.png",
+          "kind": "Passive",
+          "short": "Deflects a mob's blow when your health is low.",
+          "text": "At 40% health or less, deflects one blow a mob throws from within 4 blocks. Recovers over 3.5 seconds, down to 1.5 seconds at high Protection."
+        },
+        {
+          "name": "Unwavering",
+          "icon": "/img/moves/unwavering.png",
+          "kind": "Passive",
+          "short": "Resists knockback, more so when hurt.",
+          "text": "50% knockback resistance, rising to 90% below half health. Blows no longer interrupt you."
+        },
+        {
+          "name": "Duelist's Focus",
+          "icon": "/img/moves/duelists_focus.png",
+          "kind": "Passive",
+          "short": "Raising your guard parries first.",
+          "text": "Raising Silver Chariot's guard opens a 4-tick parry before it settles into a block. The parry turns melee hits and projectiles."
+        }
+      ]
+    },
+    {
+      "id": "anubis",
+      "name": "Anubis",
+      "model": "/img/stands/anubis.gif",
+      "icon": "/img/anubis.png",
+      "color": "#d9a640",
+      "type": "Bound blade",
+      "source": "Desert pyramids",
+      "signature": "Draw",
+      "text": "A Stand inside a sword, kept alongside your normal Stand. Found only in desert pyramid chests.",
+      "moves": [
+        {
+          "name": "Draw",
+          "icon": "",
+          "kind": "Move",
+          "short": "Lunge and cut with your blade, parrying as it comes out.",
+          "text": "Right click with a blade: lunge and cut for 4-7. Parries as it comes out; a parried Draw counters for 6. 1.5s cooldown."
+        },
+        {
+          "name": "Made For This",
+          "icon": "/img/moves/made_for_this.png",
+          "kind": "Passive",
+          "short": "Harmful effects wear off faster.",
+          "text": "Harmful effects wear off 1 second faster every 3 seconds, down to a floor of 2 seconds."
+        },
+        {
+          "name": "Unorthodox Method",
+          "icon": "/img/moves/unorthodox_method.png",
+          "kind": "Passive",
+          "short": "This Stand grows by being out, not by kills.",
+          "text": "This Stand grows by being used. 1 point every 5 seconds it is out, rather than by killing with it."
+        },
+        {
+          "name": "Swordsmanship",
+          "icon": "",
+          "kind": "Passive",
+          "short": "Faster, longer, harder blade swings.",
+          "text": "Blade: 25% faster swings, +0.5 reach, +10% damage, cuts through walls. A parry leaves that foe taking +15% for 5s."
+        },
+        {
+          "name": "Combat Adaptation",
+          "icon": "",
+          "kind": "Passive",
+          "short": "Learns the attacks it meets and answers them.",
+          "text": "Learns each attack it meets: less damage, longer parries, then counters, then auto-parries mobs every 5s at 40% health or less. Fades out of sight."
+        }
+      ]
+    }
+  ],
+  "wikiIcons": {
+    "stands": "/img/heavens_arrow.png",
+    "hamon": "/img/clackers_yellow.png",
+    "vampire": "/img/renders/stone_mask.png",
+    "pillar-man": "/img/wind_mode_book.png",
+    "ultimate-lifeform": "/img/renders/stone_mask_aja.png",
+    "anubis": "/img/anubis.png",
+    "fates": "/img/wiki/fates.png",
+    "disciplines": "/img/wiki/disciplines.png",
+    "fortunes": "/img/wiki/fortunes.png",
+    "traits": "/img/wiki/traits.png",
+    "fate": "/img/wiki/fate.png",
+    "combat": "/img/wiki/combat.png",
+    "status-effects": "/img/wiki/status-effects.png",
+    "accessories": "/img/wiki/accessories.png",
+    "consumables": "/img/wiki/consumables.png",
+    "weapons": "/img/wiki/weapons.png",
+    "items": "/img/wiki/items.png",
+    "willow": "/img/wiki/willow.png"
+  },
+  "roadmap": [
+    {
+      "phase": "Now",
+      "title": "Closed testing",
+      "status": "active",
+      "color": "",
+      "text": "",
+      "cards": [
+        {
+          "title": "Parts 1-3 content",
+          "status": "active",
+          "tag": "",
+          "image": "",
+          "text": ""
+        },
+        {
+          "title": "Supporter early access builds",
+          "status": "active",
+          "tag": "",
+          "image": "",
+          "text": ""
+        },
+        {
+          "title": "Balance and bug fixing",
+          "status": "active",
+          "tag": "",
+          "image": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "phase": "Next",
+      "title": "Public beta",
+      "status": "planned",
+      "color": "",
+      "text": "",
+      "cards": [
+        {
+          "title": "CurseForge and Modrinth release",
+          "status": "planned",
+          "tag": "",
+          "image": "",
+          "text": ""
+        },
+        {
+          "title": "Parts 1-3 content",
+          "status": "planned",
+          "tag": "",
+          "image": "",
+          "text": ""
+        },
+        {
+          "title": "Fabric and NeoForge for 1.21.1",
+          "status": "planned",
+          "tag": "",
+          "image": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "phase": "Later",
+      "title": "Official release",
+      "status": "planned",
+      "color": "",
+      "text": "",
+      "cards": [
+        {
+          "title": "Part 4 content",
+          "status": "planned",
+          "tag": "",
+          "image": "",
+          "text": ""
+        },
+        {
+          "title": "Part 5 content, including Requiem",
+          "status": "planned",
+          "tag": "",
+          "image": "",
+          "text": ""
+        },
+        {
+          "title": "Part 7 content drop",
+          "status": "planned",
+          "tag": "",
+          "image": "",
+          "text": ""
+        },
+        {
+          "title": "More ways to obtain Stands",
+          "status": "planned",
+          "tag": "",
+          "image": "",
+          "text": ""
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "JoJo: Heaven's Arrow",
+      "phase": "Now",
+      "when": "In development",
+      "status": "In development",
+      "logo": "/img/logo.png",
+      "text": "The main mod: Stands, Hamon, vampirism and more for Minecraft 1.21.1."
+    },
+    {
+      "name": "Craft no Yaiba: Hinokami",
+      "phase": "Coming up",
+      "when": "TBA",
+      "status": "Not announced",
+      "logo": "",
+      "text": "An adventurous Vanilla+ Demon Slayer mod."
+    },
+    {
+      "name": "Night City",
+      "phase": "Coming up",
+      "when": "TBA",
+      "status": "Not announced",
+      "logo": "",
+      "text": "A Cyberpunk experience mod dedicated to adding Edgerunners content and more."
+    },
+    {
+      "name": "Nocturne",
+      "phase": "Coming up",
+      "when": "TBA",
+      "status": "Not announced",
+      "logo": "",
+      "text": "A faction-based dark fantasy mod revolving around numerous fantastical races including Vampires, Werewolves, Witches and Pixies."
+    }
+  ],
+  "staff": [
+    {
+      "name": "Gumel",
+      "role": "Lead developer",
+      "avatar": "",
+      "group": "Development"
+    }
+  ],
+  "commands": [
+    {
+      "name": "/guide",
+      "text": "The same wiki pages as this site, inside Discord."
+    },
+    {
+      "name": "/faq",
+      "text": "Answers to common questions."
+    },
+    {
+      "name": "/link",
+      "text": "Get a code to link your Minecraft account."
+    },
+    {
+      "name": "/perks",
+      "text": "See your supporter perks, or what you would get."
+    },
+    {
+      "name": "/aura set",
+      "text": "Pick your Stand aura color as a supporter."
+    }
+  ],
+  "supporters": {
+    "title": "Link your account",
+    "text": "Ko-fi members get supporter-only Stand skins, a custom Stand aura color and early access.",
+    "steps": [
+      {
+        "title": "Get a code",
+        "text": "Run `/link` in the server. The bot sends you an 8-letter code that lasts 10 minutes."
+      },
+      {
+        "title": "Enter it in game",
+        "text": "Run `/supporter link <code>` in Minecraft."
+      },
+      {
+        "title": "Check your perks",
+        "text": "Run `/supporter` in game or `/perks` in Discord."
+      }
+    ]
+  },
+  "blog": [
+    {
+      "slug": "website-launch",
+      "title": "The website is live",
+      "date": "2026-10-23",
+      "author": "Gumel",
+      "summary": "Wiki, FAQ, roadmap and news for JoJo: Heaven's Arrow, all in one place.",
+      "body": "The JoJo: Heaven's Arrow website is now live.\n\n- **Wiki** pages match the guide in our Discord server\n- **FAQ** answers update whenever staff edit them in Discord\n- **Roadmap** shows what is coming next\n\nJoin the Discord server for sneak peeks and announcements."
+    }
+  ],
+  "gallery": [],
+  "homeLinks": [
+    {
+      "title": "Wiki",
+      "text": "How every system works",
+      "icon": "/img/wiki/combat.png",
+      "link": "/wiki"
+    },
+    {
+      "title": "Stands",
+      "text": "Moves and stats for each Stand",
+      "icon": "/img/star_platinum.png",
+      "link": "/stands"
+    },
+    {
+      "title": "Support the mod",
+      "text": "Membership tiers and perks",
+      "icon": "/img/heavens_arrow.png",
+      "link": "/support"
+    },
+    {
+      "title": "FAQ",
+      "text": "Common questions answered",
+      "icon": "/img/hermit_path_hamon_book.png",
+      "link": "/faq"
+    },
+    {
+      "title": "Projects",
+      "text": "Everything we have made",
+      "icon": "/img/stone_mask.png",
+      "link": "/projects"
+    },
+    {
+      "title": "Staff",
+      "text": "The people behind the mod",
+      "icon": "/img/hermit_purple.png",
+      "link": "/staff"
+    }
+  ],
+  "support": {
+    "revision": 2,
+    "inGameTitle": "Standard and above get in game",
+    "inGame": [
+      "Supporter-only Stand skins",
+      "A custom Stand aura color",
+      "Early access development builds"
+    ],
+    "tiers": [
+      {
+        "name": "Tip",
+        "price": "$5",
+        "period": "per month",
+        "logo": "/img/tiers/tier_1.webp",
+        "color": "#b07a3a",
+        "featured": false,
+        "link": "",
+        "perks": [
+          "Exclusive supporter polls",
+          "Supporter-only development updates and sneak peeks",
+          "Vote on future mod content",
+          "Exclusive supporter role"
+        ],
+        "extras": []
+      },
+      {
+        "name": "Light",
+        "price": "$10",
+        "period": "per month",
+        "logo": "/img/tiers/tier_1.webp",
+        "color": "#c98a3c",
+        "featured": false,
+        "link": "",
+        "perks": [
+          "Everything in Tip",
+          "Early previews of upcoming content",
+          "Exclusive supporter chat channel",
+          "Behind-the-scenes development content"
+        ],
+        "extras": []
+      },
+      {
+        "name": "Standard",
+        "price": "$15",
+        "period": "per month",
+        "logo": "/img/tiers/tier_2.webp",
+        "color": "#e0a94a",
+        "featured": true,
+        "link": "",
+        "perks": [
+          "Everything in Light",
+          "Exclusive Stand skins, Stand auras and in-game cosmetics",
+          "Early access to development builds",
+          "Submit ideas for future cosmetics and features",
+          "Supporter feedback channels"
+        ],
+        "extras": []
+      },
+      {
+        "name": "King",
+        "price": "$20",
+        "period": "per month",
+        "logo": "/img/tiers/tier_2.webp",
+        "color": "#eab84a",
+        "featured": false,
+        "link": "",
+        "perks": [
+          "Everything in Standard",
+          "Higher priority for your feedback",
+          "Advanced previews of upcoming features",
+          "Special King supporter role",
+          "Priority consideration for suggestions"
+        ],
+        "extras": []
+      },
+      {
+        "name": "Mafia",
+        "price": "$25",
+        "period": "per month",
+        "logo": "/img/tiers/tier_3.webp",
+        "color": "#f0c046",
+        "featured": false,
+        "link": "",
+        "perks": [
+          "Everything in King",
+          "Invitations to occasional closed playtests",
+          "Priority for detailed feedback and bug reports",
+          "Special supporter recognition"
+        ],
+        "extras": []
+      },
+      {
+        "name": "Ultimate",
+        "price": "$30",
+        "period": "per month",
+        "logo": "/img/tiers/tier_3.webp",
+        "color": "#f6c744",
+        "featured": false,
+        "link": "",
+        "perks": [
+          "Everything in Mafia",
+          "Highest priority for reviewing suggestions",
+          "Invitations to exclusive development discussions",
+          "Credits on the mod's supporter wall",
+          "Ultimate supporter role and recognition"
+        ],
+        "extras": []
+      }
+    ]
+  },
+  "wikiGroups": [
+    {
+      "label": "Getting powers",
+      "pages": [
+        "stands",
+        "hamon",
+        "vampire",
+        "pillar-man",
+        "ultimate-lifeform",
+        "anubis"
+      ]
+    },
+    {
+      "label": "How the game works",
+      "pages": [
+        "fates",
+        "disciplines",
+        "fortunes",
+        "traits",
+        "fate",
+        "combat",
+        "status-effects"
+      ]
+    },
+    {
+      "label": "Items and gear",
+      "pages": [
+        "accessories",
+        "weapons",
+        "consumables",
+        "items",
+        "willow"
+      ]
+    }
+  ]
+}

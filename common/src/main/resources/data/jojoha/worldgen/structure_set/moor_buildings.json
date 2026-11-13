@@ -1,0 +1,26 @@
+{
+  "structures": [
+    {
+      "structure": "jojoha:bloodied_farmhouse",
+      "weight": 3
+    },
+    {
+      "structure": "jojoha:bird_house",
+      "weight": 3
+    },
+    {
+      "structure": "jojoha:little_castle",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 10,
+    "separation": 4,
+    "salt": 902341177,
+    "exclusion_zone": {
+      "other_set": "jojoha:willow_house",
+      "chunk_count": 4
+    }
+  }
+}

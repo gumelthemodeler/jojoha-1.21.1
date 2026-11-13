@@ -1,0 +1,22 @@
+{
+    "vertex": "jojoha_timestop",
+    "fragment": "jojoha_timestop",
+    "samplers": [
+        { "name": "DiffuseSampler" },
+        { "name": "DepthSampler" },
+        { "name": "FreeMaskSampler" },
+        { "name": "FreeDepthSampler" }
+    ],
+    "uniforms": [
+        { "name":"InverseTransform", "type":"matrix4x4", "count":16, "values":[1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1] },
+        { "name":"ForwardTransform", "type":"matrix4x4", "count":16, "values":[1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1] },
+        { "name":"SphereCentre", "type":"float", "count":3, "values":[0,0,0] },
+        { "name":"Field", "type":"float", "count":4, "values":[0,0,0,0] },
+        { "name":"Inner", "type":"float", "count":4, "values":[0,0,0,0] },
+        { "name":"Grade", "type":"float", "count":4, "values":[0,1,0,0] },
+        { "name":"Lens", "type":"float", "count":4, "values":[0,0,0,0] },
+        { "name":"Shake", "type":"float", "count":4, "values":[0,0,0,0] },
+        { "name":"SkyDistance", "type":"float", "count":1, "values":[0] },
+        { "name":"FreeMask", "type":"float", "count":1, "values":[0] }
+    ]
+}

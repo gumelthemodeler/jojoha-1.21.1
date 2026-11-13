@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.jojoha.part3.a_fair_trade.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "jojoha:meteor_map"
+    },
+    "title": {
+      "translate": "advancements.jojoha.part3.a_fair_trade.title"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "granted"
+    ]
+  ],
+  "sends_telemetry_event": false,
+  "parent": "jojoha:part3/a_woman_in_the_wilds"
+}

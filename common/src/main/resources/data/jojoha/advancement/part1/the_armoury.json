@@ -1,0 +1,84 @@
+{
+  "criteria": {
+    "dagger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jojoha:dagger_wooden",
+              "jojoha:dagger_stone",
+              "jojoha:dagger_iron",
+              "jojoha:dagger_gold",
+              "jojoha:dagger_diamond",
+              "jojoha:dagger_netherite",
+              "jojoha:dagger_meteorite"
+            ]
+          }
+        ]
+      }
+    },
+    "rapier": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jojoha:wooden_rapier",
+              "jojoha:stone_rapier",
+              "jojoha:iron_rapier",
+              "jojoha:gold_rapier",
+              "jojoha:diamond_rapier",
+              "jojoha:netherite_rapier",
+              "jojoha:meteorite_rapier"
+            ]
+          }
+        ]
+      }
+    },
+    "sabre": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jojoha:wooden_sabre",
+              "jojoha:stone_sabre",
+              "jojoha:iron_sabre",
+              "jojoha:gold_sabre",
+              "jojoha:diamond_sabre",
+              "jojoha:netherite_sabre",
+              "jojoha:meteorite_sabre"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.jojoha.part1.the_armoury.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "jojoha:diamond_sabre"
+    },
+    "title": {
+      "translate": "advancements.jojoha.part1.the_armoury.title"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "dagger"
+    ],
+    [
+      "rapier"
+    ],
+    [
+      "sabre"
+    ]
+  ],
+  "sends_telemetry_event": false,
+  "parent": "jojoha:part1/a_soldiers_edge"
+}

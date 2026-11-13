@@ -1,0 +1,136 @@
+{
+  "components": [
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_base_icon.png",
+      "x": 0,
+      "y": 0,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/icons/stand/shared/moves/stand_pilot_icon.png",
+      "x": 1,
+      "y": 1,
+      "width": 19,
+      "height": 19,
+      "texture_width": 19,
+      "texture_height": 19
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_icon_frame.png",
+      "x": 0,
+      "y": 0,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Pilot",
+      "x": 25,
+      "y": 1,
+      "max_width": 91,
+      "color": "116466"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(warn)Long-range",
+      "x": 25,
+      "y": 10,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(warn)Stands.",
+      "x": 25,
+      "y": 19,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Sends the Stand out",
+      "x": 0,
+      "y": 28,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:text",
+      "text": "to steer directly while",
+      "x": 0,
+      "y": 37,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:text",
+      "text": "your body waits.",
+      "x": 0,
+      "y": 46,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_base_icon.png",
+      "x": 0,
+      "y": 61,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/icons/stand/utility/stand_utility_return_icon.png",
+      "x": 1,
+      "y": 62,
+      "width": 19,
+      "height": 19,
+      "texture_width": 19,
+      "texture_height": 19
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_icon_frame.png",
+      "x": 0,
+      "y": 61,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Return",
+      "x": 25,
+      "y": 62,
+      "max_width": 91,
+      "color": "116466"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Calls the Stand",
+      "x": 25,
+      "y": 71,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "back from",
+      "x": 25,
+      "y": 80,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "wherever it is.",
+      "x": 0,
+      "y": 89,
+      "max_width": 116
+    }
+  ]
+}

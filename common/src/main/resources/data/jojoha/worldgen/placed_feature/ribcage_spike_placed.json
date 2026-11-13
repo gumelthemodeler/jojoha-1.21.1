@@ -1,0 +1,23 @@
+{
+  "feature": "jojoha:bonelands_spike",
+  "placement": [
+    {
+      "type": "jojoha:spaced_grid",
+      "spacing": 14,
+      "min_distance": 10,
+      "density": 0.8,
+      "clump": 1
+    },
+    {
+      "type": "minecraft:surface_water_depth_filter",
+      "max_water_depth": 0
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

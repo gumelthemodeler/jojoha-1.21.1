@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "jojoha:block/skeleton_rock_ornate_bricks",
+    "side": "jojoha:block/skeleton_rock_ornate_bricks",
+    "top": "jojoha:block/skeleton_rock_ornate_bricks"
+  }
+}

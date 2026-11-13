@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "jojoha:block/labyrinth_door",
+    "north": "jojoha:block/labyrinth_door_key_slot",
+    "south": "jojoha:block/labyrinth_door_key_slot",
+    "east": "jojoha:block/labyrinth_door",
+    "west": "jojoha:block/labyrinth_door",
+    "up": "jojoha:block/labyrinth_door",
+    "down": "jojoha:block/labyrinth_door"
+  }
+}

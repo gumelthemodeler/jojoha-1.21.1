@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jojoha:meteorite_helmet",
+              "jojoha:meteorite_chestplate",
+              "jojoha:meteorite_leggings",
+              "jojoha:meteorite_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.jojoha.part3.star_plate.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "jojoha:meteorite_chestplate"
+    },
+    "title": {
+      "translate": "advancements.jojoha.part3.star_plate.title"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "granted"
+    ]
+  ],
+  "sends_telemetry_event": false,
+  "parent": "jojoha:part3/refined"
+}

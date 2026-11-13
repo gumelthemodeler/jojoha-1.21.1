@@ -1,0 +1,23 @@
+{
+  "feature": "jojoha:ancient_ruins",
+  "placement": [
+    {
+      "type": "jojoha:spaced_grid",
+      "spacing": 112,
+      "min_distance": 80,
+      "density": 0.65,
+      "clump": 1
+    },
+    {
+      "type": "minecraft:surface_water_depth_filter",
+      "max_water_depth": 0
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

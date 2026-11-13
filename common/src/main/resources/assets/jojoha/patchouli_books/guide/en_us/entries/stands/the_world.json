@@ -1,0 +1,27 @@
+{
+  "name": "The World",
+  "icon": "minecraft:clock",
+  "category": "jojoha:stands",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A brawler that rules stopped time.$(br2)$(bold)Range$(): close$(br)$(bold)Type$(): $(l:stands/types)Brawler$()$(br2)It also knows the $(l:stands/shared)shared moves$(), with $(move)Kick Flurry$() in place of Barrage and $(move)Beatdown$() in place of Grab."
+    },
+    {
+      "type": "jojoha:moves/the_world_1"
+    },
+    {
+      "type": "jojoha:moves/the_world_2"
+    },
+    {
+      "type": "jojoha:moves/the_world_3"
+    },
+    {
+      "type": "jojoha:moves/the_world_4"
+    },
+    {
+      "type": "jojoha:moves/the_world_5"
+    }
+  ]
+}

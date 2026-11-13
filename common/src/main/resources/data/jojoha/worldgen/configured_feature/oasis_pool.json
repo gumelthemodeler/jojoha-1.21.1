@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:waterlogged_vegetation_patch",
+  "config": {
+    "replaceable": "#jojoha:oasis_ground",
+    "ground_state": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:sand"
+      }
+    },
+    "vegetation_feature": "jojoha:bog_waterlily_placed",
+    "surface": "floor",
+    "depth": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 1,
+      "max_inclusive": 3
+    },
+    "extra_bottom_block_chance": 0,
+    "vertical_range": 5,
+    "vegetation_chance": 0,
+    "xz_radius": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 3,
+      "max_inclusive": 6
+    },
+    "extra_edge_column_chance": 0.6
+  }
+}

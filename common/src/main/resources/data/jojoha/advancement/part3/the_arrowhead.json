@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jojoha:ancient_arrowhead"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.jojoha.part3.the_arrowhead.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "jojoha:ancient_arrowhead"
+    },
+    "title": {
+      "translate": "advancements.jojoha.part3.the_arrowhead.title"
+    }
+  },
+  "requirements": [
+    [
+      "granted"
+    ]
+  ],
+  "sends_telemetry_event": false,
+  "parent": "jojoha:part3/root"
+}

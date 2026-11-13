@@ -1,0 +1,21 @@
+{
+  "name": "Three Powers",
+  "icon": "minecraft:book",
+  "category": "jojoha:basics",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "There are three kinds of power to get.$(br2)$(l:stands/arrows)Stands$() come from $(item)Stand Arrows$(). $(l:hamon/learning)Hamon$() is a breathing technique learned from books. $(l:vampirism/stone_mask)Vampirism$() comes from the $(item)Stone Mask$(), and $(warn)sunlight kills you$()."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Each one gets stronger as you use it, and so do your own stats: see $(l:basics/stats)Your Stats$().$(br2)$(warn)Vampires can't learn from Path Books$(), and a vampire who uses Hamon is torn apart by it."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Colours",
+      "text": "Coloured words mark what matters:$(li)$(item)Items$() to find or use$(li)$(move)Moves$() and passives$(li)$(place)Places$() to look$(li)$(num)Numbers$()$(li)$(warn)Requirements$() and dangers$(li)$(l:basics/stats)Blue$() words open another page"
+    }
+  ]
+}

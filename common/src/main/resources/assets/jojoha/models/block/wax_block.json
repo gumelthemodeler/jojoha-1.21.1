@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "jojoha:block/wax_block_top",
+    "side": "jojoha:block/wax_block_side"
+  }
+}

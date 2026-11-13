@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "half=lower,variant=0": {
+      "model": "jojoha:block/phantom_tall_grass_bottom"
+    },
+    "half=upper,variant=0": {
+      "model": "jojoha:block/phantom_tall_grass_top"
+    },
+    "half=lower,variant=1": {
+      "model": "jojoha:block/phantom_tall_grass_bottom_variant"
+    },
+    "half=upper,variant=1": {
+      "model": "jojoha:block/phantom_tall_grass_top_variant"
+    }
+  }
+}

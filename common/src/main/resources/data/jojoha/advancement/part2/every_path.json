@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.jojoha.part2.every_path.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "jojoha:path_scroll"
+    },
+    "title": {
+      "translate": "advancements.jojoha.part2.every_path.title"
+    },
+    "frame": "challenge"
+  },
+  "requirements": [
+    [
+      "granted"
+    ]
+  ],
+  "sends_telemetry_event": false,
+  "parent": "jojoha:part2/path_hermit"
+}

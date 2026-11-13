@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:spawner",
+    "minecraft:trial_spawner",
+    "minecraft:vault",
+    "minecraft:end_portal_frame",
+    "minecraft:beacon",
+    "minecraft:conduit",
+    "minecraft:enchanting_table",
+    "minecraft:bell",
+    "minecraft:lodestone",
+    "minecraft:chest",
+    "minecraft:trapped_chest",
+    "minecraft:barrel",
+    "minecraft:ender_chest",
+    "minecraft:decorated_pot",
+    "minecraft:suspicious_sand",
+    "minecraft:suspicious_gravel",
+    "minecraft:sculk_catalyst"
+  ]
+}

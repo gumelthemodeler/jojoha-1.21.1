@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "jojoha:stun",
+    "jojoha:bleed",
+    "jojoha:burning",
+    "jojoha:tangled",
+    "jojoha:trembling",
+    "jojoha:guard_break"
+  ]
+}

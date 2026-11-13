@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JoJo: Heaven's Arrow</title>
+  <meta name="description" content="A JoJo's Bizarre Adventure combat mod for Minecraft 1.21.1 on Fabric and NeoForge.">
+  <link rel="icon" href="/img/heavens_arrow.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="top">
+    <div class="top-inner">
+      <a class="brand" href="/" data-link>
+        <img src="/img/heavens_arrow.png" alt="" class="brand-icon">
+        <span class="brand-text">HEAVEN'S ARROW</span>
+      </a>
+      <nav class="nav">
+        <a href="/wiki" data-link>Wiki</a>
+        <a href="/stands" data-link>Stands</a>
+        <a href="/roadmap" data-link>Roadmap</a>
+        <a href="/blog" data-link>Blog</a>
+        <a href="/faq" data-link>FAQ</a>
+        <a href="/staff" data-link>Staff</a>
+        <a href="/discord" data-link>Discord</a>
+        <a href="/support" data-link class="nav-support">Become a Supporter</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      <a class="top-cta" href="/discord" data-link data-invite>Join Discord</a>
+      <div class="account" hidden>
+        <button type="button" class="account-btn" aria-haspopup="true" aria-expanded="false"><img class="account-avatar" src="/img/heavens_arrow.png" alt=""><span class="account-name"></span></button>
+        <div class="account-menu" hidden>
+          <div class="account-head">Signed in as <b class="account-name"></b></div>
+          <a href="/admin">Admin panel</a>
+          <button type="button" data-signout>Sign out</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main id="app"></main>
+  <footer class="foot">
+    <div class="frame foot-inner">
+      <div class="foot-brand">
+        <img src="/img/logo.png" alt="JoJo: Heaven's Arrow" class="foot-logo">
+        <p>A fan-made mod. Not affiliated with Mojang, Microsoft, Hirohiko Araki, Shueisha or David Production.</p>
+      </div>
+      <div class="foot-cols">
+        <div><h4>Mod</h4><a href="/wiki" data-link>Wiki</a><a href="/stands" data-link>Stands</a><a href="/roadmap" data-link>Roadmap</a><a href="/projects" data-link>Projects</a></div>
+        <div><h4>Community</h4><a href="/discord" data-link>Discord</a><a href="/support" data-link>Become a Supporter</a><a href="/blog" data-link>Blog</a><a href="/faq" data-link>FAQ</a><a href="/staff" data-link>Staff</a><a href="/auth/login" class="staff-signin">Staff sign in</a></div>
+        <div class="kofi-col" hidden><h4>Support</h4><a href="#" class="kofi-link" target="_blank" rel="noopener">Ko-fi</a></div>
+      </div>
+    </div>
+  </footer>
+  <script src="/app.js" type="module"></script>
+</body>
+</html>

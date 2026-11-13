@@ -1,0 +1,16 @@
+{
+  "name": "Using a Stand",
+  "icon": "minecraft:shield",
+  "category": "jojoha:stands",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Press $(k:jojoha.summon_stand) to call your Stand out or send it back. Hold it to change stance.$(br2)$(k:jojoha.skill_modifier) with $(k:jojoha.summon_stand) switches between the whole Stand and just its arms."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Its moves sit on $(k:jojoha.stand_skill_1) to $(k:jojoha.stand_skill_4), and the same keys with $(k:jojoha.skill_modifier).$(br2)Moves cost Stand energy. $(warn)Run it dry and your Stand fades$() until it gathers itself again.$(br2)Only Stands can hurt Stands, and $(warn)what a Stand takes, its user feels$()."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "jojoha:orphanage",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 18,
+    "separation": 7,
+    "salt": 1730561942,
+    "exclusion_zone": {
+      "other_set": "jojoha:willow_house",
+      "chunk_count": 4
+    }
+  }
+}

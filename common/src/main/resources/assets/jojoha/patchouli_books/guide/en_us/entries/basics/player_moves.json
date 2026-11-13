@@ -1,0 +1,30 @@
+{
+  "name": "Bare Hands",
+  "icon": "minecraft:iron_chestplate",
+  "category": "jojoha:basics",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Player tree needs no Stand, no Hamon and no mask.$(br2)Its passives grow with your own stats.$(br2)When two barrages meet, $(warn)mash attack$() to break through before you are overpowered."
+    },
+    {
+      "type": "jojoha:moves/player_1"
+    },
+    {
+      "type": "jojoha:moves/player_2"
+    },
+    {
+      "type": "jojoha:moves/player_3"
+    },
+    {
+      "type": "jojoha:moves/player_4"
+    },
+    {
+      "type": "jojoha:moves/player_5"
+    },
+    {
+      "type": "jojoha:moves/player_6"
+    }
+  ]
+}

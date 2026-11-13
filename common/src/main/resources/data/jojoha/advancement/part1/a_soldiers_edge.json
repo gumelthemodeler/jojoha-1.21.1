@@ -1,0 +1,41 @@
+{
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jojoha:wooden_sabre",
+              "jojoha:stone_sabre",
+              "jojoha:iron_sabre",
+              "jojoha:gold_sabre",
+              "jojoha:diamond_sabre",
+              "jojoha:netherite_sabre",
+              "jojoha:meteorite_sabre"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.jojoha.part1.a_soldiers_edge.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "jojoha:iron_sabre"
+    },
+    "title": {
+      "translate": "advancements.jojoha.part1.a_soldiers_edge.title"
+    }
+  },
+  "requirements": [
+    [
+      "granted"
+    ]
+  ],
+  "sends_telemetry_event": false,
+  "parent": "jojoha:part1/root"
+}

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Admin · JoJo: Heaven's Arrow</title>
+  <link rel="icon" href="/img/heavens_arrow.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/admin.css">
+</head>
+<body>
+  <header class="top">
+    <div class="top-inner">
+      <a class="brand" href="/admin">
+        <img src="/img/heavens_arrow.png" alt="" class="brand-icon">
+        <span class="brand-text">ADMIN</span>
+      </a>
+      <div class="admin-user" hidden>
+        <span class="who"></span>
+        <a href="/" target="_blank" rel="noopener">View site</a>
+        <button type="button" class="signout">Sign out</button>
+      </div>
+    </div>
+  </header>
+  <main id="admin"></main>
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="/admin.js" type="module"></script>
+</body>
+</html>

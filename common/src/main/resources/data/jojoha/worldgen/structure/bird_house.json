@@ -1,0 +1,16 @@
+{
+  "type": "jojoha:surface_template",
+  "biomes": "#jojoha:has_structure/moor_buildings",
+  "spawn_overrides": {},
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "template": "jojoha:bird_house",
+  "flatness": 5,
+  "sink": 1,
+  "avoid": [
+    {
+      "set": "jojoha:ogre_street",
+      "chunks": 8
+    }
+  ]
+}

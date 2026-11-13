@@ -1,0 +1,29 @@
+{
+  "type": "jojoha:template_scatter",
+  "config": {
+    "templates": [
+      {
+        "template": "jojoha:ruins1",
+        "sink": 1
+      },
+      {
+        "template": "jojoha:ruins2",
+        "sink": 1
+      },
+      {
+        "template": "jojoha:ruins3",
+        "sink": 1
+      },
+      {
+        "template": "jojoha:ruins4",
+        "sink": 1
+      },
+      {
+        "template": "jojoha:ruins5",
+        "sink": 1
+      }
+    ],
+    "flatness": 6,
+    "loot": "jojoha:chests/ancient_ruins"
+  }
+}

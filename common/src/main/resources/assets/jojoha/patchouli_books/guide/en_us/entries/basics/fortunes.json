@@ -1,0 +1,52 @@
+{
+  "name": "Fortunes",
+  "icon": "minecraft:rabbit_foot",
+  "category": "jojoha:basics",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Everyone is born with a $(bold)Fortune$(), drawn when you first join. $(l:world/dreamer)Fate$() can draw it again.$(br2)The ten: Wicked, Lucky, Bizarre, Honorbound, Cursed, Idealogue, Trickster, Kindred, Gambler, Devout. Hover yourself in the menu to read yours."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Wicked",
+      "text": "Animals and villagers flee you; hostile mobs that come near you start Trembling, slowed for a moment, at most once every $(num)30$() seconds each.$(br2)Players near you feel their sight dim."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Lucky",
+      "text": "$(num)+1$() Luck, better Stand Arrow odds, and Equalizer Crystals roll twice.$(br2)Every Lucky player has a phobia. $(warn)Tetraphobia$(): fours break your luck. $(warn)Superstition$(): Stands, the undead and lightning do."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Bizarre",
+      "text": "Four mismatched armour pieces or a full JoJo set make you $(bold)Charismatic$(): Luck and speed near players, and cheaper trades.$(br2)Whispers tell of meteors, structures and Stand users. Chests you loot may hold $(item)something extra$()."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Honorbound",
+      "text": "Fair fights earn Honor; healing, pearls, stalling and back-shots lose it.$(br2)Above $(num)75$(): $(num)+1$() melee damage. Below $(num)25$(): $(num)-1$().$(br2)A beaten opponent gets one second wind."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Trickster",
+      "text": "You see a move's icon over anyone who aims it at you, before it lands. Your throws stun, and your parry window is a tick longer.$(br2)Your first $(num)3$() melee hits in a fight deal $(num)20%$() less, unless you parry, dodge or land a throw first."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Kindred",
+      "text": "Animals never flee you. Sneak beside a tameable animal for $(num)3$() seconds and it is yours. Your pets gain Strength while your Stand is out.$(br2)$(warn)Hurting$() a passive animal Weakens you; killing one makes your sight shudder for a day."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Gambler",
+      "text": "Sneak while using a Crystal or Stand Arrow, or opening an unlooted chest bare-handed, to call $(bold)double or nothing$().$(br2)Sneak-use a player and name any stake in chat. They bet an item: win it, or fall and owe your word."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Devout",
+      "text": "Fate visits more often; wishes cost a quarter less.$(br2)Below $(num)30%$() health, sneak and hold still to count primes and shake off Weakness, Slowness and Nausea.$(br2)Killing a villager lights a $(warn)guilt candle$() that raises prices."
+    }
+  ]
+}

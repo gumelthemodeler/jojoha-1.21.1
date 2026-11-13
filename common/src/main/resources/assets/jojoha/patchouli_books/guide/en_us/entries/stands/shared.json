@@ -1,0 +1,21 @@
+{
+  "name": "What Most Stands Know",
+  "icon": "minecraft:iron_sword",
+  "category": "jojoha:stands",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Most Stands with a body learn these on top of their own moves.$(br2)A few swap one out for a version of their own. Their pages say which."
+    },
+    {
+      "type": "jojoha:moves/shared_1"
+    },
+    {
+      "type": "jojoha:moves/shared_2"
+    },
+    {
+      "type": "jojoha:moves/shared_3"
+    }
+  ]
+}

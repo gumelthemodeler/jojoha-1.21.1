@@ -1,0 +1,81 @@
+{
+  "parent": "jojoha:part3/star_plate",
+  "criteria": {
+    "helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jojoha:meteorite_helmet"
+            ]
+          }
+        ]
+      }
+    },
+    "chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jojoha:meteorite_chestplate"
+            ]
+          }
+        ]
+      }
+    },
+    "leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jojoha:meteorite_leggings"
+            ]
+          }
+        ]
+      }
+    },
+    "boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jojoha:meteorite_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "helmet"
+    ],
+    [
+      "chestplate"
+    ],
+    [
+      "leggings"
+    ],
+    [
+      "boots"
+    ]
+  ],
+  "display": {
+    "description": {
+      "translate": "advancements.jojoha.part3.the_whole_set.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "jojoha:meteorite_helmet"
+    },
+    "title": {
+      "translate": "advancements.jojoha.part3.the_whole_set.title"
+    },
+    "frame": "challenge"
+  },
+  "sends_telemetry_event": false
+}

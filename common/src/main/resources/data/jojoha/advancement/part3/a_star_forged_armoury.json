@@ -1,0 +1,57 @@
+{
+  "criteria": {
+    "dagger": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "jojoha:dagger_meteorite_smithing"
+      }
+    },
+    "rapier": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "jojoha:meteorite_rapier_smithing"
+      }
+    },
+    "sabre": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "jojoha:meteorite_sabre_smithing"
+      }
+    },
+    "scythe": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "jojoha:meteorite_scythe_smithing"
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.jojoha.part3.a_star_forged_armoury.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "jojoha:meteorite_scythe"
+    },
+    "title": {
+      "translate": "advancements.jojoha.part3.a_star_forged_armoury.title"
+    },
+    "frame": "challenge"
+  },
+  "requirements": [
+    [
+      "dagger"
+    ],
+    [
+      "rapier"
+    ],
+    [
+      "sabre"
+    ],
+    [
+      "scythe"
+    ]
+  ],
+  "sends_telemetry_event": false,
+  "parent": "jojoha:part3/star_scythe"
+}

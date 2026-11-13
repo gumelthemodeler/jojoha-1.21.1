@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "jojoha:block/bone_bundle_block_top",
+    "side": "jojoha:block/bone_bundle_block_side"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "sound_event": "jojoha:music_disc.stardust_crusaders",
+  "description": {
+    "translate": "jukebox_song.jojoha.stardust_crusaders"
+  },
+  "length_in_seconds": 309,
+  "comparator_output": 10
+}

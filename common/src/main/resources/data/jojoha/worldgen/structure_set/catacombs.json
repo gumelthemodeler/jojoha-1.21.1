@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "jojoha:catacombs",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 22,
+    "separation": 12,
+    "salt": 734092118
+  }
+}

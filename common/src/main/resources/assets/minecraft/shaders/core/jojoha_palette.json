@@ -1,0 +1,11 @@
+{
+    "vertex": "jojoha_palette",
+    "fragment": "jojoha_palette",
+    "samplers": [
+        { "name": "DiffuseSampler" },
+        { "name": "PaletteSampler" }
+    ],
+    "uniforms": [
+        { "name": "Swap", "type": "float", "count": 4, "values": [ 0.0, 0.0, 0.0, 0.0 ] }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "jojoha:block/ashy_rockland_stone_bricks_mossy"
+  }
+}

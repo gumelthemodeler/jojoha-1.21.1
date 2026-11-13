@@ -1,0 +1,74 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/paper"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "jojoha:hamon_path": 0.0625
+      },
+      "model": "jojoha:item/hermit_path_hamon_book"
+    },
+    {
+      "predicate": {
+        "jojoha:hamon_path": 0.125
+      },
+      "model": "jojoha:item/warrior_path_hamon_book"
+    },
+    {
+      "predicate": {
+        "jojoha:hamon_path": 0.1875
+      },
+      "model": "jojoha:item/wisdom_path_hamon_book"
+    },
+    {
+      "predicate": {
+        "jojoha:hamon_path": 0.25
+      },
+      "model": "jojoha:item/defender_path_hamon_book"
+    },
+    {
+      "predicate": {
+        "jojoha:hamon_path": 0.3125
+      },
+      "model": "jojoha:item/envious_path_hamon_book"
+    },
+    {
+      "predicate": {
+        "jojoha:hamon_path": 0.375
+      },
+      "model": "jojoha:item/trickster_path_hamon_book"
+    },
+    {
+      "predicate": {
+        "jojoha:hamon_path": 0.4375
+      },
+      "model": "jojoha:item/prideful_path_hamon_book"
+    },
+    {
+      "predicate": {
+        "jojoha:hamon_path": 0.5
+      },
+      "model": "jojoha:item/stylish_path_hamon_book"
+    },
+    {
+      "predicate": {
+        "jojoha:hamon_path": 0.5625
+      },
+      "model": "jojoha:item/wind_mode_book"
+    },
+    {
+      "predicate": {
+        "jojoha:hamon_path": 0.625
+      },
+      "model": "jojoha:item/heat_mode_book"
+    },
+    {
+      "predicate": {
+        "jojoha:hamon_path": 0.6875
+      },
+      "model": "jojoha:item/light_mode_book"
+    }
+  ]
+}

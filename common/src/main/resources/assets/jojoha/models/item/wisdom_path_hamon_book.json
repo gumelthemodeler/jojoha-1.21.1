@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "jojoha:item/wisdom_path_hamon_book"
+  }
+}

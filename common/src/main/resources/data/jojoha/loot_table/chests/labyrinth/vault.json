@@ -1,0 +1,682 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 3,
+        "max": 5
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:experience_bottle",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:jojo_coin",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:meteorite_ingot",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "jojoha:config_chance",
+          "loot": "stand_arrows",
+          "chance": 0.4
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:stand_arrow",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "jojoha:config_chance",
+          "loot": "stand_arrows",
+          "chance": 0.2
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:fractured_skin_arrow",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "jojoha:config_chance",
+          "loot": "stand_arrows",
+          "chance": 1
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:stand_arrow_shard",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 6
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "jojoha:config_chance",
+          "loot": "requiem_arrow",
+          "chance": 0.04
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:requiem_arrow",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "jojoha:config_chance",
+          "loot": "stone_masks",
+          "chance": 0.4
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:stone_mask",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "jojoha:config_chance",
+          "loot": "stone_masks",
+          "chance": 0.05
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:progenitor_mask",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "jojoha:config_chance",
+          "loot": "stat_crystals",
+          "chance": 0.4
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:stat_crystal",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "jojoha:config_chance",
+          "loot": "accessories",
+          "chance": 1
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:bubble_gloves",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:lisa_scarf",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:star_mirror",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:creative_cube",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:skull_of_fortune",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:warding_charm",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:fractured_shoulder_plate",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:josephs_fingerless_gloves",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:jotaros_chain",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:speedwagons_bowler_hat",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:caesars_headband",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:kakyoin_earring",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:polnareff_earring",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:jotaros_cap",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:sherrys_locket",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:hamon_control_mask",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:ring_of_aja",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:dios_headband",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:wamuus_headdress",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:wedding_ring_of_death",
+          "weight": 4
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "jojoha:config_chance",
+          "loot": "accessories",
+          "chance": 0.5
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:bubble_gloves",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:lisa_scarf",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:star_mirror",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:creative_cube",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:skull_of_fortune",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:warding_charm",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:fractured_shoulder_plate",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:josephs_fingerless_gloves",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:jotaros_chain",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:speedwagons_bowler_hat",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:caesars_headband",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:kakyoin_earring",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:polnareff_earring",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:jotaros_cap",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:sherrys_locket",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:hamon_control_mask",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:ring_of_aja",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:dios_headband",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:wamuus_headdress",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:wedding_ring_of_death",
+          "weight": 4
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "jojoha:config_chance",
+          "loot": "path_scrolls",
+          "chance": 0.8
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:path_scroll",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "jojoha:stamp_path"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "jojoha:config_chance",
+          "loot": "arrowheads",
+          "chance": 0.8
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:ancient_arrowhead",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.2
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:meteorite_tablet",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.2
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:soul_card_jotaro",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:soul_card_kakyoin",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:soul_card_polnareff",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:soul_card_avdol",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:soul_card_joseph",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:soul_card_dio",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:soul_card_zeppeli",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:soul_card_jonathan",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:soul_card_dio_p1",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:soul_card_joseph_p2",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:soul_card_caesar",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.12
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:ancient_bow",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "jojoha:config_chance",
+          "loot": "labyrinth_keys",
+          "chance": 0.12
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:labyrinth_key",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Respawn Totem",
+  "icon": "jojoha:respawn_totem",
+  "category": "jojoha:world",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "jojoha:respawn_totem",
+      "text": "A $(item)Respawn Totem$() sleeps until woken with a $(item)Totem Key$().$(br2)Once woken it will raise you $(num)three times$(), then sleep again. Your bed is left as it was."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "jojoha:totem_key",
+      "text": "Waking a totem uses up the key, unless that totem already holds you.$(br2)Keys turn up in $(l:world/ruins)ancient ruins$(), and $(l:world/willow)Willow$() sells them once she knows you."
+    }
+  ]
+}

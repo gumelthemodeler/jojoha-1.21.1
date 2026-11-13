@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "jojoha:phantom_wood_trapdoor"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "jojoha:phantom_log"
+  }
+}

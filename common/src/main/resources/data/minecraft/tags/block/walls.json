@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "jojoha:phantom_stone_wall",
+    "jojoha:phantom_andesite_wall",
+    "jojoha:phantom_stone_bricks_wall",
+    "jojoha:phantom_stone_bricks_cracked_wall",
+    "jojoha:phantom_stone_bricks_mossy_wall",
+    "jojoha:phantom_village_bricks_wall",
+    "jojoha:ashy_rockland_stone_bricks_wall",
+    "jojoha:ashy_rockland_stone_bricks_cracked_wall",
+    "jojoha:ashy_rockland_stone_bricks_mossy_wall",
+    "jojoha:skeleton_rock_bricks_wall",
+    "jojoha:skeleton_rock_bricks_cracked_wall",
+    "jojoha:skeleton_rock_bricks_mossy_wall",
+    "jojoha:tombstone_bricks_wall",
+    "jojoha:tombstone_bricks_cracked_wall"
+  ]
+}

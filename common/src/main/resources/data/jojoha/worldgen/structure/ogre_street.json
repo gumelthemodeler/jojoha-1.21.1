@@ -1,0 +1,43 @@
+{
+  "type": "jojoha:ogre_street",
+  "biomes": "#jojoha:has_structure/ogre_street",
+  "spawn_overrides": {},
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "homes": [
+    "jojoha:ogre_street/smallhouse1",
+    "jojoha:ogre_street/smallhouse2",
+    "jojoha:ogre_street/smallhouse3",
+    "jojoha:ogre_street/smallhouse4",
+    "jojoha:ogre_street/mediumhouse1",
+    "jojoha:ogre_street/mediumhouse2",
+    "jojoha:ogre_street/bighouse1"
+  ],
+  "shops": [
+    "jojoha:ogre_street/armory1",
+    "jojoha:ogre_street/butcher1",
+    "jojoha:ogre_street/cartographer1",
+    "jojoha:ogre_street/church1",
+    "jojoha:ogre_street/fishmonger1",
+    "jojoha:ogre_street/fletcher1",
+    "jojoha:ogre_street/library1",
+    "jojoha:ogre_street/sheperd1",
+    "jojoha:ogre_street/stonemason1",
+    "jojoha:ogre_street/tannery1"
+  ],
+  "squares": [
+    "jojoha:ogre_street/fountain1",
+    "jojoha:ogre_street/meetingpoint1"
+  ],
+  "lamp": "jojoha:ogre_street/lamp1",
+  "min_buildings": 22,
+  "max_buildings": 36,
+  "chest_loot": "minecraft:chests/village/village_plains_house",
+  "barrel_loot": "jojoha:chests/moor_barrel",
+  "avoid": [
+    {
+      "set": "jojoha:willow_house",
+      "chunks": 6
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "fallback": "jojoha:catacombs/caps",
+  "elements": [
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "jojoha:catacombs/halls/straight",
+        "processors": "jojoha:catacombs",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "jojoha:catacombs/halls/straight_long",
+        "processors": "jojoha:catacombs",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "jojoha:catacombs/halls/passage",
+        "processors": "jojoha:catacombs",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "jojoha:catacombs/halls/corner",
+        "processors": "jojoha:catacombs",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "jojoha:catacombs/halls/t_junction",
+        "processors": "jojoha:catacombs",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "jojoha:catacombs/halls/crossroads",
+        "processors": "jojoha:catacombs",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "jojoha:catacombs/halls/dead_end",
+        "processors": "jojoha:catacombs",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "jojoha:catacombs/halls/stairs_down",
+        "processors": "jojoha:catacombs",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "components": [
+    {
+      "type": "patchouli:header",
+      "text": "Moves",
+      "x": -1,
+      "y": 0
+    },
+    {
+      "type": "patchouli:separator",
+      "x": 0,
+      "y": 10
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_base_icon.png",
+      "x": 0,
+      "y": 18,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/icons/stand/silver_chariot/moves/sword_flurry.png",
+      "x": 1,
+      "y": 19,
+      "width": 19,
+      "height": 19,
+      "texture_width": 19,
+      "texture_height": 19
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_icon_frame.png",
+      "x": 0,
+      "y": 18,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Sword Flurry",
+      "x": 25,
+      "y": 19,
+      "max_width": 91,
+      "color": "116466"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(warn)Replaces",
+      "x": 25,
+      "y": 28,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(warn)Barrage.",
+      "x": 25,
+      "y": 37,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Hold for a stream of",
+      "x": 0,
+      "y": 46,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:text",
+      "text": "rapier thrusts.",
+      "x": 0,
+      "y": 55,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_base_icon.png",
+      "x": 0,
+      "y": 70,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/icons/stand/silver_chariot/moves/balestra.png",
+      "x": 1,
+      "y": 71,
+      "width": 19,
+      "height": 19,
+      "texture_width": 19,
+      "texture_height": 19
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_icon_frame.png",
+      "x": 0,
+      "y": 70,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Balestra",
+      "x": 25,
+      "y": 71,
+      "max_width": 91,
+      "color": "116466"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A lunge up to $(num)6$()",
+      "x": 25,
+      "y": 80,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "blocks. The first",
+      "x": 25,
+      "y": 89,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "thing hit is stunned.",
+      "x": 0,
+      "y": 98,
+      "max_width": 116
+    }
+  ]
+}

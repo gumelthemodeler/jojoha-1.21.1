@@ -1,0 +1,145 @@
+{
+  "components": [
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_base_icon.png",
+      "x": 0,
+      "y": 0,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_icon_frame.png",
+      "x": 0,
+      "y": 0,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Ripple Rebuke",
+      "x": 25,
+      "y": 1,
+      "max_width": 91,
+      "color": "116466"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(warn)Defender Path.",
+      "x": 25,
+      "y": 10,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "For $(num)1$() second,",
+      "x": 25,
+      "y": 19,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "the first blow on you",
+      "x": 0,
+      "y": 28,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:text",
+      "text": "is stopped and its",
+      "x": 0,
+      "y": 37,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:text",
+      "text": "attacker is shocked",
+      "x": 0,
+      "y": 46,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:text",
+      "text": "and thrown back.",
+      "x": 0,
+      "y": 55,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_base_icon.png",
+      "x": 0,
+      "y": 70,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_icon_frame.png",
+      "x": 0,
+      "y": 70,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Youthful",
+      "x": 25,
+      "y": 71,
+      "max_width": 91,
+      "color": "116466"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Breath",
+      "x": 25,
+      "y": 80,
+      "max_width": 91,
+      "color": "116466"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(warn)Envious Path.",
+      "x": 25,
+      "y": 89,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Clears slowness,",
+      "x": 0,
+      "y": 98,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hunger and weakness,",
+      "x": 0,
+      "y": 107,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:text",
+      "text": "then heals you for $(num)5$()",
+      "x": 0,
+      "y": 116,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:text",
+      "text": "seconds.",
+      "x": 0,
+      "y": 125,
+      "max_width": 116
+    }
+  ]
+}

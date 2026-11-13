@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.jojoha.part2.first_breath.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:sunflower"
+    },
+    "title": {
+      "translate": "advancements.jojoha.part2.first_breath.title"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "granted"
+    ]
+  ],
+  "sends_telemetry_event": false,
+  "parent": "jojoha:part2/root"
+}

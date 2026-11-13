@@ -1,0 +1,143 @@
+{
+  "components": [
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_base_icon.png",
+      "x": 0,
+      "y": 0,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/icons/vampire/passives/unbroken.png",
+      "x": 1,
+      "y": 1,
+      "width": 19,
+      "height": 19,
+      "texture_width": 19,
+      "texture_height": 19
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_icon_frame.png",
+      "x": 0,
+      "y": 0,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Unbroken",
+      "x": 25,
+      "y": 1,
+      "max_width": 91,
+      "color": "116466"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "The first $(num)4$()",
+      "x": 25,
+      "y": 10,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hearts of any",
+      "x": 25,
+      "y": 19,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "fall are ignored.",
+      "x": 0,
+      "y": 28,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_base_icon.png",
+      "x": 0,
+      "y": 43,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/icons/vampire/passives/sun_scorch.png",
+      "x": 1,
+      "y": 44,
+      "width": 19,
+      "height": 19,
+      "texture_width": 19,
+      "texture_height": 19
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_icon_frame.png",
+      "x": 0,
+      "y": 43,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Sun Scorch",
+      "x": 25,
+      "y": 44,
+      "max_width": 91,
+      "color": "116466"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(warn)Every vampire",
+      "x": 25,
+      "y": 53,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(warn)has this.",
+      "x": 25,
+      "y": 62,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Daylight burns you",
+      "x": 0,
+      "y": 71,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:text",
+      "text": "after $(num)3$() seconds and",
+      "x": 0,
+      "y": 80,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:text",
+      "text": "kills by $(num)12$(). Shade",
+      "x": 0,
+      "y": 89,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:text",
+      "text": "cools you.",
+      "x": 0,
+      "y": 98,
+      "max_width": 116
+    }
+  ]
+}

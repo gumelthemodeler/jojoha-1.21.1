@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "jojoha:block/biome_grass_long_bottom"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "jojoha:block/meteor_rock_variant"
+  }
+}

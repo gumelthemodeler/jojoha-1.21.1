@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jojoha:stone_mask"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.jojoha.part1.the_mask.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "jojoha:stone_mask"
+    },
+    "title": {
+      "translate": "advancements.jojoha.part1.the_mask.title"
+    }
+  },
+  "requirements": [
+    [
+      "granted"
+    ]
+  ],
+  "sends_telemetry_event": false,
+  "parent": "jojoha:part1/root"
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "jojoha:phantom_stone_bricks_mossy_slab",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "jojoha:phantom_stone_bricks_mossy_slab",
+                  "properties": {
+                    "type": "double"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "jojoha:blocks/phantom_stone_bricks_mossy_slab"
+}

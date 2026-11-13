@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "jojoha:block/sunscorched_sand_1"
+  }
+}

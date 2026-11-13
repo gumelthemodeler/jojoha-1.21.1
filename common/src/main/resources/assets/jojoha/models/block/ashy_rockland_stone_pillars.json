@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "jojoha:block/ashy_rockland_stone_pillars",
+    "side": "jojoha:block/ashy_rockland_stone_pillars"
+  }
+}

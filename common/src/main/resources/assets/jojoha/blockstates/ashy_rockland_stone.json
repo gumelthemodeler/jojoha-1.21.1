@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "jojoha:block/ashy_rockland_stone",
+        "weight": 1
+      },
+      {
+        "model": "jojoha:block/ashy_rockland_stone_variant",
+        "weight": 1
+      }
+    ]
+  }
+}

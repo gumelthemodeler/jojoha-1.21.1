@@ -1,0 +1,58 @@
+{
+  "type": "jojoha:template_scatter",
+  "config": {
+    "templates": [
+      {
+        "template": "jojoha:ruins1",
+        "sink": 3
+      },
+      {
+        "template": "jojoha:ruins2",
+        "sink": 3
+      },
+      {
+        "template": "jojoha:ruins3",
+        "sink": 3
+      },
+      {
+        "template": "jojoha:ruins4",
+        "sink": 3
+      },
+      {
+        "template": "jojoha:ruins5",
+        "sink": 3
+      }
+    ],
+    "flatness": 7,
+    "loot": "jojoha:chests/ancient_ruins",
+    "swaps": {
+      "minecraft:andesite": "minecraft:sandstone",
+      "minecraft:andesite_slab": "minecraft:sandstone_slab",
+      "minecraft:andesite_stairs": "minecraft:sandstone_stairs",
+      "minecraft:andesite_wall": "minecraft:sandstone_wall",
+      "minecraft:cobbled_deepslate": "minecraft:smooth_sandstone",
+      "minecraft:cobbled_deepslate_slab": "minecraft:smooth_sandstone_slab",
+      "minecraft:cobbled_deepslate_stairs": "minecraft:smooth_sandstone_stairs",
+      "minecraft:cobbled_deepslate_wall": "minecraft:sandstone_wall",
+      "minecraft:cobblestone": "minecraft:sandstone",
+      "minecraft:cobblestone_wall": "minecraft:sandstone_wall",
+      "minecraft:deepslate": "minecraft:cut_sandstone",
+      "minecraft:deepslate_brick_wall": "minecraft:red_sandstone_wall",
+      "minecraft:stone_brick_slab": "minecraft:cut_sandstone_slab",
+      "minecraft:stone_brick_stairs": "minecraft:smooth_sandstone_stairs",
+      "minecraft:stone_brick_wall": "minecraft:sandstone_wall",
+      "minecraft:tuff": "minecraft:sandstone",
+      "minecraft:basalt": "minecraft:chiseled_sandstone",
+      "minecraft:smooth_basalt": "minecraft:smooth_sandstone",
+      "minecraft:dead_brain_coral_block": "minecraft:red_sandstone",
+      "minecraft:dead_horn_coral_block": "minecraft:terracotta",
+      "minecraft:dead_tube_coral_block": "minecraft:cut_red_sandstone",
+      "minecraft:spruce_planks": "minecraft:birch_planks",
+      "minecraft:spruce_slab": "minecraft:birch_slab",
+      "minecraft:spruce_stairs": "minecraft:birch_stairs",
+      "minecraft:spruce_trapdoor": "minecraft:birch_trapdoor",
+      "minecraft:spruce_door": "minecraft:birch_door",
+      "minecraft:spruce_fence_gate": "minecraft:birch_fence_gate"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "jojoha:stone_mask"
+    },
+    {
+      "item": "jojoha:red_stone_of_aja"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "jojoha:red_stone_mask"
+  }
+}

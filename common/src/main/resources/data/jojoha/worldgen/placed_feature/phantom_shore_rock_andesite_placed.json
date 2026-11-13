@@ -1,0 +1,171 @@
+{
+  "feature": "jojoha:phantom_boulder_andesite",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 6
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR_WG"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:any_of",
+        "predicates": [
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:water",
+            "offset": [
+              3,
+              0,
+              0
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:water",
+            "offset": [
+              3,
+              -1,
+              0
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:water",
+            "offset": [
+              -3,
+              0,
+              0
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:water",
+            "offset": [
+              -3,
+              -1,
+              0
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:water",
+            "offset": [
+              0,
+              0,
+              3
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:water",
+            "offset": [
+              0,
+              -1,
+              3
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:water",
+            "offset": [
+              0,
+              0,
+              -3
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:water",
+            "offset": [
+              0,
+              -1,
+              -3
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:water",
+            "offset": [
+              2,
+              0,
+              2
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:water",
+            "offset": [
+              2,
+              -1,
+              2
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:water",
+            "offset": [
+              2,
+              0,
+              -2
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:water",
+            "offset": [
+              2,
+              -1,
+              -2
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:water",
+            "offset": [
+              -2,
+              0,
+              2
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:water",
+            "offset": [
+              -2,
+              -1,
+              2
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:water",
+            "offset": [
+              -2,
+              0,
+              -2
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:water",
+            "offset": [
+              -2,
+              -1,
+              -2
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

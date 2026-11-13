@@ -1,0 +1,16 @@
+{
+  "type": "jojoha:template_scatter",
+  "config": {
+    "templates": [
+      {
+        "template": "jojoha:ashy_rockland_jagged_rock",
+        "sink": 1
+      },
+      {
+        "template": "jojoha:ashy_rockland_overpass",
+        "sink": 1
+      }
+    ],
+    "flatness": 4
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jojoha:soul_card_jotaro",
+              "jojoha:soul_card_kakyoin",
+              "jojoha:soul_card_polnareff",
+              "jojoha:soul_card_avdol",
+              "jojoha:soul_card_joseph",
+              "jojoha:soul_card_dio",
+              "jojoha:soul_card_zeppeli",
+              "jojoha:soul_card_jonathan",
+              "jojoha:soul_card_dio_p1",
+              "jojoha:soul_card_joseph_p2",
+              "jojoha:soul_card_caesar"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.jojoha.part3.a_soul_in_a_chip.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "jojoha:soul_card_jotaro"
+    },
+    "title": {
+      "translate": "advancements.jojoha.part3.a_soul_in_a_chip.title"
+    }
+  },
+  "requirements": [
+    [
+      "granted"
+    ]
+  ],
+  "sends_telemetry_event": false,
+  "parent": "jojoha:part3/root"
+}

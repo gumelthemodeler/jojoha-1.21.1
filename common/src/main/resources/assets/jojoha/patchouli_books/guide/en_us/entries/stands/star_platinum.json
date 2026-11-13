@@ -1,0 +1,24 @@
+{
+  "name": "Star Platinum",
+  "icon": "minecraft:nether_star",
+  "category": "jojoha:stands",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A close-range brawler with a precise eye.$(br2)$(bold)Range$(): close$(br)$(bold)Type$(): $(l:stands/types)Brawler$()$(br2)It also knows the $(l:stands/shared)shared moves$().$(br2)Both of its own passives always work."
+    },
+    {
+      "type": "jojoha:moves/star_platinum_1"
+    },
+    {
+      "type": "jojoha:moves/star_platinum_2"
+    },
+    {
+      "type": "jojoha:moves/star_platinum_3"
+    },
+    {
+      "type": "jojoha:moves/star_platinum_4"
+    }
+  ]
+}

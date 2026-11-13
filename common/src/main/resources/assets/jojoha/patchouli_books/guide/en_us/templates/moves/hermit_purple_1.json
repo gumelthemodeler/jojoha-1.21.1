@@ -1,0 +1,147 @@
+{
+  "components": [
+    {
+      "type": "patchouli:header",
+      "text": "Moves",
+      "x": -1,
+      "y": 0
+    },
+    {
+      "type": "patchouli:separator",
+      "x": 0,
+      "y": 10
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_base_icon.png",
+      "x": 0,
+      "y": 18,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/icons/stand/hermit_purple/moves/hermit_purple_grapple_icon.png",
+      "x": 1,
+      "y": 19,
+      "width": 19,
+      "height": 19,
+      "texture_width": 19,
+      "texture_height": 19
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_icon_frame.png",
+      "x": 0,
+      "y": 18,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Hermit Grapple",
+      "x": 25,
+      "y": 19,
+      "max_width": 91,
+      "color": "116466"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A vine that bites",
+      "x": 25,
+      "y": 28,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "into stone and",
+      "x": 25,
+      "y": 37,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "holds you. Jump to",
+      "x": 0,
+      "y": 46,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:text",
+      "text": "climb, sneak to let out",
+      "x": 0,
+      "y": 55,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:text",
+      "text": "slack.",
+      "x": 0,
+      "y": 64,
+      "max_width": 116
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_base_icon.png",
+      "x": 0,
+      "y": 79,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/icons/stand/shared/moves/stand_dash_icon.png",
+      "x": 1,
+      "y": 80,
+      "width": 19,
+      "height": 19,
+      "texture_width": 19,
+      "texture_height": 19
+    },
+    {
+      "type": "patchouli:image",
+      "image": "jojoha:textures/gui/menu/frames/skill_icon_frame.png",
+      "x": 0,
+      "y": 79,
+      "width": 21,
+      "height": 21,
+      "texture_width": 21,
+      "texture_height": 21
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(bold)Stand Dash",
+      "x": 25,
+      "y": 80,
+      "max_width": 91,
+      "color": "116466"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A burst of speed",
+      "x": 25,
+      "y": 89,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "the way you",
+      "x": 25,
+      "y": 98,
+      "max_width": 91
+    },
+    {
+      "type": "patchouli:text",
+      "text": "face.",
+      "x": 0,
+      "y": 107,
+      "max_width": 116
+    }
+  ]
+}

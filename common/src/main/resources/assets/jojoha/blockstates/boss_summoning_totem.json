@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "jojoha:block/boss_summoning_totem"
+    },
+    "lit=true": {
+      "model": "jojoha:block/boss_summoning_totem"
+    }
+  }
+}

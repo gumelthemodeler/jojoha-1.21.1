@@ -1,0 +1,22 @@
+{
+  "type": "jojoha:template_tree",
+  "config": {
+    "trees": [
+      {
+        "template": "jojoha:phantom_tree_1",
+        "trunk_x": 16,
+        "trunk_z": 17
+      },
+      {
+        "template": "jojoha:phantom_tree_2",
+        "trunk_x": 14,
+        "trunk_z": 14
+      },
+      {
+        "template": "jojoha:phantom_tree_3",
+        "trunk_x": 7,
+        "trunk_z": 14
+      }
+    ]
+  }
+}

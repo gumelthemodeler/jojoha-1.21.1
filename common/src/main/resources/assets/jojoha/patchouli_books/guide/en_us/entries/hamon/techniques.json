@@ -1,0 +1,45 @@
+{
+  "name": "Breathing Techniques",
+  "icon": "minecraft:sunflower",
+  "category": "jojoha:hamon",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Techniques cost Hamon energy.$(br2)Some techniques need a path, or gear. See $(l:hamon/learning)Learning Hamon$() and $(l:hamon/gear)Hamon Gear$()."
+    },
+    {
+      "type": "jojoha:moves/hamon_1"
+    },
+    {
+      "type": "jojoha:moves/hamon_2"
+    },
+    {
+      "type": "jojoha:moves/hamon_3"
+    },
+    {
+      "type": "jojoha:moves/hamon_4"
+    },
+    {
+      "type": "jojoha:moves/hamon_5"
+    },
+    {
+      "type": "jojoha:moves/hamon_6"
+    },
+    {
+      "type": "jojoha:moves/hamon_7"
+    },
+    {
+      "type": "jojoha:moves/hamon_8"
+    },
+    {
+      "type": "jojoha:moves/hamon_9"
+    },
+    {
+      "type": "jojoha:moves/hamon_10"
+    },
+    {
+      "type": "jojoha:moves/hamon_11"
+    }
+  ]
+}

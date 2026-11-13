@@ -1,0 +1,21 @@
+{
+  "name": "Stand Types",
+  "icon": "minecraft:compass",
+  "category": "jojoha:stands",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Every Stand has a type: $(bold)Brawler$(), $(bold)Ranged$() or $(bold)Specialist$().$(br2)A type brings two passives of its own. They always work, on top of whatever passives the Stand has itself."
+    },
+    {
+      "type": "jojoha:moves/types_1"
+    },
+    {
+      "type": "jojoha:moves/types_2"
+    },
+    {
+      "type": "jojoha:moves/types_3"
+    }
+  ]
+}

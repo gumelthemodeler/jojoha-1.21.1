@@ -1,0 +1,787 @@
+{
+  "stand_summon": {
+    "sounds": [
+      "jojoha:stand/shared/stand_summon"
+    ]
+  },
+  "stand_dismiss": {
+    "sounds": [
+      "jojoha:stand/shared/stand_summon"
+    ]
+  },
+  "stand_awaken": {
+    "sounds": [
+      "jojoha:stand/shared/stand_awaken"
+    ]
+  },
+  "awaken_stand_sound": {
+    "sounds": [
+      {
+        "name": "jojoha:stand/shared/awaken_stand_sound",
+        "stream": true
+      }
+    ]
+  },
+  "stand_arrow": {
+    "sounds": [
+      "jojoha:stand/shared/stand_arrow"
+    ]
+  },
+  "parry": {
+    "sounds": [
+      "jojoha:combat/parry",
+      "jojoha:combat/parry_2",
+      "jojoha:combat/parry_3"
+    ],
+    "subtitle": "subtitles.jojoha.parry"
+  },
+  "heavy_parry": {
+    "sounds": [
+      "jojoha:combat/heavy_parry"
+    ],
+    "subtitle": "subtitles.jojoha.heavy_parry"
+  },
+  "guard_break": {
+    "sounds": [
+      "jojoha:combat/guard_break"
+    ]
+  },
+  "sting.defeat": {
+    "sounds": [
+      {
+        "name": "jojoha:combat/tobecontinued",
+        "preload": true
+      }
+    ]
+  },
+  "sp_barrage": {
+    "sounds": [
+      "jojoha:stand/star_platinum/barrage"
+    ],
+    "subtitle": "subtitles.jojoha.sp_barrage"
+  },
+  "tw_barrage": {
+    "sounds": [
+      "jojoha:stand/the_world/barrage"
+    ],
+    "subtitle": "subtitles.jojoha.tw_barrage"
+  },
+  "sp_starplatinum": {
+    "sounds": [
+      "jojoha:stand/star_platinum/sp_starplatinum"
+    ]
+  },
+  "hamon": {
+    "sounds": [
+      "jojoha:hamon/crackles"
+    ]
+  },
+  "hamon_discharge": {
+    "sounds": [
+      "jojoha:hamon/surge"
+    ]
+  },
+  "hamon_strike": {
+    "sounds": [
+      "jojoha:hamon/crackle_impact"
+    ]
+  },
+  "sp_timestop": {
+    "sounds": [
+      {
+        "name": "jojoha:stand/star_platinum/theworld",
+        "preload": true
+      }
+    ]
+  },
+  "stand_hit": {
+    "sounds": [
+      "jojoha:stand/shared/stand_hit"
+    ]
+  },
+  "limb_severed": {
+    "sounds": [
+      "jojoha:combat/limb_severed"
+    ]
+  },
+  "limb_regen": {
+    "sounds": [
+      "jojoha:combat/limb_regen"
+    ]
+  },
+  "hit_tap": {
+    "sounds": [
+      "jojoha:combat/hit_tap"
+    ]
+  },
+  "impact_punch": {
+    "sounds": [
+      "jojoha:combat/impact_punch"
+    ]
+  },
+  "stand_jump": {
+    "sounds": [
+      "jojoha:stand/shared/stand_jump"
+    ]
+  },
+  "timeresume": {
+    "sounds": [
+      {
+        "name": "jojoha:stand/shared/timeresume",
+        "preload": true
+      }
+    ]
+  },
+  "timestop_beginning": {
+    "sounds": [
+      {
+        "name": "jojoha:stand/the_world/timestop_beginning",
+        "preload": true
+      }
+    ]
+  },
+  "time_skip": {
+    "sounds": [
+      "jojoha:stand/star_platinum/time_skip"
+    ]
+  },
+  "clock_tick": {
+    "sounds": [
+      {
+        "name": "jojoha:stand/shared/clock_tick",
+        "preload": true
+      }
+    ]
+  },
+  "clock_single": {
+    "sounds": [
+      "jojoha:stand/shared/clock_single"
+    ]
+  },
+  "phantom_wind": {
+    "subtitle": "subtitles.jojoha.phantom_wind",
+    "sounds": [
+      "jojoha:ambient/wind"
+    ]
+  },
+  "phantom_ambience": {
+    "subtitle": "subtitles.jojoha.phantom_ambience",
+    "sounds": [
+      "jojoha:ambient/howling",
+      "jojoha:ambient/exhale"
+    ]
+  },
+  "stonemask_stab": {
+    "subtitle": "subtitles.jojoha.stonemask_stab",
+    "sounds": [
+      "jojoha:vampire/stonemask_stab"
+    ]
+  },
+  "move_cast": {
+    "sounds": [
+      {
+        "name": "minecraft:random/successful_hit",
+        "volume": 0.45,
+        "pitch": 1.25
+      }
+    ],
+    "subtitle": "subtitles.jojoha.move_cast"
+  },
+  "time_stop_cast": {
+    "sounds": [
+      {
+        "name": "jojoha:stand/shared/time_stop_cast",
+        "preload": true
+      }
+    ],
+    "subtitle": "subtitles.jojoha.time_stop_cast"
+  },
+  "tw_timestop": {
+    "sounds": [
+      "jojoha:stand/the_world/tw_timestop"
+    ],
+    "subtitle": "subtitles.jojoha.tw_timestop"
+  },
+  "hg_hierophantgreen": {
+    "sounds": [
+      "jojoha:stand/hierophant_green/hg_hierophantgreen"
+    ],
+    "subtitle": "subtitles.jojoha.hg_hierophantgreen"
+  },
+  "sc_silverchariot": {
+    "sounds": [
+      "jojoha:stand/silver_chariot/sc_silverchariot"
+    ],
+    "subtitle": "subtitles.jojoha.sc_silverchariot"
+  },
+  "hg_emeraldstart": {
+    "sounds": [
+      "jojoha:stand/hierophant_green/hg_emeraldstart"
+    ],
+    "subtitle": "subtitles.jojoha.hg_emeraldstart"
+  },
+  "hg_emeraldcontinue": {
+    "sounds": [
+      "jojoha:stand/hierophant_green/hg_emeraldcontinue"
+    ],
+    "subtitle": "subtitles.jojoha.hg_emeraldcontinue"
+  },
+  "hg_emeraldsplash": {
+    "sounds": [
+      "jojoha:stand/hierophant_green/hg_emeraldsplash"
+    ],
+    "subtitle": "subtitles.jojoha.hg_emeraldsplash"
+  },
+  "hg_yell": {
+    "sounds": [
+      "jojoha:stand/hierophant_green/hg_yell"
+    ],
+    "subtitle": "subtitles.jojoha.hg_yell"
+  },
+  "music_disc.awaken": {
+    "sounds": [
+      {
+        "name": "jojoha:music/awaken",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.bloody_stream": {
+    "sounds": [
+      {
+        "name": "jojoha:music/bloody_stream",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.last_train_home": {
+    "sounds": [
+      {
+        "name": "jojoha:music/last_train_home",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.overdrive": {
+    "sounds": [
+      {
+        "name": "jojoha:music/overdrive",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.persistence_innocent_scream": {
+    "sounds": [
+      {
+        "name": "jojoha:music/persistence_innocent_scream",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.roundabout": {
+    "sounds": [
+      {
+        "name": "jojoha:music/roundabout",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.sono_chi_no_kioku": {
+    "sounds": [
+      {
+        "name": "jojoha:music/sono_chi_no_kioku",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.sono_chi_no_sadame": {
+    "sounds": [
+      {
+        "name": "jojoha:music/sono_chi_no_sadame",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.stand_proud": {
+    "sounds": [
+      {
+        "name": "jojoha:music/stand_proud",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.stardust_crusaders": {
+    "sounds": [
+      {
+        "name": "jojoha:music/stardust_crusaders",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.walk_like_an_egyptian": {
+    "sounds": [
+      {
+        "name": "jojoha:music/walk_like_an_egyptian",
+        "stream": true
+      }
+    ]
+  },
+  "sp_summon": {
+    "sounds": [
+      "jojoha:stand/star_platinum/summon"
+    ],
+    "subtitle": "subtitles.jojoha.sp_summon"
+  },
+  "sp_inhale": {
+    "sounds": [
+      "jojoha:stand/star_platinum/inhale_loop"
+    ],
+    "subtitle": "subtitles.jojoha.sp_inhale"
+  },
+  "sp_star_finger": {
+    "sounds": [
+      "jojoha:stand/star_platinum/starfinger"
+    ],
+    "subtitle": "subtitles.jojoha.sp_star_finger"
+  },
+  "sp_star_breaker": {
+    "sounds": [
+      "jojoha:stand/star_platinum/starbreaker"
+    ],
+    "subtitle": "subtitles.jojoha.sp_star_breaker"
+  },
+  "tw_summon": {
+    "sounds": [
+      "jojoha:stand/the_world/summon"
+    ],
+    "subtitle": "subtitles.jojoha.tw_summon"
+  },
+  "tw_summon_call": {
+    "sounds": [
+      "jojoha:stand/the_world/summon_call"
+    ],
+    "subtitle": "subtitles.jojoha.tw_summon_call"
+  },
+  "tw_desummon": {
+    "sounds": [
+      "jojoha:stand/the_world/desummon"
+    ],
+    "subtitle": "subtitles.jojoha.tw_desummon"
+  },
+  "tw_time_stop_call": {
+    "sounds": [
+      {
+        "name": "jojoha:stand/the_world/time_stop",
+        "preload": true
+      }
+    ],
+    "subtitle": "subtitles.jojoha.tw_time_stop_call"
+  },
+  "tw_time_stop_impact": {
+    "sounds": [
+      {
+        "name": "jojoha:stand/the_world/time_stop_impact",
+        "preload": true
+      }
+    ],
+    "subtitle": "subtitles.jojoha.tw_time_stop_impact"
+  },
+  "tw_kick": {
+    "sounds": [
+      "jojoha:stand/the_world/kick"
+    ],
+    "subtitle": "subtitles.jojoha.tw_kick"
+  },
+  "tw_charge": {
+    "sounds": [
+      "jojoha:stand/the_world/charge"
+    ],
+    "subtitle": "subtitles.jojoha.tw_charge"
+  },
+  "tw_charge_hit": {
+    "sounds": [
+      "jojoha:stand/the_world/charge_hit"
+    ],
+    "subtitle": "subtitles.jojoha.tw_charge_hit"
+  },
+  "tw_mudada": {
+    "sounds": [
+      "jojoha:stand/the_world/mudada"
+    ],
+    "subtitle": "subtitles.jojoha.tw_mudada"
+  },
+  "tw_donut_hit": {
+    "sounds": [
+      "jojoha:stand/the_world/donut_hit"
+    ],
+    "subtitle": "subtitles.jojoha.tw_donut_hit"
+  },
+  "tw_shadow_warble": {
+    "sounds": [
+      "jojoha:stand/the_world/shadow_the_world/warble"
+    ],
+    "subtitle": "subtitles.jojoha.tw_shadow_warble"
+  },
+  "tw_shadow_time_stop": {
+    "sounds": [
+      {
+        "name": "jojoha:stand/the_world/shadow_the_world/ts",
+        "preload": true
+      }
+    ],
+    "subtitle": "subtitles.jojoha.tw_shadow_time_stop"
+  },
+  "tw_shadow_laugh": {
+    "sounds": [
+      "jojoha:stand/the_world/shadow_the_world/laugh"
+    ],
+    "subtitle": "subtitles.jojoha.tw_shadow_laugh"
+  },
+  "tw_shadow_zap": {
+    "sounds": [
+      "jojoha:stand/the_world/shadow_the_world/zap"
+    ],
+    "subtitle": "subtitles.jojoha.tw_shadow_zap"
+  },
+  "hg_summon": {
+    "sounds": [
+      "jojoha:stand/hierophant_green/summon"
+    ],
+    "subtitle": "subtitles.jojoha.hg_summon"
+  },
+  "hg_barrage": {
+    "sounds": [
+      "jojoha:stand/hierophant_green/barrage"
+    ],
+    "subtitle": "subtitles.jojoha.hg_barrage"
+  },
+  "hg_extend": {
+    "sounds": [
+      "jojoha:stand/hierophant_green/extend"
+    ],
+    "subtitle": "subtitles.jojoha.hg_extend"
+  },
+  "hg_net_set": {
+    "sounds": [
+      "jojoha:stand/hierophant_green/net_set"
+    ],
+    "subtitle": "subtitles.jojoha.hg_net_set"
+  },
+  "hg_splash": {
+    "sounds": [
+      "jojoha:stand/hierophant_green/splash"
+    ],
+    "subtitle": "subtitles.jojoha.hg_splash"
+  },
+  "sc_summon": {
+    "sounds": [
+      "jojoha:stand/silver_chariot/summon"
+    ],
+    "subtitle": "subtitles.jojoha.sc_summon"
+  },
+  "sc_armor_off": {
+    "sounds": [
+      "jojoha:stand/silver_chariot/armor_off"
+    ],
+    "subtitle": "subtitles.jojoha.sc_armor_off"
+  },
+  "sc_barrage": {
+    "sounds": [
+      "jojoha:stand/silver_chariot/barrage"
+    ],
+    "subtitle": "subtitles.jojoha.sc_barrage"
+  },
+  "sc_charge": {
+    "sounds": [
+      "jojoha:stand/silver_chariot/charge"
+    ],
+    "subtitle": "subtitles.jojoha.sc_charge"
+  },
+  "sc_cleave": {
+    "sounds": [
+      "jojoha:stand/silver_chariot/cleave"
+    ],
+    "subtitle": "subtitles.jojoha.sc_cleave"
+  },
+  "sc_heavy": {
+    "sounds": [
+      "jojoha:stand/silver_chariot/heavy"
+    ],
+    "subtitle": "subtitles.jojoha.sc_heavy"
+  },
+  "sc_poke": {
+    "sounds": [
+      "jojoha:stand/silver_chariot/poke"
+    ],
+    "subtitle": "subtitles.jojoha.sc_poke"
+  },
+  "sc_spin": {
+    "sounds": [
+      "jojoha:stand/silver_chariot/spin"
+    ],
+    "subtitle": "subtitles.jojoha.sc_spin"
+  },
+  "sc_thrust": {
+    "sounds": [
+      "jojoha:stand/silver_chariot/thrust"
+    ],
+    "subtitle": "subtitles.jojoha.sc_thrust"
+  },
+  "hamon_breathe": {
+    "sounds": [
+      "jojoha:hamon/breathe"
+    ],
+    "subtitle": "subtitles.jojoha.hamon_breathe"
+  },
+  "hamon_crash": {
+    "sounds": [
+      "jojoha:hamon/crash"
+    ],
+    "subtitle": "subtitles.jojoha.hamon_crash"
+  },
+  "hamon_ring": {
+    "sounds": [
+      "jojoha:hamon/ring"
+    ],
+    "subtitle": "subtitles.jojoha.hamon_ring"
+  },
+  "hamon_echo": {
+    "sounds": [
+      "jojoha:hamon/echo"
+    ],
+    "subtitle": "subtitles.jojoha.hamon_echo"
+  },
+  "hamon_exhale": {
+    "sounds": [
+      "jojoha:hamon/exhale"
+    ],
+    "subtitle": "subtitles.jojoha.hamon_exhale"
+  },
+  "hamon_swoosh": {
+    "sounds": [
+      "jojoha:hamon/swoosh"
+    ],
+    "subtitle": "subtitles.jojoha.hamon_swoosh"
+  },
+  "vampire_suck": {
+    "sounds": [
+      "jojoha:vampire/suck"
+    ],
+    "subtitle": "subtitles.jojoha.vampire_suck"
+  },
+  "vampire_laser": {
+    "sounds": [
+      "jojoha:vampire/laser"
+    ],
+    "subtitle": "subtitles.jojoha.vampire_laser"
+  },
+  "vampire_laser_fire": {
+    "sounds": [
+      "jojoha:vampire/laser_fire"
+    ],
+    "subtitle": "subtitles.jojoha.vampire_laser_fire"
+  },
+  "vampire_reanimate": {
+    "sounds": [
+      "jojoha:vampire/reanimate"
+    ],
+    "subtitle": "subtitles.jojoha.vampire_reanimate"
+  },
+  "vampire_spec_change": {
+    "sounds": [
+      "jojoha:vampire/spec_change"
+    ],
+    "subtitle": "subtitles.jojoha.vampire_spec_change"
+  },
+  "anubis_unsheathe": {
+    "sounds": [
+      "jojoha:anubis/unsheathe"
+    ],
+    "subtitle": "subtitles.jojoha.anubis_unsheathe"
+  },
+  "anubis_sheathe": {
+    "sounds": [
+      "jojoha:anubis/sheathe"
+    ],
+    "subtitle": "subtitles.jojoha.anubis_sheathe"
+  },
+  "anubis_slash": {
+    "sounds": [
+      "jojoha:anubis/slash"
+    ],
+    "subtitle": "subtitles.jojoha.anubis_slash"
+  },
+  "anubis_rekka": {
+    "sounds": [
+      "jojoha:anubis/rekka2"
+    ],
+    "subtitle": "subtitles.jojoha.anubis_rekka"
+  },
+  "anubis_pommel": {
+    "sounds": [
+      "jojoha:anubis/pommel"
+    ],
+    "subtitle": "subtitles.jojoha.anubis_pommel"
+  },
+  "anubis_spec_change": {
+    "sounds": [
+      "jojoha:anubis/spec_change"
+    ],
+    "subtitle": "subtitles.jojoha.anubis_spec_change"
+  },
+  "mr_summon": {
+    "sounds": [
+      "jojoha:stand/magicians_red/summon"
+    ],
+    "subtitle": "subtitles.jojoha.mr_summon"
+  },
+  "mr_barrage": {
+    "sounds": [
+      "jojoha:stand/magicians_red/barrage"
+    ],
+    "subtitle": "subtitles.jojoha.mr_barrage"
+  },
+  "mr_heavy": {
+    "sounds": [
+      "jojoha:stand/magicians_red/heavy"
+    ],
+    "subtitle": "subtitles.jojoha.mr_heavy"
+  },
+  "mr_crossfire": {
+    "sounds": [
+      "jojoha:stand/magicians_red/crossfire"
+    ],
+    "subtitle": "subtitles.jojoha.mr_crossfire"
+  },
+  "mr_red_bind": {
+    "sounds": [
+      "jojoha:stand/magicians_red/red_bind"
+    ],
+    "subtitle": "subtitles.jojoha.mr_red_bind"
+  },
+  "mr_detector": {
+    "sounds": [
+      "jojoha:stand/magicians_red/detector"
+    ],
+    "subtitle": "subtitles.jojoha.mr_detector"
+  },
+  "mr_redirect": {
+    "sounds": [
+      "jojoha:stand/magicians_red/redirect"
+    ],
+    "subtitle": "subtitles.jojoha.mr_redirect"
+  },
+  "mr_ult": {
+    "sounds": [
+      "jojoha:stand/magicians_red/ult"
+    ],
+    "subtitle": "subtitles.jojoha.mr_ult"
+  },
+  "secret_tw_barrage": {
+    "sounds": [
+      "jojoha:stand/the_world/secret_tw_muda_muda_muda"
+    ]
+  },
+  "secret_tw_summon": {
+    "sounds": [
+      "jojoha:stand/the_world/secret_tw_summon"
+    ]
+  },
+  "secret_tw_time_stop": {
+    "sounds": [
+      {
+        "name": "jojoha:stand/the_world/secret_tw_time_stop",
+        "preload": true
+      }
+    ]
+  },
+  "secret_tw_time_resume": {
+    "sounds": [
+      {
+        "name": "jojoha:stand/the_world/secret_tw_time_resume",
+        "preload": true
+      }
+    ]
+  },
+  "npc_voice_masculine": {
+    "subtitle": "subtitles.jojoha.npc_voice",
+    "sounds": [
+      {
+        "name": "jojoha:npcs/masculine_voice",
+        "preload": true
+      }
+    ]
+  },
+  "npc_voice_feminine": {
+    "subtitle": "subtitles.jojoha.npc_voice",
+    "sounds": [
+      {
+        "name": "jojoha:npcs/feminine_voice",
+        "preload": true
+      }
+    ]
+  },
+  "npc_voice_jotaro": {
+    "subtitle": "subtitles.jojoha.npc_voice",
+    "sounds": [
+      {
+        "name": "jojoha:npcs/jotaro_voice",
+        "preload": true
+      }
+    ]
+  },
+  "npc_voice_joseph": {
+    "subtitle": "subtitles.jojoha.npc_voice",
+    "sounds": [
+      {
+        "name": "jojoha:npcs/joseph_voice",
+        "preload": true
+      }
+    ]
+  },
+  "npc_voice_avdol": {
+    "subtitle": "subtitles.jojoha.npc_voice",
+    "sounds": [
+      {
+        "name": "jojoha:npcs/avdol_voice",
+        "preload": true
+      }
+    ]
+  },
+  "npc_voice_kakyoin": {
+    "subtitle": "subtitles.jojoha.npc_voice",
+    "sounds": [
+      {
+        "name": "jojoha:npcs/kakyoin_voice",
+        "preload": true
+      }
+    ]
+  },
+  "npc_voice_polnareff": {
+    "subtitle": "subtitles.jojoha.npc_voice",
+    "sounds": [
+      {
+        "name": "jojoha:npcs/polnareff_voice",
+        "preload": true
+      }
+    ]
+  },
+  "npc_voice_iggy": {
+    "subtitle": "subtitles.jojoha.npc_voice",
+    "sounds": [
+      {
+        "name": "jojoha:npcs/iggy_voice",
+        "preload": true
+      }
+    ]
+  },
+  "npc_voice_dio": {
+    "subtitle": "subtitles.jojoha.npc_voice",
+    "sounds": [
+      {
+        "name": "jojoha:npcs/dio_voice",
+        "preload": true
+      }
+    ]
+  }
+}

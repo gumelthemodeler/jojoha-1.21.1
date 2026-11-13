@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "jojoha:meteorite_tablet"
+  },
+  "base": {
+    "item": "jojoha:dagger_netherite"
+  },
+  "addition": {
+    "item": "jojoha:meteorite_ingot"
+  },
+  "result": {
+    "count": 1,
+    "id": "jojoha:dagger_meteorite"
+  }
+}

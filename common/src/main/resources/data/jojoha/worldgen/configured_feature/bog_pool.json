@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:waterlogged_vegetation_patch",
+  "config": {
+    "replaceable": "#minecraft:dirt",
+    "ground_state": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:mud"
+      }
+    },
+    "vegetation_feature": "jojoha:bog_waterlily_placed",
+    "surface": "floor",
+    "depth": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 1,
+      "max_inclusive": 2
+    },
+    "extra_bottom_block_chance": 0,
+    "vertical_range": 5,
+    "vegetation_chance": 0,
+    "xz_radius": {
+      "type": "minecraft:uniform",
+      "min_inclusive": 2,
+      "max_inclusive": 5
+    },
+    "extra_edge_column_chance": 0.6
+  }
+}

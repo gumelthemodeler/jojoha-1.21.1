@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jojoha:stand_arrow_shard"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.jojoha.part3.a_broken_point.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "jojoha:stand_arrow_shard"
+    },
+    "title": {
+      "translate": "advancements.jojoha.part3.a_broken_point.title"
+    }
+  },
+  "requirements": [
+    [
+      "granted"
+    ]
+  ],
+  "sends_telemetry_event": false,
+  "parent": "jojoha:part3/root"
+}

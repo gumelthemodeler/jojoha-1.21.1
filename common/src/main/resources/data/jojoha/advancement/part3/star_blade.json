@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jojoha:meteorite_scythe",
+              "jojoha:meteorite_rapier",
+              "jojoha:meteorite_sabre",
+              "jojoha:dagger_meteorite"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.jojoha.part3.star_blade.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "jojoha:meteorite_scythe"
+    },
+    "title": {
+      "translate": "advancements.jojoha.part3.star_blade.title"
+    }
+  },
+  "requirements": [
+    [
+      "granted"
+    ]
+  ],
+  "sends_telemetry_event": false,
+  "parent": "jojoha:part3/refined"
+}

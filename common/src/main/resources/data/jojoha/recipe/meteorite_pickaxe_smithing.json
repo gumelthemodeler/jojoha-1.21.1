@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "jojoha:meteorite_tablet"
+  },
+  "base": {
+    "item": "minecraft:netherite_pickaxe"
+  },
+  "addition": {
+    "item": "jojoha:meteorite_ingot"
+  },
+  "result": {
+    "count": 1,
+    "id": "jojoha:meteorite_pickaxe"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jojoha:meteorite_pickaxe",
+              "jojoha:meteorite_axe",
+              "jojoha:meteorite_shovel",
+              "jojoha:meteorite_hoe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.jojoha.part3.star_tools.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "jojoha:meteorite_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.jojoha.part3.star_tools.title"
+    }
+  },
+  "requirements": [
+    [
+      "granted"
+    ]
+  ],
+  "sends_telemetry_event": false,
+  "parent": "jojoha:part3/refined"
+}

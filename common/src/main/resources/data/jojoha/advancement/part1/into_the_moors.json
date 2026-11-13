@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "granted": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biomes": "#jojoha:is_moors"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.jojoha.part1.into_the_moors.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "jojoha:phantom_grass_block"
+    },
+    "title": {
+      "translate": "advancements.jojoha.part1.into_the_moors.title"
+    }
+  },
+  "requirements": [
+    [
+      "granted"
+    ]
+  ],
+  "sends_telemetry_event": false,
+  "parent": "jojoha:part1/root"
+}

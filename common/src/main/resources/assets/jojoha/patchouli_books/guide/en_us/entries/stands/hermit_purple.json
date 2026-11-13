@@ -1,0 +1,39 @@
+{
+  "name": "Hermit Purple",
+  "icon": "minecraft:vine",
+  "category": "jojoha:stands",
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Thorned vines bound to your arm. $(warn)It has no body to summon$(), so it has none of the shared moves.$(br2)$(bold)Range$(): long$(br)$(bold)Type$(): $(l:stands/types)Specialist$()$(br2)Only two of its own passives work at once. Choose which in its tree."
+    },
+    {
+      "type": "jojoha:moves/hermit_purple_1"
+    },
+    {
+      "type": "jojoha:moves/hermit_purple_2"
+    },
+    {
+      "type": "jojoha:moves/hermit_purple_3"
+    },
+    {
+      "type": "jojoha:moves/hermit_purple_4"
+    },
+    {
+      "type": "jojoha:moves/hermit_purple_5"
+    },
+    {
+      "type": "jojoha:moves/hermit_purple_6"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "jojoha:camera",
+      "text": "A $(item)camera$() for Hermit Purple to crush."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Hermit Purple can also wake on its own. A $(l:hamon/learning)Hamon$() user with no Stand who keeps breathing and fighting with Hamon awakens it after spending about $(num)50$() full bars, roughly $(num)ten days$() of steady use."
+    }
+  ]
+}

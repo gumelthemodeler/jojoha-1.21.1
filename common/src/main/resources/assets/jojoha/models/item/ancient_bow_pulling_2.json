@@ -1,0 +1,6 @@
+{
+  "parent": "jojoha:item/ancient_bow",
+  "textures": {
+    "layer0": "jojoha:item/ancient_bow_3"
+  }
+}

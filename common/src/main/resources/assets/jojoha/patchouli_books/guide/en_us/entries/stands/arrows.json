@@ -1,0 +1,40 @@
+{
+  "name": "Stand Arrows",
+  "icon": "jojoha:stand_arrow",
+  "category": "jojoha:stands",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "jojoha:stand_arrow",
+      "text": "Pierce yourself with a $(item)Stand Arrow$() to wake a Stand.$(br2)It needs $(warn)Worthiness 15$(). Below that it only wounds you. At 15 it takes $(num)one time in four$(), rising to $(num)one in two$() as Worthiness nears its limit."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "jojoha:stand_arrow_shard",
+      "text": "A $(item)Stand Arrow Shard$() works the same way, with worse odds: $(num)one in ten$() at Worthiness 15, rising to about $(num)one in three$(). $(warn)A shard that fails burns out.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Arrows and shards turn up in chests: $(place)woodland mansions, ancient cities, bastions, end cities, strongholds, nether fortresses, desert and jungle temples$(), and $(place)dungeons$(). Very rarely, one is fished up.$(br2)$(l:world/willow)Willow$() buys them, and in time will forge one."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "You only ever have one Stand. $(warn)An arrow will not take someone who already has one.$()$(br2)$(l:stands/anubis)Anubis$() is the exception. It is found, not woken, and works beside any Stand."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Spirit",
+      "text": "How you live leans which Stand wakes:$(li)killing the harmless: $(item)The World$()$(li)swordplay: $(item)Silver Chariot$()$(li)bows and tridents: $(item)Hierophant Green$()$(li)breeding and trading: $(item)Hermit Purple$()$(li)fighting monsters, or a bit of all: $(item)Star Platinum$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "A Stand that many players on the world already hold is $(warn)less likely$() to wake.$(br2)$(l:world/dreamer)Fate$() can lean your next arrow toward a Stand you choose."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "jojoha:ancient_bow",
+      "text": "The $(item)Ancient Bow$() is the only bow that can loose a Stand Arrow. A mob it strikes may wake a Stand of its own.$(br2)It lies in the $(l:world/ruins)ancient ruins$() of the $(place)Phantom Moors$()."
+    }
+  ]
+}

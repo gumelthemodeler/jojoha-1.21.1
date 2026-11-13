@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "jojoha:block/phantom_planks_decorative",
+    "side": "jojoha:block/phantom_planks_decorative",
+    "top": "jojoha:block/phantom_planks_decorative"
+  }
+}

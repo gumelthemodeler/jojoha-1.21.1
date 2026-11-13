@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "jojoha:skeleton_rock_bricks"
+    },
+    {
+      "item": "minecraft:vine"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "jojoha:skeleton_rock_bricks_mossy"
+  }
+}

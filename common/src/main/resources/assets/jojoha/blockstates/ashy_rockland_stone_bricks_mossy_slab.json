@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "jojoha:block/ashy_rockland_stone_bricks_mossy_slab"
+    },
+    "type=double": {
+      "model": "jojoha:block/ashy_rockland_stone_bricks_mossy"
+    },
+    "type=top": {
+      "model": "jojoha:block/ashy_rockland_stone_bricks_mossy_slab_top"
+    }
+  }
+}

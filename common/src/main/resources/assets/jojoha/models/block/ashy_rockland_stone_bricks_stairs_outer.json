@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "jojoha:block/ashy_rockland_stone_bricks",
+    "side": "jojoha:block/ashy_rockland_stone_bricks",
+    "top": "jojoha:block/ashy_rockland_stone_bricks"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "R": {
+      "item": "jojoha:raw_meteorite"
+    },
+    "A": {
+      "item": "jojoha:ancient_arrowhead"
+    }
+  },
+  "pattern": [
+    "RRR",
+    "RAR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "jojoha:meteorite_ingot"
+  }
+}

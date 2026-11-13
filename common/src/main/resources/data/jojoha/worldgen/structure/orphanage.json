@@ -1,0 +1,62 @@
+{
+  "type": "jojoha:surface_template",
+  "biomes": "#jojoha:has_structure/moor_buildings",
+  "spawn_overrides": {},
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "template": "jojoha:orphanage",
+  "flatness": 5,
+  "sink": 1,
+  "chest_loot": "jojoha:chests/orphanage",
+  "barrel_loot": "jojoha:chests/moor_barrel",
+  "spawners": [
+    {
+      "max_y": 2,
+      "mobs": [
+        {
+          "type": "minecraft:spider",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:cave_spider",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "min_y": 15,
+      "mobs": [
+        {
+          "type": "minecraft:cave_spider",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "mobs": [
+        {
+          "type": "jojoha:vampire",
+          "weight": 2
+        },
+        {
+          "type": "jojoha:zombie",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:zombie",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:zombie_villager",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "avoid": [
+    {
+      "set": "jojoha:ogre_street",
+      "chunks": 8
+    }
+  ]
+}

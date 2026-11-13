@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "jojoha:block/skeleton_rock_bricks_mossy_slab"
+    },
+    "type=double": {
+      "model": "jojoha:block/skeleton_rock_bricks_mossy"
+    },
+    "type=top": {
+      "model": "jojoha:block/skeleton_rock_bricks_mossy_slab_top"
+    }
+  }
+}

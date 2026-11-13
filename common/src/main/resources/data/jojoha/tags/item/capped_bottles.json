@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:glass_bottle",
+    "minecraft:potion",
+    "minecraft:honey_bottle",
+    "jojoha:brandywine",
+    "jojoha:coca_cola",
+    "jojoha:tequila",
+    "jojoha:zeppeli_wine",
+    "jojoha:speedwagon_tonic",
+    "jojoha:blood_vial"
+  ]
+}

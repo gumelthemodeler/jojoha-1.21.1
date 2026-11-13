@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "jojoha:zombie",
+    "jojoha:amalgamation",
+    "jojoha:vampire",
+    "jojoha:ghost",
+    "jojoha:vampire_rat"
+  ]
+}
